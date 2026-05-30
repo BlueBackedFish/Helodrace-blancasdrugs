@@ -1,0 +1,9 @@
+c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Assemblies\HelodBlancasDrug.dll
+c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Assemblies\HelodBlancasDrug.pdb
+c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Source\obj\Debug\HelodBlancasDrug.csproj.AssemblyReference.cache
+c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Source\obj\Debug\HelodBlancasDrug.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Source\obj\Debug\HelodBlancasDrug.AssemblyInfoInputs.cache
+c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Source\obj\Debug\HelodBlancasDrug.AssemblyInfo.cs
+c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Source\obj\Debug\HelodBlancasDrug.csproj.CoreCompileInputs.cache
+c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Source\obj\Debug\HelodBlancasDrug.dll
+c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Source\obj\Debug\HelodBlancasDrug.pdb

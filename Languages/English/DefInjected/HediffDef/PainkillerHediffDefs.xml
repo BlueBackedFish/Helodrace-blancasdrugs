@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MorphineHigh.label>morphine effect</MorphineHigh.label>
+  <MorphineHigh.labelNoun>a morphine effect</MorphineHigh.labelNoun>
+  <MorphineHigh.description></MorphineHigh.description>
+
+  <FentanylHigh.label>fentanyl effect</FentanylHigh.label>
+  <FentanylHigh.labelNoun>a fentanyl effect</FentanylHigh.labelNoun>
+  <FentanylHigh.description></FentanylHigh.description>
+
+  <KetamineHigh.label>ketamine effect</KetamineHigh.label>
+  <KetamineHigh.labelNoun>a ketamine effect</KetamineHigh.labelNoun>
+  <KetamineHigh.description></KetamineHigh.description>
+
+  <OpioidsAddiction.label>opioids addiction</OpioidsAddiction.label>
+  <OpioidsAddiction.description></OpioidsAddiction.description>
+  <OpioidsAddiction.stages.1.label>withdrawal</OpioidsAddiction.stages.1.label>
+
+  <OpioidsTolerance.label>opioids tolerance</OpioidsTolerance.label>
+  <OpioidsTolerance.description></OpioidsTolerance.description>
+
+  <OpioidsRecovery.label>opioids recovery</OpioidsRecovery.label>
+  <OpioidsRecovery.description></OpioidsRecovery.description>
+
+  <Opioidsstronghold.label>opioids stronghold</Opioidsstronghold.label>
+  <Opioidsstronghold.description></Opioidsstronghold.description>
+  <Opioidsstronghold.stages.0.label>safe</Opioidsstronghold.stages.0.label>
+  <Opioidsstronghold.stages.1.label>overdose</Opioidsstronghold.stages.1.label>
+
+  <KetamineAddiction.label>ketamine addiction</KetamineAddiction.label>
+  <KetamineAddiction.description></KetamineAddiction.description>
+  <KetamineAddiction.stages.1.label>withdrawal</KetamineAddiction.stages.1.label>
+
+  <KetamineTolerance.label>ketamine tolerance</KetamineTolerance.label>
+  <KetamineTolerance.description></KetamineTolerance.description>
+
+  <KetamineRecovery.label>ketamine recovery</KetamineRecovery.label>
+  <KetamineRecovery.description></KetamineRecovery.description>
+
+  <Ketaminestronghold.label>ketamine stronghold</Ketaminestronghold.label>
+  <Ketaminestronghold.description></Ketaminestronghold.description>
+  <Ketaminestronghold.stages.0.label>safe</Ketaminestronghold.stages.0.label>
+  <Ketaminestronghold.stages.1.label>overdose</Ketaminestronghold.stages.1.label>
+
+  <MKultraConditioning.label>MKultra conditioning</MKultraConditioning.label>
+  <MKultraConditioning.description></MKultraConditioning.description>
+
+</LanguageData>

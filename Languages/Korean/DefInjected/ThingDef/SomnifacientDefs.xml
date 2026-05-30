@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <Ambien.label>엠비엔</Ambien.label>
+  <Ambien.description>비벤조디아제핀계(Z-Drugs) 화합물을 기반으로 작동하는 속효성 수면유도제입니다. 복용 시 체내에 2의 수면제 계수를 부여하여 신경계를 빠르게 진정시킵니다. 강력한 벤조디아제핀계 약물들에 비해 숙취 지속 시간이 12시간으로 절반에 불과하여 투약 후 일상 복귀가 훨씬 빠릅니다.\n복용 시 나른하고 아늑한 무드 버프를 제공하지만, 체내에 쌓인 암페타민이나 모다피닐 등의 각성 계수보다 엠비엔의 수면제 계수가 높아야만 정상적인 깊은 수면 메커니즘이 활성화됩니다.</Ambien.description>
+  <Ambien.ingestCommandString>{0} 복용</Ambien.ingestCommandString>
+  <Ambien.ingestReportString>{0} 복용 중.</Ambien.ingestReportString>
+  
+  <Sonata.label>소나타</Sonata.label>
+  <Sonata.description>초속효성 비벤조디아제핀계(Z-Drugs) 수면유도제입니다. 복용 즉시 체내에 1의 수면제 계수를 부여하여 신경계를 빠르게 가라앉힙니다. 숙취 지속 시간이 8시간으로 모든 수면제 중 가장 짧아 투약 후 빠르게 깨어날 수 있는 장점이 있지만, 짧은 시간 동안 약효가 집중되기에 순간적인 신체 제어력 저하는 다른 수면제들에 비해 다소 묵직하게 다가옵니다. 정신적인 안락함이나 무드 상승 효과는 가장 미미합니다.\n낮은 수면제 계수(1)를 가지므로, 체내에 쌓인 각성 수치가 아주 미량일 때만 정상적인 깊은 수면 메커니즘을 활성화할 수 있습니다.</Sonata.description>
+  <Sonata.ingestCommandString>{0} 복용</Sonata.ingestCommandString>
+  <Sonata.ingestReportString>{0} 복용 중.</Sonata.ingestReportString>
+  
+  <Restoril.label>레스트릴</Restoril.label>
+  <Restoril.description>벤조디아제핀 계열의 강력한 수면유도제입니다. 복용 시 체내에 4의 수면제 계수를 부여하여 중추신경계를 거칠게 억제합니다. 각성제로 인해 폭주하는 신경을 잠재우고 강제로 잠자리에 들게 만드는 데 탁월하지만, 복용 후 무려 24시간 동안 정신이 몽롱해지는 강력한 '숙취 효과'가 동반됩니다. 수면제 중 숙취 지속 시간이 가장 길기 때문에 투약 후 하루 동안은 정상적인 노동을 기대하기 어렵습니다.\n체내에 쌓인 암페타민 계수보다 수면제 계수가 높을 때에만 정상적인 수면 유도 메커니즘이 활성화되며, 각성 수치가 너무 높으면 약을 먹어도 온전한 수면 효과를 보지 못할 수 있습니다.</Restoril.description>
+  <Restoril.ingestCommandString>{0} 복용</Restoril.ingestCommandString>
+  <Restoril.ingestReportString>{0} 복용 중.</Restoril.ingestReportString>
+  
+</LanguageData>

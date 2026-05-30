@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--===================모르핀====================-->
+
+    <ThingDef ParentName="BlancasDrugBase">
+        <defName>Morphine</defName>
+        <label>morphine</label>
+        <description>An opioid analgesic formulated in a pencil-style auto-injector for portability and rapid deployment. It can be immediately administered even through thick clothing or armor during medical emergencies.\nUpon injection, it dampens the pawn's pain to 20% of its original intensity and provides a mild mood boost for 12 hours. While its physical penalties are more forgiving than those of Fentanyl, it similarly caps maximum consciousness and causes a slight reduction in moving capacity and breathing functions.</description>
+        <descriptionHyperlinks>
+            <HediffDef>MorphineHigh</HediffDef>
+            <HediffDef>OpioidsTolerance</HediffDef>
+            <HediffDef>OpioidsAddiction</HediffDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Item/Drug/Morphine</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>600</WorkToMake>
+            <MarketValue>35</MarketValue>
+            <Mass>0.1</Mass>
+        </statBases>
+        <techLevel>Industrial</techLevel>
+        <ingestible>
+            <joyKind>Chemical</joyKind>
+            <joy>0.10</joy>
+            <drugCategory>Medical</drugCategory>
+            <foodType>Processed</foodType>
+            <baseIngestTicks>120</baseIngestTicks>
+            <ingestSound>Ingest_Inject</ingestSound>
+            <ingestCommandString>Inject {0}</ingestCommandString>
+            <ingestReportString>Injecting {0}.</ingestReportString>
+            <useEatingSpeedStat>false</useEatingSpeedStat>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>MorphineHigh</hediffDef>
+                    <severity>1.0</severity>
+                </li>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>OpioidsTolerance</hediffDef>
+                    <severity>0.08</severity>
+                    <divideByBodySize>true</divideByBodySize>
+                    <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <chemical>Opioids</chemical>
+                <addictiveness>0.05</addictiveness>
+                <existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
+                <needLevelOffset>0.9</needLevelOffset>
+            </li>
+        </comps>
+        <costList>
+            <Neutroamine>3</Neutroamine>
+        </costList>
+        <recipeMaker>
+            <recipeUsers>
+                <li>DrugLab</li>
+            </recipeUsers>
+            <researchPrerequisite>HelodBlancaAdvancedPainkillers</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!--===================펜타닐====================-->
+
+    <ThingDef ParentName="BlancasDrugBase">
+        <defName>Fentanyl</defName>
+        <label>fentanyl</label>
+        <description>A potent opioid analgesic formulated as an Oral Transmucosal Fentanyl Citrate (OTFC) lozenge on a stick. Designed for rapid absorption through the oral mucosa, it can be promptly administered to a patient in combat or emergency situations without the need for syringes.\nUpon ingestion, it completely eliminates all physical pain and provides a strong mood boost for 8 hours. However, the heavy chemical influence locks the pawn's maximum consciousness ceiling while depressing their moving capacity and breathing functions.</description>
+        <descriptionHyperlinks>
+            <HediffDef>FentanylHigh</HediffDef>
+            <HediffDef>OpioidsTolerance</HediffDef>
+            <HediffDef>OpioidsAddiction</HediffDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Item/Drug/Fentanyl</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>800</WorkToMake>
+            <MarketValue>60</MarketValue>
+            <Mass>0.1</Mass>
+        </statBases>
+        <techLevel>Industrial</techLevel>
+        <ingestible>
+            <joyKind>Chemical</joyKind>
+            <joy>0.15</joy>
+            <drugCategory>Medical</drugCategory>
+            <foodType>Processed</foodType>
+            <baseIngestTicks>120</baseIngestTicks>
+            <ingestSound>Ingest_Beer</ingestSound>
+            <ingestCommandString>Inject {0}</ingestCommandString>
+            <ingestReportString>Injecting {0}.</ingestReportString>
+            <useEatingSpeedStat>false</useEatingSpeedStat>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>FentanylHigh</hediffDef>
+                    <severity>1.0</severity>
+                </li>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>OpioidsTolerance</hediffDef>
+                    <severity>0.15</severity>
+                    <divideByBodySize>true</divideByBodySize>
+                    <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <chemical>Opioids</chemical>
+                <addictiveness>0.15</addictiveness>
+                <existingAddictionSeverityOffset>0.2</existingAddictionSeverityOffset>
+                <needLevelOffset>1.0</needLevelOffset>
+            </li>
+        </comps>
+        <costList>
+            <Neutroamine>5</Neutroamine>
+        </costList>
+        <recipeMaker>
+            <recipeUsers>
+                <li>DrugLab</li>
+            </recipeUsers>
+            <researchPrerequisite>HelodBlancaAdvancedPainkillers</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!--===================케타민====================-->
+
+    <ThingDef ParentName="BlancasDrugBase">
+        <defName>Ketamine</defName>
+        <label>ketamine</label>
+        <description>A dissociative anesthetic packaged as a sealed vial with a disposable syringe. Upon administration, it cuts the sensory pathways between the brain and the body, erasing physical pain for 10 hours.\nUnlike opioid alternatives, it possesses a vital clinical advantage by not depressing breathing functions. However, its numbing effect on the nervous system forces a strict cap on maximum consciousness while degrading moving and manipulation capacities.</description>
+        <descriptionHyperlinks>
+            <HediffDef>KetamineHigh</HediffDef>
+            <HediffDef>KetamineTolerance</HediffDef>
+            <HediffDef>KetamineAddiction</HediffDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Item/Drug/Ketamine</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>700</WorkToMake>
+            <MarketValue>45</MarketValue>
+            <Mass>0.1</Mass>
+        </statBases>
+        <techLevel>Industrial</techLevel>
+        <ingestible>
+            <joyKind>Chemical</joyKind>
+            <joy>0.05</joy>
+            <drugCategory>Medical</drugCategory>
+            <foodType>Processed</foodType>
+            <baseIngestTicks>120</baseIngestTicks>
+            <ingestSound>Ingest_Inject</ingestSound>
+            <ingestCommandString>Inject {0}</ingestCommandString>
+            <ingestReportString>Injecting {0}.</ingestReportString>
+            <useEatingSpeedStat>false</useEatingSpeedStat>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>KetamineHigh</hediffDef>
+                    <severity>1.0</severity>
+                </li>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>KetamineTolerance</hediffDef>
+                    <severity>0.10</severity>
+                    <divideByBodySize>true</divideByBodySize>
+                    <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <chemical>KetamineChemical</chemical>
+                <addictiveness>0.08</addictiveness>
+                <existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
+                <needLevelOffset>0.9</needLevelOffset>
+            </li>
+        </comps>
+        <costList>
+            <Neutroamine>4</Neutroamine>
+        </costList>
+        <recipeMaker>
+            <recipeUsers>
+                <li>DrugLab</li>
+            </recipeUsers>
+            <researchPrerequisite>HelodBlancaAdvancedPainkillers</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+</Defs>

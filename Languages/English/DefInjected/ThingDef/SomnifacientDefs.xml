@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Ambien.label>ambien</Ambien.label>
+  <Ambien.description></Ambien.description>
+  <Ambien.ingestCommandString>Take {0}</Ambien.ingestCommandString>
+  <Ambien.ingestReportString>Taking {0}.</Ambien.ingestReportString>
+
+  <Sonata.label>sonata</Sonata.label>
+  <Sonata.description></Sonata.description>
+  <Sonata.ingestCommandString>Take {0}</Sonata.ingestCommandString>
+  <Sonata.ingestReportString>Taking {0}.</Sonata.ingestReportString>
+
+  <Restoril.label>restoril</Restoril.label>
+  <Restoril.description></Restoril.description>
+  <Restoril.ingestCommandString>Take {0}</Restoril.ingestCommandString>
+  <Restoril.ingestReportString>Taking {0}.</Restoril.ingestReportString>
+</LanguageData>

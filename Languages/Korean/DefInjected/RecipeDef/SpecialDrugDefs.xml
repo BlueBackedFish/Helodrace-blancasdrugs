@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <InjectMKultra.label>MKultra 인식 개변 프로토콜 집행</InjectMKultra.label>
+  <InjectMKultra.description>대상의 안구에 MKultra 차단 제제를 직접 주입하여 중추신경계 전반을 강제로 재배선하는 극비 세뇌 시술입니다. 뇌 세포와 시각 신경에 영구적인 열적·화학적 흉터를 남기는 대가로, 대상의 방어 기제와 저항 심리를 기저 단계에서부터 완벽하게 파쇄합니다. 시술이 끝나면 대상은 인식이 완전히 개변되어, 자신의 자유 의지로 이 정착지에 충성하고 있다고 믿게 됩니다.</InjectMKultra.description>
+  <InjectMKultra.jobString>MKultra 조건화 시술 중</InjectMKultra.jobString>
+  
+</LanguageData>

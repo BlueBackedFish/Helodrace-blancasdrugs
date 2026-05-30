@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <Chemical_Amphetamines.label>암페타민 요구</Chemical_Amphetamines.label>
+  <Chemical_Amphetamines.description>이 인물은 암페타민 계열 약물에 심각하게 중독되어 있습니다. 체내 도파민 체계가 약물 없이는 정상적으로 작동하지 못하는 상태입니다. 정기적으로 암페타민(데소신, 벤제드린 등)을 공급해주지 않으면 갈망 수치가 떨어지며, 수치가 완전히 고갈되면 끔찍한 금단증상과 함께 정신적·육체적 붕괴가 시작됩니다.</Chemical_Amphetamines.description>
+
+  <Chemical_ZDrugs.label>Z-약물 요구</Chemical_ZDrugs.label>
+  <Chemical_ZDrugs.description>이 인물은 Z-Drugs 계열 약물에 심각하게 중독되어 있습니다. 이 약물의 보조 없이는 수면 리듬을 유지하거나 온전한 정신을 차릴 수 없는 상태입니다. 정기적으로 엠비엔이나 소나타 같은 약물을 복용하여 갈망을 채워주지 않으면 수치가 떨어지며, 완전히 바닥나면 신경계가 과각성되면서 고통스러운 금단증상이 나타납니다.</Chemical_ZDrugs.description>
+
+  <Chemical_Benzodiazepines.label>벤조디아제핀 요구</Chemical_Benzodiazepines.label>
+  <Chemical_Benzodiazepines.description>이 인물은 벤조디아제핀 계열 약물에 심각하게 중독되어 있습니다. 이 약물 없이는 신경계를 스스로 진정시키거나 정상적인 감정을 유지할 수 없는 상태입니다. 정기적으로 레스트릴 등의 벤조디아제핀계 약물을 공급하지 않으면 갈망 수치가 떨어지며, 완전히 고갈되면 뇌의 억제 기전이 무너지면서 끔찍한 금단증상이 시작됩니다.</Chemical_Benzodiazepines.description>
+
+  <Chemical_Opioids.label>오피오이드 요구</Chemical_Opioids.label>
+  <Chemical_Opioids.description>이 인물은 오피오이드 계열 진통제에 극도로 심각한 화학적 의존성을 보이고 있습니다. 약물이 제공하는 인위적인 엔도르핀 폭풍 없이는 정상적인 감정을 유지하거나 신체 통증을 견뎌내지 못하는 상태입니다. 정기적으로 약물을 공급해 주지 않으면 갈망 수치가 떨어지며, 완전히 고갈되는 순간 끔찍한 신체적 금단증상이 시작됩니다.</Chemical_Opioids.description>
+
+  <Chemical_Ketamine.label>케타민 요구</Chemical_Ketamine.label>
+  <Chemical_Ketamine.description>이 인물은 케타민이 주는 특유의 해리감과 현실 도피적 감각에 화학적으로 의존하고 있습니다. 약물이 뇌를 마비시켜 주지 않으면 현실의 스트레스와 감각 자극을 정상적으로 수용하지 못하는 상태입니다. 약물이 차단되면 서서히 갈망 수치가 깎여 나가며, 고갈 시 자아가 붕괴되는 듯한 극심한 정신적 공백과 금단증상이 찾아옵니다.</Chemical_Ketamine.description>
+  
+</LanguageData>

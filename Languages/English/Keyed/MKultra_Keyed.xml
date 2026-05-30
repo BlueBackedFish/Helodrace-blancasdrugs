@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <LetterLabelMKultraRecruit>{0} recruited</LetterLabelMKultraRecruit>
+    <LetterMKultraRecruit>Successfully injected the MKultra agent into {0}'s eye, subverting their baseline cognition.</LetterMKultraRecruit>
+    <MessageMKultraRecruited>{0} has been recruited via MKultra conditioning.</MessageMKultraRecruited>
+</LanguageData>

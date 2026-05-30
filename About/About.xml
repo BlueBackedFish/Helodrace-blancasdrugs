@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <packageId>BlueBackedFish.Helod.BlancasDrugs</packageId>
+    <name>Helod race - Blanca's Drugs</name>
+    <author>blueBackedfish</author>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modVersion>1.0</modVersion>
+    <description>Helod Blanca's Drugs는 림월드를 위한 종합 의료·전술 약물 확장 모드입니다. 강력한 진통제와 각성제부터 특수 진정제, 그리고 기밀 정신통제 프로젝트인 MKultra까지 다양한 의약품을 추가합니다.
+
+1. 고급 진통제 및 마취제
+Morphine: 신속한 통증 완화를 위한 펜형 자동주사기 (통증 20%까지 감소).
+Fentanyl: 신체적 통증을 완전히 제거하는 OTFC 사탕형 제제.
+Ketamine: 호흡 억제 없이 통증을 제거하는 해리성 마취제.
+2. 고급 각성제 및 각성 촉진제
+Desoxyn (Factor 3): 48시간 비상 작전을 위한 강력한 암페타민. 높은 "Crash" 위험.
+Benzedrine (Factor 2): 표준 24시간 지속 각성제.
+Dexedrine (Factor 2): 공격성 부작용이 조절된 전술용 각성제.
+Modafinil: 비중독성 수면 억제제. "Stronghold" 내성이 없음.
+Cola: 가벼운 카페인 음료.
+3. 고급 수면제 및 진정제
+Ambien (Factor 2): 빠르게 작용하며 12시간의 중간 수준 숙취 발생.
+Sonata (Factor 1): 가장 빠르게 작용하며 회복 시간이 8시간으로 가장 짧음.
+Restoril (Factor 4): 강력한 중추신경계 억제를 위한 중진정제. 24시간 숙취 발생.
+4. 특수 시스템: Stronghold 시스템
+
+이 모드는 폰의 체내 각성·진정 균형을 추적합니다.
+
+Amphetamine Factor (Stronghold): 각성제를 과다 사용하면 치명적인 축적 수치가 증가합니다. 수치가 6.5에 도달하면 심장마비나 뇌손상이 발생할 수 있습니다.
+수면 충돌: 각성 상태의 폰을 강제로 재우려면 진정제 Factor가 해당 폰의 Amphetamine Factor보다 높아야 합니다. 강한 Desoxyn 효과를 약한 Sonata 복용만으로 상쇄할 수는 없습니다.
+비가역적 정신 통제: MKultra 프로젝트를 통해 수술로 인지를 개조하여 죄수의 정체성을 영구적으로 제거하고 식민지에 대한 절대적 충성심으로 대체할 수 있습니다.
+
+기술 수준: 산업 시대
+연구 탭: Helod Technology
+지원 언어: 영어, 한국어 
+
+Helod Blanca's Drugs is a comprehensive medical and tactical drug expansion for RimWorld. It introduces a wide array of advanced pharmaceuticals, ranging from high-potency painkillers and stimulants to specialized sedatives and the classified "MKultra" mind-control project. 
+
+--- 
+
+1. Advanced Painkillers n Anesthetics 
+* Morphine: pencil-style auto-injector for rapid pain relief (dampens to 20%). 
+* Fentanyl: OTFC lozenge that completely eliminates physical pain. 
+* Ketamine: Dissociative anesthetic that erases pain without depressing breathing. 
+
+2. Advanced Stimulants n Eugeroics 
+* Desoxyn (Factor 3): Potent amphetamine for 48-hour emergency performance. High "Crash" risk. 
+* Benzedrine (Factor 2): Standard 24-hour stimulant. 
+* Dexedrine (Factor 2): Refined tactical stimulant with controlled aggression side-effects. 
+* Modafinil: Non-addictive sleep suppressor. No "Stronghold" resistance. 
+* Cola: Mild social caffeine refreshment. 
+
+3. Advanced Somnifacients (Sedatives) 
+* Ambien (Factor 2): Fast-acting with moderate 12-hour hangover. 
+* Sonata (Factor 1): Ultra-fast with shortest 8-hour recovery. 
+* Restoril (Factor 4): Heavy sedative for forceful CNS suppression. 24-hour hangover. 
+
+4. Unique Mechanics: The Stronghold System The mod tracks a pawn's internal balance between stimulation and sedation: 
+* Amphetamine Factor (Stronghold): Overusing stimulants builds a lethal accumulation. If it hits 6.5, the pawn may suffer heart attacks or brain damage. 
+* The Sleep Conflict: To force a stimulated pawn to sleep, your Sedative Factor must be higher than their Amphetamine Factor. You cannot simply "pill away" a heavy Desoxyn high with a light Sonata dose. 
+* Irreversible Mind Control: The MKultra Project allows for surgical cognition subversion, permanently erasing a prisoner's identity and replacing it with absolute colony loyalty. 
+
+* Tech Level: Industrial 
+* Research Tab: Helod Technology * Language Support: English, Korean
+</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+    </loadAfter>
+</ModMetaData>

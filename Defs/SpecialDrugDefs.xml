@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BlancasDrugBase">
+        <defName>MKultra</defName>
+        <label>MKultra</label>
+        <description>"We've got a job to do."\nA permanent neurological rewiring of the central nervous system achieved through the direct ocular infusion of hyper-concentrated dissociative and psychotropic agents. The original neural pathways dictating personal identity, morality, and past allegiances have been entirely erased. In their place lies a deeply embedded cognitive conditioning structure engineered for absolute compliance to the colony's directives.\nThe subject is no longer capable of conceptualizing defiance; this behavioral lock is completely irreversible by any psychological or traumatic means.</description>
+        <descriptionHyperlinks>
+            <HediffDef>MKultraConditioning</HediffDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Item/Drug/MKultra</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingClass>ThingWithComps</thingClass>
+        <statBases>
+            <WorkToMake>2000</WorkToMake>
+            <MarketValue>150</MarketValue>
+            <Mass>0.1</Mass>
+        </statBases>
+        <techLevel>Industrial</techLevel>
+        <ingestible>
+            <joyKind>Chemical</joyKind>
+            <joy>0.01</joy>
+            <drugCategory>Medical</drugCategory>
+            <foodType>Processed</foodType>
+            <baseIngestTicks>120</baseIngestTicks>
+            <ingestSound>Ingest_Inject</ingestSound>
+            <ingestCommandString>Inject {0}</ingestCommandString>
+            <ingestReportString>Injecting {0}.</ingestReportString>
+            <useEatingSpeedStat>false</useEatingSpeedStat>
+            <outcomeDoers>
+                <li Class="HelodBlancasDrug.IngestionOutcomeDoer_MKultra" />
+            </outcomeDoers>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Drug">
+            </li>
+        </comps>
+        <costList>
+            <Ketamine>2</Ketamine>
+            <Yayo>1</Yayo>
+            <Morphine>1</Morphine>
+            <Neutroamine>10</Neutroamine>
+            <MedicineIndustrial>4</MedicineIndustrial>
+        </costList>
+        <recipeMaker>
+            <recipeUsers>
+                <li>DrugLab</li>
+            </recipeUsers>
+            <researchPrerequisite>HelodBlancaMKultraProject</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>InjectMKultra</defName>
+        <label>Execute MKultra cognition rewiring protocol</label>
+        <description>A classified mind-control procedure that directly infuses the MKultra neutralizing agent into the subject's ocular cavity, forcefully rewiring the core infrastructure of the central nervous system. At the cost of inflicting permanent thermal and chemical scars upon brain cells and visual pathways, it utterly shatters the subject's psychological defense mechanisms and will to resist from the baseline. Upon completion, the subject's cognition is completely subverted, leaving them firmly convinced that they are pledging allegiance to the colony of their own free will.</description>
+        <workerClass>HelodBlancasDrug.RecipeWorker_MKultraInjection</workerClass>
+        <jobString>Conditioning via MKultra.</jobString>
+        <workAmount>3000</workAmount>
+        <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+        <appliedOnFixedBodyParts>
+            <li>Brain</li>
+        </appliedOnFixedBodyParts>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>MKultra</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>MKultra</li>
+            </thingDefs>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+        </fixedIngredientFilter>
+    </RecipeDef>
+
+</Defs>

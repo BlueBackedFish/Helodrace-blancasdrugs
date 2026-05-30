@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <OpioidsWithdrawal.stages.1.label>opioids withdrawal</OpioidsWithdrawal.stages.1.label>
+  <OpioidsWithdrawal.stages.1.description></OpioidsWithdrawal.stages.1.description>
+
+  <KetamineWithdrawal.stages.1.label>ketamine withdrawal</KetamineWithdrawal.stages.1.label>
+  <KetamineWithdrawal.stages.1.description></KetamineWithdrawal.stages.1.description>
+
+  <MorphineHighThought.stages.0.label>high on morphine</MorphineHighThought.stages.0.label>
+  <MorphineHighThought.stages.0.description></MorphineHighThought.stages.0.description>
+
+  <FentanylHighThought.stages.0.label>high on fentanyl</FentanylHighThought.stages.0.label>
+  <FentanylHighThought.stages.0.description></FentanylHighThought.stages.0.description>
+
+  <KetamineHighThought.stages.0.label>high on ketamine</KetamineHighThought.stages.0.label>
+  <KetamineHighThought.stages.0.description></KetamineHighThought.stages.0.description>
+
+  <MKultraConditioningThought.stages.0.label>MKultra conditioning</MKultraConditioningThought.stages.0.label>
+  <MKultraConditioningThought.stages.0.description></MKultraConditioningThought.stages.0.description>
+
+</LanguageData>

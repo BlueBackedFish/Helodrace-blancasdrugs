@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MKultra.label>MKultra</MKultra.label>
+  <MKultra.description></MKultra.description>
+  <MKultra.ingestCommandString>Inject {0}</MKultra.ingestCommandString>
+  <MKultra.ingestReportString>Injecting {0}.</MKultra.ingestReportString>
+</LanguageData>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThoughtDef>
+        <defName>AmphetaminesWithdrawal</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>AmphetaminesAddiction</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <visible>false</visible>
+            </li>
+            <li>
+                <label>amphetamines withdrawal</label>
+                <description>My brain feels completely hollow, and I don't even have the strength to lift a finger. Everything in the world looks so dark and miserable. Please... I need that drug. Just one more dose and I'll be perfectly fine...</description>
+                <baseMoodEffect>-25</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>ZDrugsWithdrawal</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>ZDrugsAddiction</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <visible>false</visible>
+            </li>
+            <li>
+                <label>Z-drugs withdrawal</label>
+                <description>I'm bone-tired, but my brain absolutely refuses to shut down. Whenever I close my eyes, bizarre shapes seem to mock me from the dark... I feel like I'm losing my mind. Just give me one pill, I just want to sleep normally...!</description>
+                <baseMoodEffect>-15</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>BenzodiazepinesWithdrawal</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>BenzodiazepinesAddiction</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <visible>false</visible>
+            </li>
+            <li>
+                <label>benzodiazepines withdrawal</label>
+                <description>My heart is racing and my entire body is shaking uncontrollably. Every little sound feels like a needle stabbing my brain... I'm terrified, I can't breathe. I need that pill to calm me down. Please, just give it to me...!</description>
+                <baseMoodEffect>-20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>RestorilHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>RestorilHigh</hediff>
+        <stages>
+            <li>
+                <label>sedated by Restoril</label>
+                <description>My head is spinning and I can barely steady my feet... but strangely, I feel so at peace. All my worries feel buried deep beneath a fog. I just want to lie down and let go.</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>SonataHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>SonataHigh</hediff>
+        <stages>
+            <li>
+                <label>sedated by Sonata</label>
+                <description></description>
+                <baseMoodEffect>6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>AmbienHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>AmbienHigh</hediff>
+        <stages>
+            <li>
+                <label>sedated by Ambien</label>
+                <description>The drug makes my eyelids heavy and my body feel a bit floaty. But a pleasant, warm comfort is spreading through me, making me feel so relaxed.</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>BenzedrineHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>BenzedrineHigh</hediff>
+        <stages>
+            <li>
+                <label>crashing on Benzedrine</label>
+                <description>Now that the drug is wearing off, I feel completely drained... My stomach feels sick and everything is just making me irritable.</description>
+                <baseMoodEffect>-15</baseMoodEffect>
+            </li>
+            <li>
+                <label>high on Benzedrine</label>
+                <description>My body feels light and I'm in a pretty good mood. I can keep going for a while without having to sleep or eat.</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>DesoxynHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>DesoxynHigh</hediff>
+        <stages>
+            <li>
+                <label>crashing on Desoxyn</label>
+                <description>My whole body feels like lead and everything is driving me insane. My stomach is turning, my head is splitting... just leave me the hell alone!</description>
+                <baseMoodEffect>-30</baseMoodEffect>
+            </li>
+            <li>
+                <label>high on Desoxyn</label>
+                <description>My mind has never been clearer. I don't feel tired, I don't feel hungry. I feel absolutely invincible!</description>
+                <baseMoodEffect>15</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>ColaHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>ColaHigh</hediff>
+        <stages>
+            <li>
+                <label>drank Cola</label>
+                <description>I had a cold, sweet carbonated drink. That bubbly refreshment really cleared my palate and lifted my spirits!</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!--=======================오피오이드 및 케타민=================-->
+
+    <ThoughtDef>
+        <defName>OpioidsWithdrawal</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>OpioidsAddiction</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <visible>false</visible>
+            </li>
+            <li>
+                <label>opioids withdrawal</label>
+                <description>It feels like insects are gnawing through the marrow of my bones... My blood is boiling, and this tearing agony won't stop. Please, just give me a single pill... or just kill me already...!</description>
+                <baseMoodEffect>-30</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>KetamineWithdrawal</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>KetamineAddiction</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <visible>false</visible>
+            </li>
+            <li>
+                <label>ketamine withdrawal</label>
+                <description>I can't feel where my hands and feet are... The world looks completely twisted, and it feels like my soul has been ripped from my body, drifting like a ghost. I'm terrified. I need that cold numbness to anchor me back to reality...</description>
+                <baseMoodEffect>-20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>MorphineHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>MorphineHigh</hediff>
+        <stages>
+            <li>
+                <label>high on morphine</label>
+                <description>The horrific pain has faded away, feeling like a distant echo. My body is sluggish and foggy, but my mind feels completely at peace.</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>FentanylHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>FentanylHigh</hediff>
+        <stages>
+            <li>
+                <label>high on fentanyl</label>
+                <description>I can't feel any pain at all. My head is a bit foggy, but my entire body feels like it's floating on a warm cloud. I feel so incredibly happy and at peace.</description>
+                <baseMoodEffect>18</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>KetamineHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>KetamineHigh</hediff>
+        <stages>
+            <li>
+                <label>high on ketamine</label>
+                <description>It feels like my body doesn't belong to me, like I'm watching myself from a distance. But all the pain and anxiety feel like someone else's problem far away, which is strangely comforting.</description>
+                <baseMoodEffect>12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!--=======================MKultra Aftermath=================-->
+
+    <ThoughtDef>
+        <defName>MKultraConditioningThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>MKultraConditioning</hediff>
+        <stages>
+            <li>
+                <label>MKultra conditioning</label>
+                <description>I am helping these people of my own free will. This is my duty, and this is where I belong. But... whenever I hear those strange numbers and static noise echoing in the back of my mind, my skin crawls and I feel like losing my sanity. Is the 'me' I remember actually real?</description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>

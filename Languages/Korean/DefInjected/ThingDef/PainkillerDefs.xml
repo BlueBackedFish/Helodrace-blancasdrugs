@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Morphine.label>모르핀</Morphine.label>
+  <Morphine.description>휴대와 신속한 사용이 용이하도록 펜슬형 자동 주사기(오토인젝터) 형태로 가공된 오피오이드계 진통제입니다. 위급한 부상 상황에서 의복이나 방탄복 위로도 즉각적으로 투여할 수 있습니다.\n복용 시 12시간 동안 정착민의 통증을 평소의 20% 수준으로 크게 둔화시키고 온화한 무드 버프를 제공합니다. 펜타닐에 비해 전반적인 신체 페널티는 완만하지만, 동일하게 의식 수준의 최대 상한선이 제한되며 이동 능력과 호흡 기능이 일부 저하됩니다.</Morphine.description>
+  <Morphine.ingestCommandString>{0} 투여</Morphine.ingestCommandString>
+  <Morphine.ingestReportString>{0} 투여 중.</Morphine.ingestReportString>
+
+  <Fentanyl.label>펜타닐</Fentanyl.label>
+  <Fentanyl.description>구강 점막을 통해 빠르게 흡수되도록 막대사탕 형태로 가공된 오피오이드계 초강력 진통제(OTFC)입니다. 전투 현장이나 응급 상황에서 별도의 주사 장비 없이 환자의 입안에 물리는 것만으로 즉각적인 약효를 낼 수 있습니다.\n복용 시 8시간 동안 체내의 모든 고통을 완벽하게 지워버리고 강렬한 안락함을 주지만, 약 기운이 뇌를 장악하여 의식 수준의 최대 상한선이 제한되며 이동 능력과 호흡 기능이 낮아지는 신체적 페널티가 동반됩니다.</Fentanyl.description>
+  <Fentanyl.ingestCommandString>{0} 투여</Fentanyl.ingestCommandString>
+  <Fentanyl.ingestReportString>{0} 투여 중.</Fentanyl.ingestReportString>
+
+  <Ketamine.label>케타민</Ketamine.label>
+  <Ketamine.description>밀봉된 정맥 주사용 약병(바이알)과 일회용 주사기가 함께 동봉된 해리성 마취 진통제입니다. 투약 시 10시간 동안 뇌와 신체의 감각 연결을 차단하여 육체적 통증을 지워버립니다.\n오피오이드계 약물들과 달리 폐의 호흡 기능을 억제하지 않는 강력한 장점이 있지만, 사지 제어력을 마비시키는 특성 탓에 의식 수준의 최대 상한선이 제한되며 이동 능력과 조작 능력이 저하되는 페널티를 받습니다.</Ketamine.description>
+  <Ketamine.ingestCommandString>{0} 주사</Ketamine.ingestCommandString>
+  <Ketamine.ingestReportString>{0} 주사 중.</Ketamine.ingestReportString>
+
+</LanguageData>

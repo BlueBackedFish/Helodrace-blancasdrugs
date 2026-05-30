@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ChemicalDef>
+        <defName>Amphetamines</defName>
+        <label>amphetamines</label>
+        <description>A class of synthetic compounds that forcefully hyper-activate the central nervous system. By distorting the flow of neurotransmitters, they extract extreme physical efficiency at the cost of leaving indelible scars on the nervous system. Consecutive ingestion of amphetamine-based drugs builds up a lethal 'Amphetamine Factor' within the system. The moment this accumulation breaches the safety threshold of 6.5, the overloaded cardiovascular and neurological systems may collapse, triggering fatal heart attacks or permanent brain damage.</description>
+        <addictionHediff>AmphetaminesAddiction</addictionHediff>
+        <toleranceHediff>AmphetaminesTolerance</toleranceHediff>
+        <geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>
+        <geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>
+    </ChemicalDef>
+
+    <ChemicalDef>
+        <defName>ModafinilChemical</defName>
+        <label>modafinil</label>
+        <description>A class of modern, non-addictive eugeroic compounds engineered to precisely stimulate the brain's alertness centers without disrupting the dopamine reward pathway. Unlike amphetamines that forcefully overload the entire nervous system, this substance safely suppresses sleep depletion without causing euphoria or chemical dependence.\nWhile completely safe from standard drug cravings, consecutive doses risk a fatal heart attack if the accumulation breaches the safety threshold. Because it does not forcefully hijack the central nervous system, ingesting any class of sedative will bypass the standard factor checks, immediately placing the pawn into a deep sleep ready state.</description>
+        <toleranceHediff>ModafinilTolerance</toleranceHediff>
+        <geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>
+        <geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>
+    </ChemicalDef>
+
+    <ChemicalDef>
+        <defName>Caffeine</defName>
+        <label>caffeine</label>
+        <description>A mild methylxanthine alkaloid compound extracted from various plants or synthesized for beverages. It gently stimulates the central nervous system, temporarily staving off fatigue and sharpening mental clarity. Unlike heavy chemical drugs, it possesses no addictive properties and never causes dependence, making it safe for casual consumption. However, frequent intake will cause the body to adapt, building a tolerance that gradually diminshes its stimulating efficiency.</description>
+        <toleranceHediff>CaffeineTolerance</toleranceHediff>
+        <geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>
+        <geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>
+    </ChemicalDef>
+
+    <ChemicalDef>
+        <defName>ZDrugs</defName>
+        <label>Z-Drugs</label>
+        <description>A class of non-benzodiazepine compounds engineered to selectively target GABA receptors for rapid sleep induction. While causing less direct physical strain than classic benzodiazepines, their targeted manipulation of the brain's sleep centers builds a distinct psychological dependence. Once an addiction forms, the sudden absence of the drug leaves the nervous system entirely incapable of natural sleep, triggering severe rebound insomnia and hypersensitivity.</description>
+        <addictionHediff>ZDrugsAddiction</addictionHediff>
+        <toleranceHediff>ZDrugsTolerance</toleranceHediff>
+        <geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>
+        <geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>
+    </ChemicalDef>
+
+    <ChemicalDef>
+        <defName>Benzodiazepines</defName>
+        <label>benzodiazepines</label>
+        <description>A class of compounds that suppress central nervous system activity and induce sedation by enhancing GABA receptors. While highly effective at calming neural overactivity and forcing sleep, prolonged use causes the nervous system to become entirely dependent on this artificial tranquilization. Once an addiction develops, a lack of regular supply forces the neural pathways into critical malfunction, triggering severe lethargy and paroxysmal anxiety.</description>
+        <addictionHediff>BenzodiazepinesAddiction</addictionHediff>
+        <toleranceHediff>BenzodiazepinesTolerance</toleranceHediff>
+        <geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>
+        <geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>
+    </ChemicalDef>
+
+    <ChemicalDef>
+        <defName>Opioids</defName>
+        <label>opioids</label>
+        <description>A class of potent analgesic compounds that bind to opioid receptors in the central nervous system, completely blocking all physical and mental agony. While unparalleled in silencing bodily trauma and nerve pain, it drives the physiology into extreme dependence. Once an addiction forms, a lack of regular supply amplifies latent pain signals exponentially, causing the entire nervous system to collapse in agony.</description>
+        <addictionHediff>OpioidsAddiction</addictionHediff>
+        <toleranceHediff>OpioidsTolerance</toleranceHediff>
+        <geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>
+        <geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>
+    </ChemicalDef>
+
+    <ChemicalDef>
+        <defName>KetamineChemical</defName>
+        <label>ketamine</label>
+        <description>A class of dissociative anesthetic compounds that physically disconnects signaling pathways between the brain and the body. By severing the route of pain transmission, it provides heavy analgesia while plunging the pawn into a peculiar sensory void separated from reality. Highly efficient at erasing trauma, chronic abuse triggers a unique dependency that progressively fragments the self and cognitive functions.</description>
+        <addictionHediff>KetamineAddiction</addictionHediff>
+        <toleranceHediff>KetamineTolerance</toleranceHediff>
+        <geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>
+        <geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>
+    </ChemicalDef>
+</Defs>

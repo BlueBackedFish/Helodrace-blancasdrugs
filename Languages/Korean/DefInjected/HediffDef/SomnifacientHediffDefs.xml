@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <SonataHigh.label>소나타 진정</SonataHigh.label>
+  <SonataHigh.description>소나타 성분이 신경계를 억제하고 있는 상태입니다. 8시간의 짧은 숙취 기간 동안 지속되며, 약효가 단시간에 집중되는 특성 탓에 일시적으로 의식과 운동 능력, 시야가 다른 수면제 복용 시보다 조금 더 무겁고 둔하게 가라앉습니다. 약간의 나른한 기운이 감돌아 마음이 조금은 편안해지지만, 몸을 기민하게 움직이기는 힘들어집니다.</SonataHigh.description>
+  <SonataHigh.stages.0.label>졸음</SonataHigh.stages.0.label>
+
+  <SonataSleep.label>소나타 로직 트리거</SonataSleep.label>
+  <SonataSleep.description>임시 값임</SonataSleep.description>
+
+  <SonataDeepSleeper.label>깊은 잠 준비 (소나타)</SonataDeepSleeper.label>
+  <SonataDeepSleeper.description>소나타의 수면제 성분이 체내의 미미한 각성 요소를 누르고 깊은 수면(Deep Sleep)에 진입할 조건을 만족한 상태입니다. 이 상태의 정착민이 잠자리에 누우면 신경계를 회복시키는 깊은 수면 단계로 전환됩니다. 소나타는 억제력이 약하기 때문에, 조금이라도 강한 각성제가 체내에 남아있다면 이 상태가 활성화되지 않습니다.</SonataDeepSleeper.description>
+  <SonataDeepSleeper.stages.0.label>수면 준비 완료</SonataDeepSleeper.stages.0.label>
+
+  <AmbienHigh.label>엠비엔 진정</AmbienHigh.label>
+  <AmbienHigh.description>엠비엔 성분이 신경계를 억제하고 있는 상태입니다. 12시간 동안 지속되는 숙취 기간 동안 의식, 조작, 이동, 시력이 다소 저하되지만, 레스트릴에 비하면 신체적 페널티가 비교적 완만합니다. 근심 걱정이 적당히 가라앉는 아늑한 기분과 함께 수면 및 허기 감소 속도에 변동이 생기며, 전반적인 신체 활동이 나른하게 진정됩니다.</AmbienHigh.description>
+  <AmbienHigh.stages.0.label>진정됨</AmbienHigh.stages.0.label>
+
+  <AmbienDeepSleeper.label>깊은 잠 준비 (엠비엔)</AmbienDeepSleeper.label>
+  <AmbienDeepSleeper.description>엠비엔의 수면제 성분이 체내 각성 수치를 성공적으로 누르고 깊은 수면(Deep Sleep)에 진입할 조건을 충족한 상태입니다. 이 상태의 정착민이 침대나 잠자리에 누우면 신경계를 완벽히 회복시키는 깊은 수면 단계로 전환됩니다. 각성 수치가 너무 높은 상태에서 투약했다면 이 상태가 부여되지 않아 수면 효과를 보지 못할 수 있습니다.</AmbienDeepSleeper.description>
+  <AmbienDeepSleeper.stages.0.label>수면 준비 완료</AmbienDeepSleeper.stages.0.label>
+
+  <AmbienSleep.label>엠비엔 로직 트리거</AmbienSleep.label>
+  <AmbienSleep.description></AmbienSleep.description>
+
+  <RestorilHigh.label>레스트릴 진정</RestorilHigh.label>
+  <RestorilHigh.description>레스트릴 성분이 중추신경계를 강력하게 억제하고 있는 상태입니다. 24시간 동안 지속되는 이 긴 숙취 기간 동안 머리가 무겁고 시야가 흐려지며 의식과 신체 제어 능력이 눈에 띄게 저하되지만, 동시에 전신이 나른해지며 고통에 둔감해집니다. 신경이 극도로 차분해지기 때문에 다른 정착민과 갈등을 빚을 확률이 거의 완벽하게 차단되며, 몽롱한 안도감을 느낍니다. 수면 욕구가 2배 빠르게 증가하지만 허기는 아주 완만하게 감소합니다.</RestorilHigh.description>
+  <RestorilHigh.stages.0.label>깊은 진정</RestorilHigh.stages.0.label>
+
+  <RestorilSleep.label>레스트릴 로직 트리거</RestorilSleep.label>
+  <RestorilSleep.description>섹스</RestorilSleep.description>
+
+  <RestorilDeepSleeper.label>깊은 잠 준비 (레스트릴)</RestorilDeepSleeper.label>
+  <RestorilDeepSleeper.description>레스트릴의 수면제 계수가 체내의 각성 성분을 성공적으로 억제하여, 강제적인 깊은 수면(Deep Sleep)에 들 준비가 완료된 상태입니다. 이 상태를 가진 림이 침대나 잠자리에 누워 수면을 취하기 시작하면, 신체를 완벽하게 회복시키는 '깊은 수면' 상태로 진입하게 됩니다. 이 상태 자체로는 신체 능력에 아무런 변화를 주지 않습니다.</RestorilDeepSleeper.description>
+  <RestorilDeepSleeper.stages.0.label>수면 준비 완료</RestorilDeepSleeper.stages.0.label>
+
+  <ZDrugsTolerance.label>Z-약물 내성</ZDrugsTolerance.label>
+  <ZDrugsTolerance.description>Z-Drugs 성분에 신체가 지속적으로 노출되어 적응한 상태입니다. 이 내성 자체는 신체 능력이나 약물의 수면 계수, 숙취 시간 등에 아무런 직접적인 영향도 주지 않는 순수한 신체적 적응 척도입니다. 하지만 남용으로 인해 체내에 이 내성 수치가 과도하게 쌓이게 되면 성분에 대한 저항선이 무너지면서, 복용 시 본격적인 Z-Drugs 중독을 유발하는 원인이 됩니다.</ZDrugsTolerance.description>
+
+  <ZDrugsAddiction.label>Z-약물 중독</ZDrugsAddiction.label>
+  <ZDrugsAddiction.description>뇌의 수면 및 진정 메커니즘이 Z-Drugs 성분에 중독되어 완전히 기능이 뒤틀린 상태입니다. 금단증상이 시작되면 심각한 반동성 불면증으로 인해 수면 욕구가 폭발적으로 치솟지만, 정작 수면 효율은 바닥을 치게 됩니다. 극심한 피로 속에서도 정신은 기묘하게 각성되어 시각적 왜곡(시력 저하)과 집중력 붕괴(의식 저하)를 겪으며, 극심한 가위눌림과 환각에 시달려 정신이상 임계점이 크게 상승합니다.</ZDrugsAddiction.description>
+  <ZDrugsAddiction.stages.1.label>금단 현상</ZDrugsAddiction.stages.1.label>
+
+  <BenzodiazepinesTolerance.label>벤조디아제핀 내성</BenzodiazepinesTolerance.label>
+  <BenzodiazepinesTolerance.description>벤조디아제핀 성분에 신체가 지속적으로 노출되어 적응한 상태입니다. 이 내성 자체는 신체 능력이나 약물의 수면 계수, 숙취 시간 등에 아무런 직접적인 영향도 주지 않습니다. 하지만 과도한 연용으로 인해 체내에 내성이 과도하게 쌓이게 되면, 신체의 화학적 저항선이 무너지면서 복용 시 본격적인 벤조디아제핀 중독을 유발하는 직접적인 원인이 됩니다.</BenzodiazepinesTolerance.description>
+
+  <BenzodiazepinesAddiction.label>벤조디아제핀 중독</BenzodiazepinesAddiction.label>
+  <BenzodiazepinesAddiction.description>체내의 신경 억제 메커니즘이 벤조디아제핀 성분에 완전히 종속된 상태입니다. 약물이 공급되는 동안에는 나른하거나 평온한 상태를 유지하지만, 성분이 고갈되어 금단증상이 시작되면 억제되어 있던 신경들이 한꺼번에 폭주합니다. 이로 인해 극심한 신체 떨림(조작 저하), 환각, 극도의 패닉 상태와 중증 우울증을 겪게 되며, 스트레스 임계점이 극단적으로 낮아져 아주 사소한 자극에도 쉽게 정신 이상을 일으킵니다.</BenzodiazepinesAddiction.description>
+  <BenzodiazepinesAddiction.stages.1.label>금단 현상</BenzodiazepinesAddiction.stages.1.label>
+
+  <Somnifacientstronghold.label>수면제 성분 축적</Somnifacientstronghold.label>
+  <Somnifacientstronghold.description>체내에 흡수된 수면제 계수의 총합을 나타내는 지표입니다. 자극제 축적치와 달리 이 수치 자체는 신체 장기에 손상을 주거나 부작용을 일으키지 않으며, 오직 현재 정착민의 중추신경계가 얼마나 강하게 억제되고 있는지를 비교 연산하기 위한 용도로만 작동합니다.\ㅜ체내에 모다피닐이 있을 때는 이 계수와 상관없이 즉시 깊은 수면 유도가 활성화되지만, 암페타민 계열의 자극제가 체내에 남아있을 때는 이 수치가 암페타민 계수보다 높아야만 정상적인 깊은 수면 준비 상태로 진입할 수 있습니다.</Somnifacientstronghold.description>
+  <Somnifacientstronghold.stages.0.label>포화됨</Somnifacientstronghold.stages.0.label>
+
+  <DeepSleep.label>깊은 잠</DeepSleep.label>
+  <DeepSleep.description>수면제의 강력한 신경 차단 효과로 인해 인위적으로 유도된 극도로 깊은 혼수 수면 상태입니다. 6시간 동안 지속되는 이 상태 동안 뇌의 의식 수준이 최대 30%로 강제 제한되어 외부의 소음이나 가벼운 자극, 통증으로는 결코 깨어날 수 없습니다.\n신체가 완전한 무의식적 휴식 상태에 돌입함에 따라 수면 욕구가 폭발적인 속도로 회복되며, 체내를 폭주시키던 암페타민 및 모다피닐 등의 모든 자극제 축적 성분을 강제로 중화하여 완전히 지워버립니다.</DeepSleep.description>
+  <DeepSleep.stages.0.label>취침 중</DeepSleep.stages.0.label>
+
+</LanguageData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Morphine.label>morphine</Morphine.label>
+  <Morphine.description></Morphine.description>
+  <Morphine.ingestCommandString>Inject {0}</Morphine.ingestCommandString>
+  <Morphine.ingestReportString>Injecting {0}.</Morphine.ingestReportString>
+
+  <Fentanyl.label>fentanyl</Fentanyl.label>
+  <Fentanyl.description></Fentanyl.description>
+  <Fentanyl.ingestCommandString>Inject {0}</Fentanyl.ingestCommandString>
+  <Fentanyl.ingestReportString>Injecting {0}.</Fentanyl.ingestReportString>
+
+  <Ketamine.label>ketamine</Ketamine.label>
+  <Ketamine.description></Ketamine.description>
+  <Ketamine.ingestCommandString>Inject {0}</Ketamine.ingestCommandString>
+  <Ketamine.ingestReportString>Injecting {0}.</Ketamine.ingestReportString>
+</LanguageData>
