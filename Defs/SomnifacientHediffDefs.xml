@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 
-    <!--소나타-->
+    
     <HediffDef>
-        <defName>SonataHigh</defName>
+        <defName>BD_SonataHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>sonata sedation</label>
         <labelNoun>sedated by sonata</labelNoun>
         <description>The nervous system is moderately suppressed by Sonata. Although this hangover lasts for a brief 8-hour window, the short-acting nature of the drug temporary forces a slightly heavier dampening of consciousness, manipulation, moving, and sight compared to alternative sedatives. While a faint, sluggish calmness stabilizes the mind, coordinating crisp movements is temporarily difficult.</description>
         <descriptionHyperlinks>
-            <ThingDef>Sonata</ThingDef>
+            <ThingDef>BD_Sonata</ThingDef>
         </descriptionHyperlinks>
         <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
         <maxSeverity>1.0</maxSeverity>
@@ -52,11 +52,10 @@
         </stages>
     </HediffDef>
 
-    <!--소나타
-    수면제 효과-->
+    
 
     <HediffDef>
-        <defName>SonataSleep</defName>
+        <defName>BD_SonataSleep</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>Sonata logic trigger</label>
         <description></description>
@@ -67,33 +66,32 @@
                 <showHoursToRecover>false</showHoursToRecover>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_CompareSetNeedAndRemove">
-                <hediffA>Somnifacientstronghold</hediffA>
+                <hediffA>BD_Somnifacientstronghold</hediffA>
                 <offsetA>0.11</offsetA>
-                <hediffB>Amphetaminesstronghold</hediffB>
+                <hediffB>BD_StimulantStronghold</hediffB>
                 <offsetB>0.0</offsetB>
                 <need>Rest</need>
                 <targetValue>0.0</targetValue>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_CompareGiveHediffAndRemove">
-                <hediffA>Somnifacientstronghold</hediffA>
+                <hediffA>BD_Somnifacientstronghold</hediffA>
                 <offsetA>0.11</offsetA>
-                <hediffB>Amphetaminesstronghold</hediffB>
+                <hediffB>BD_StimulantStronghold</hediffB>
                 <offsetB>0.0</offsetB>
-                <hediffToGive>SonataDeepSleeper</hediffToGive>
+                <hediffToGive>BD_SonataDeepSleeper</hediffToGive>
                 <severityToGive>1.0</severityToGive>
             </li>
         </comps>
         <stages>
-            <li><visible>false</visible></li>
+            <li />
         </stages>
     </HediffDef>
 
 
-    <!--소나타
-    깊은잠 부여자-->
+    
 
     <HediffDef>
-        <defName>SonataDeepSleeper</defName>
+        <defName>BD_SonataDeepSleeper</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>deep sleeper (sonata)</label>
         <labelNoun>a deep sleeper</labelNoun>
@@ -107,7 +105,7 @@
                 <showHoursToRecover>true</showHoursToRecover>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_SleepLogic">
-                <hediffToGive>DeepSleep</hediffToGive>
+                <hediffToGive>BD_DeepSleep</hediffToGive>
             </li>
         </comps>
         <stages>
@@ -118,16 +116,16 @@
     </HediffDef>
 
 
-    <!--엠비엔-->
+    
 
     <HediffDef>
-        <defName>AmbienHigh</defName>
+        <defName>BD_AmbienHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>ambien sedation</label>
         <labelNoun>sedated by ambien</labelNoun>
         <description>The nervous system is moderately suppressed by Ambien. Throughout this 12-hour hangover window, consciousness, manipulation, moving, and sight are noticeably reduced, though the physical deficits are relatively mild compared to stronger sedatives. It induces a comfortable, placid mindset that buffers stress, while altering sleep and hunger depletion rates to slow down overall bodily activity.</description>
         <descriptionHyperlinks>
-            <ThingDef>Ambien</ThingDef>
+            <ThingDef>BD_Ambien</ThingDef>
         </descriptionHyperlinks>
         <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
         <maxSeverity>1.0</maxSeverity>
@@ -171,11 +169,10 @@
     </HediffDef>
 
 
-    <!--엠비엔
-    깊은잠 부여자-->
+    
 
     <HediffDef>
-        <defName>AmbienDeepSleeper</defName>
+        <defName>BD_AmbienDeepSleeper</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>deep sleeper (ambien)</label>
         <labelNoun>a deep sleeper</labelNoun>
@@ -189,7 +186,7 @@
                 <showHoursToRecover>true</showHoursToRecover>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_SleepLogic">
-                <hediffToGive>DeepSleep</hediffToGive>
+                <hediffToGive>BD_DeepSleep</hediffToGive>
             </li>
         </comps>
         <stages>
@@ -199,11 +196,10 @@
         </stages>
     </HediffDef>
 
-    <!--엠비엔
-    수면제 효과-->
+    
 
     <HediffDef>
-        <defName>AmbienSleep</defName>
+        <defName>BD_AmbienSleep</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>Ambien logic trigger</label>
         <description></description>
@@ -214,37 +210,38 @@
                 <showHoursToRecover>false</showHoursToRecover>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_CompareSetNeedAndRemove">
-                <hediffA>Somnifacientstronghold</hediffA>
+                <hediffA>BD_Somnifacientstronghold</hediffA>
                 <offsetA>0.21</offsetA>
-                <hediffB>Amphetaminesstronghold</hediffB>
+                <hediffB>BD_StimulantStronghold</hediffB>
                 <offsetB>0.0</offsetB>
                 <need>Rest</need>
                 <targetValue>0.1</targetValue>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_CompareGiveHediffAndRemove">
-                <hediffA>Somnifacientstronghold</hediffA>
+                <hediffA>BD_Somnifacientstronghold</hediffA>
                 <offsetA>0.21</offsetA>
-                <hediffB>Amphetaminesstronghold</hediffB>
+                <hediffB>BD_StimulantStronghold</hediffB>
                 <offsetB>0.0</offsetB>
-                <hediffToGive>AmbienDeepSleeper</hediffToGive>
+                <hediffToGive>BD_AmbienDeepSleeper</hediffToGive>
                 <severityToGive>1.0</severityToGive>
             </li>
         </comps>
         <stages>
+            <li />
         </stages>
     </HediffDef>
 
 
-    <!--레스트릴-->
+    
 
     <HediffDef>
-        <defName>RestorilHigh</defName>
+        <defName>BD_RestorilHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>restoril sedation</label>
         <labelNoun>sedated by restoril</labelNoun>
         <description></description>
         <descriptionHyperlinks>
-            <ThingDef>Restoril</ThingDef>
+            <ThingDef>BD_Restoril</ThingDef>
         </descriptionHyperlinks>
         <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
         <maxSeverity>1.0</maxSeverity>
@@ -287,7 +284,7 @@
     </HediffDef>
 
     <HediffDef>
-        <defName>RestorilSleep</defName>
+        <defName>BD_RestorilSleep</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>Restoril logic trigger</label>
         <description>The central nervous system is heavily suppressed by Restoril. Throughout this prolonged 24-hour hangover period, the head feels heavy and vision blurs, causing a noticeable decline in consciousness and physical capacities. However, it completely sedates the body, dulling pain and inducing a foggy sense of relief. Due to the profound emotional dampening, the chance of social fights is almost entirely eliminated. Sleep depletion is doubled while hunger depletion is drastically slowed.</description>
@@ -298,33 +295,32 @@
                 <showHoursToRecover>false</showHoursToRecover>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_CompareSetNeedAndRemove">
-                <hediffA>Somnifacientstronghold</hediffA>
+                <hediffA>BD_Somnifacientstronghold</hediffA>
                 <offsetA>0.41</offsetA>
-                <hediffB>Amphetaminesstronghold</hediffB>
+                <hediffB>BD_StimulantStronghold</hediffB>
                 <offsetB>0.0</offsetB>
                 <need>Rest</need>
                 <targetValue>0.0</targetValue>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_CompareGiveHediffAndRemove">
-                <hediffA>Somnifacientstronghold</hediffA>
+                <hediffA>BD_Somnifacientstronghold</hediffA>
                 <offsetA>0.41</offsetA>
-                <hediffB>Amphetaminesstronghold</hediffB>
+                <hediffB>BD_StimulantStronghold</hediffB>
                 <offsetB>0.0</offsetB>
-                <hediffToGive>RestorilDeepSleeper</hediffToGive>
+                <hediffToGive>BD_RestorilDeepSleeper</hediffToGive>
                 <severityToGive>1.0</severityToGive>
             </li>
 
         </comps>
         <stages>
-            <li><visible>false</visible></li>
+            <li />
         </stages>
     </HediffDef>
 
-    <!--레스토릴
-    깊은잠 부여자-->
+    
 
     <HediffDef>
-        <defName>RestorilDeepSleeper</defName>
+        <defName>BD_RestorilDeepSleeper</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>deep sleep ready (restoril)</label>
         <labelNoun>a deep sleep ready</labelNoun>
@@ -338,7 +334,7 @@
                 <showHoursToRecover>true</showHoursToRecover>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_SleepLogic">
-                <hediffToGive>DeepSleep</hediffToGive>
+                <hediffToGive>BD_DeepSleep</hediffToGive>
             </li>
         </comps>
         <stages>
@@ -348,25 +344,24 @@
         </stages>
     </HediffDef>
 
-    <!--Z-drugs
-    공통-->
+    
 
-    <!--=======================내성=================-->
+    
 
     <HediffDef ParentName="DrugToleranceBase">
-        <defName>ZDrugsTolerance</defName>
+        <defName>BD_ZDrugsTolerance</defName>
         <label>Z-drugs tolerance</label>
         <description>The body's physical adaptation to continuous exposure to Z-drugs. This tolerance itself applies no direct offsets to physical capacities, nor does it affect the drug's sedative factor or hangover duration. It functions purely as a metabolic metric; if chronic abuse allows this tolerance to build up excessively, it breaks down the body's natural resistance, leading directly to a full Z-drugs addiction upon subsequent doses.</description>
         <descriptionHyperlinks>
-            <ThingDef>Sonata</ThingDef>
-            <ThingDef>Ambien</ThingDef>
+            <ThingDef>BD_Sonata</ThingDef>
+            <ThingDef>BD_Ambien</ThingDef>
         </descriptionHyperlinks>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.005</severityPerDay>
             </li>
             <li Class="HediffCompProperties_DrugEffectFactor">
-                <chemical>ZDrugs</chemical>
+                <chemical>BD_ZDrugs</chemical>
             </li>
         </comps>
         <hediffGivers>
@@ -386,18 +381,18 @@
         </hediffGivers>
     </HediffDef>
 
-    <!--=======================중독=================-->
+    
 
     <HediffDef ParentName="AddictionBase">
-        <defName>ZDrugsAddiction</defName>
+        <defName>BD_ZDrugsAddiction</defName>
         <label>Z-drugs addiction</label>
         <description>A chronic addiction where the brain's sleep-wake gateways have been fundamentally altered by Z-drugs. Withdrawal causes a catastrophic spike in sleep depletion due to rebound insomnia, yet the actual efficiency of any rest is severely penalized. Despite profound exhaustion, the mind remains trapped in a warped state of hyper-awareness, suffering from visual distortions, cognitive decay, and horrific waking night terrors.</description>
         <descriptionHyperlinks>
-            <ThingDef>Sonata</ThingDef>
-            <ThingDef>Ambien</ThingDef>
+            <ThingDef>BD_Sonata</ThingDef>
+            <ThingDef>BD_Ambien</ThingDef>
         </descriptionHyperlinks>
         <hediffClass>Hediff_Addiction</hediffClass>
-        <chemicalNeed>Chemical_ZDrugs</chemicalNeed>
+        <chemicalNeed>BD_Chemical_ZDrugs</chemicalNeed>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.045</severityPerDay>
@@ -405,7 +400,7 @@
             </li>
         </comps>
         <stages>
-            <li /> <!-- Stage 0: Satisfied (hidden) -->
+            <li /> 
             <li>
                 <label>withdrawal</label>
                 <painFactor>3</painFactor>
@@ -441,35 +436,34 @@
         </stages>
     </HediffDef>
 
-    <!--벤조디아제핀
-    공통-->
+    
 
     <HediffDef ParentName="DrugToleranceBase">
-        <defName>BenzodiazepinesTolerance</defName>
+        <defName>BD_BenzodiazepinesTolerance</defName>
         <label>benzodiazepines tolerance</label>
         <description>The body's physical adaptation to continuous exposure to benzodiazepines. This tolerance itself applies no direct offsets to physical capacities, nor does it affect the drug's sedative factor or hangover duration. However, if chronic abuse allows this tolerance to build up excessively, it breaks down the body's natural resistance, acting as the direct catalyst that triggers a full benzodiazepine addiction upon subsequent doses.</description>
         <descriptionHyperlinks>
-            <ThingDef>Restoril</ThingDef>
+            <ThingDef>BD_Restoril</ThingDef>
         </descriptionHyperlinks>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.01</severityPerDay>
             </li>
             <li Class="HediffCompProperties_DrugEffectFactor">
-                <chemical>Benzodiazepines</chemical>
+                <chemical>BD_Benzodiazepines</chemical>
             </li>
         </comps>
     </HediffDef>
 
     <HediffDef ParentName="AddictionBase">
-        <defName>BenzodiazepinesAddiction</defName>
+        <defName>BD_BenzodiazepinesAddiction</defName>
         <label>benzodiazepines addiction</label>
         <description>A state of total chemical subordination to benzodiazepine compounds. While functional or placid under the drug's influence, the cessation of intake causes the suppressed neural pathways to hyper-fire simultaneously. This withdrawal state forces the pawn into profound physical tremors, hallucinations, severe panic, and deep clinical depression, leaving them with an incredibly low mental break threshold.</description>
         <descriptionHyperlinks>
-            <ThingDef>Restoril</ThingDef>
+            <ThingDef>BD_Restoril</ThingDef>
         </descriptionHyperlinks>
         <hediffClass>Hediff_Addiction</hediffClass>
-        <chemicalNeed>Chemical_Benzodiazepines</chemicalNeed>
+        <chemicalNeed>BD_Chemical_Benzodiazepines</chemicalNeed>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.03</severityPerDay>
@@ -477,7 +471,7 @@
             </li>
         </comps>
         <stages>
-            <li /> <!-- Stage 0: Satisfied (hidden) -->
+            <li /> 
             <li>
                 <label>withdrawal</label>
                 <painFactor>2</painFactor>
@@ -491,43 +485,35 @@
         </stages>
     </HediffDef>
 
-    <!--수면제
-    값-->
+    
 
     <HediffDef>
-        <defName>Somnifacientstronghold</defName>
-        <label>Somnifacient accumulation</label>
+        <defName>BD_Somnifacientstronghold</defName>
+        <label>somnifacient accumulation</label>
         <maxSeverity>1.0</maxSeverity>
-        <description>An indicator representing the total accumulated sedative factors within the body. Unlike stimulant accumulation, this metric functions strictly as a backend baseline to track central nervous system suppression without inflicting internal organ damage.\nWhile the presence of Modafinil allows the pawn to completely bypass this metric and prepare for deep sleep immediately, it must still directly outweigh any active Amphetamine factors in the system to successfully unlock the deep sleep ready sequence.</description>
+        <description>Represents the accumulated sedative factor in the body. Recent sedative use raises this value, and sleep-inducing logic compares it against active stimulant accumulation to determine whether deep sleep can be forced successfully.</description>
         <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
-                <severityPerDay>0.0</severityPerDay>
-                <showDaysToRecover>false</showDaysToRecover>
-            </li>
-            <li Class="HediffCompProperties_RemoveIfOtherHediff">
-                <hediffs>
-                    <li>DeepSleep</li>
-                </hediffs>
-                <stages>0</stages>
-                <mtbHours>0.1</mtbHours>
+                <severityPerDay>-0.001</severityPerDay>
+                <showDaysToRecover>true</showDaysToRecover>
             </li>
         </comps>
         <stages>
             <li>
-                <label>saturated</label>
+                <label>present</label>
             </li>
         </stages>
     </HediffDef>
 
-
-    <!--깊은잠-->
+    
 
     <HediffDef>
-        <defName>DeepSleep</defName>
+        <defName>BD_DeepSleep</defName>
         <label>Deep Sleep</label>
         <maxSeverity>1.0</maxSeverity>
-        <description>An artificially induced, exceptionally deep comatose sleep state brought on by potent sedatives. Lasting for exactly 6 hours, the pawn's consciousness is forcefully capped at a maximum of 30%, ensuring they cannot be prematurely awoken by external noise, minor disturbances, or pain.\nAs the body enters this profound state of uninhibited rest, the sleep need replenishes at an accelerated rate, while simultaneously purging and clearing all active stimulant and amphetamine factors tearing through the system.</description>
+        <description>An artificially induced, exceptionally deep comatose sleep state brought on by potent sedatives. Lasting for exactly 6 hours, the pawn's consciousness is forcefully capped at a maximum of 30%, ensuring they cannot be prematurely awoken by external noise, minor disturbances, or pain.\nAs the body enters this profound state of uninhibited rest, the sleep need replenishes at an accelerated rate, while simultaneously purging and clearing all active stimulant factors tearing through the system.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">

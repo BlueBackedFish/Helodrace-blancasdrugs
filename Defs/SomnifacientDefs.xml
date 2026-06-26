@@ -2,22 +2,22 @@
 <Defs>
     <!--엠비엔
 	띵 정의-->
-    <ThingDef ParentName="BlancasDrugBase">
-        <defName>Ambien</defName>
+    <ThingDef ParentName="BD_BlancasDrugBase">
+        <defName>BD_Ambien</defName>
         <label>ambien</label>
         <description>A fast-acting non-benzodiazepine (Z-drug) sedative designed for rapid sleep induction. Upon ingestion, it introduces a sedative factor of 2 to promptly quiet the nervous system. Compared to heavy benzodiazepines, its hangover duration is limited to just 12 hours, allowing a much faster return to daily routines.\nWhile providing a cozy, moderate mood boost upon use, the sedative factor must still outweigh the pawn's active stimulant factors to successfully trigger the deep sleep sequence.</description>
         <category>Item</category>
 
         <descriptionHyperlinks>
-            <HediffDef>AmbienHigh</HediffDef>
-            <HediffDef>ZDrugsTolerance</HediffDef>
-            <HediffDef>ZDrugsAddiction</HediffDef>
+            <HediffDef>BD_AmbienHigh</HediffDef>
+            <HediffDef>BD_ZDrugsTolerance</HediffDef>
+            <HediffDef>BD_ZDrugsAddiction</HediffDef>
         </descriptionHyperlinks>
 
         <thingClass>ThingWithComps</thingClass>
         <comps>
             <li Class="CompProperties_Drug">
-                <chemical>ZDrugs</chemical>
+                <chemical>BD_ZDrugs</chemical>
                 <addictiveness>0.1</addictiveness>
                 <minToleranceToAddict>0.80</minToleranceToAddict>
                 <existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
@@ -32,11 +32,11 @@
             <recipeUsers>
                 <li>DrugLab</li>
             </recipeUsers>
-            <researchPrerequisite>HelodBlancaAdvancedSomnifacients</researchPrerequisite>
+            <researchPrerequisite>BD_HelodBlancaAdvancedSomnifacients</researchPrerequisite>
         </recipeMaker>
 
         <graphicData>
-            <texPath>Things/Item/Drug/Ambien</texPath>
+            <texPath>Things/Item/Drug/BD_Ambien</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -66,22 +66,22 @@
             <chairSearchRadius>0</chairSearchRadius>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>AmbienHigh</hediffDef>
+                    <hediffDef>BD_AmbienHigh</hediffDef>
                     <severity>1.0</severity>
                 </li>
 
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>AmbienSleep</hediffDef>
+                    <hediffDef>BD_AmbienSleep</hediffDef>
                     <severity>1.0</severity>
                 </li>
 
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>Somnifacientstronghold</hediffDef>
+                    <hediffDef>BD_Somnifacientstronghold</hediffDef>
                     <severity>0.2</severity>
                 </li>
 
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>ZDrugsTolerance</hediffDef>
+                    <hediffDef>BD_ZDrugsTolerance</hediffDef>
                     <severity>0.1</severity>
                     <divideByBodySize>true</divideByBodySize>
                     <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
@@ -92,22 +92,22 @@
 
     <!--소나타
 	띵 정의-->
-    <ThingDef ParentName="BlancasDrugBase">
-        <defName>Sonata</defName>
+    <ThingDef ParentName="BD_BlancasDrugBase">
+        <defName>BD_Sonata</defName>
         <label>sonata</label>
         <description>An ultra-fast-acting non-benzodiazepine (Z-drug) sedative. Upon ingestion, it introduces a sedative factor of 1 to promptly quiet the nervous system. While its 8-hour hangover duration is the shortest among all sedatives for a quick recovery, its compressed effective window means the immediate deficit on physical capacities is felt slightly more heavily. It also provides the least amount of mental comfort or mood boost.\nDue to its low sedative factor of 1, it will successfully trigger the deep sleep sequence only when the pawn's active stimulant levels are exceptionally low.</description>
         <category>Item</category>
 
         <descriptionHyperlinks>
-            <HediffDef>SonataHigh</HediffDef>
-            <HediffDef>ZDrugsTolerance</HediffDef>
-            <HediffDef>ZDrugsAddiction</HediffDef>
+            <HediffDef>BD_SonataHigh</HediffDef>
+            <HediffDef>BD_ZDrugsTolerance</HediffDef>
+            <HediffDef>BD_ZDrugsAddiction</HediffDef>
         </descriptionHyperlinks>
 
         <thingClass>ThingWithComps</thingClass>
         <comps>
             <li Class="CompProperties_Drug">
-                <chemical>ZDrugs</chemical>
+                <chemical>BD_ZDrugs</chemical>
                 <addictiveness>0.05</addictiveness>
                 <minToleranceToAddict>0.80</minToleranceToAddict>
                 <existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
@@ -122,11 +122,11 @@
             <recipeUsers>
                 <li>DrugLab</li>
             </recipeUsers>
-            <researchPrerequisite>HelodBlancaAdvancedSomnifacients</researchPrerequisite>
+            <researchPrerequisite>BD_HelodBlancaAdvancedSomnifacients</researchPrerequisite>
         </recipeMaker>
 
         <graphicData>
-            <texPath>Things/Item/Drug/Sonata</texPath>
+            <texPath>Things/Item/Drug/BD_Sonata</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -156,23 +156,23 @@
             <chairSearchRadius>0</chairSearchRadius>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>SonataHigh</hediffDef>
+                    <hediffDef>BD_SonataHigh</hediffDef>
                     <severity>1.0</severity>
                 </li>
 
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>SonataSleep</hediffDef>
+                    <hediffDef>BD_SonataSleep</hediffDef>
                     <severity>1.0</severity>
                 </li>
 
 
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>Somnifacientstronghold</hediffDef>
+                    <hediffDef>BD_Somnifacientstronghold</hediffDef>
                     <severity>0.1</severity>
                 </li>
 
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>ZDrugsTolerance</hediffDef>
+                    <hediffDef>BD_ZDrugsTolerance</hediffDef>
                     <severity>0.07</severity>
                     <divideByBodySize>true</divideByBodySize>
                     <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
@@ -183,22 +183,22 @@
 
     <!--레스트릴
 	띵 정의-->
-    <ThingDef ParentName="BlancasDrugBase">
-        <defName>Restoril</defName>
+    <ThingDef ParentName="BD_BlancasDrugBase">
+        <defName>BD_Restoril</defName>
         <label>restoril</label>
-        <description>A potent benzodiazepine-based sedative and sleep inducer. Upon ingestion, it introduces a sedative factor of 4 to forcefully suppress the central nervous system. While highly effective at calming jittery nerves and forcing a pawn to bed, it leaves behind a heavy, lingering 'hangover' effect that persists for a full 24 hours. As it possesses the longest hangover duration among all sedatives, a pawn will remain severely impaired for a whole day.\nThe sleep-inducing mechanism triggers successfully only when the sedative factor outweighs the pawn's current Amphetamine Factor; if the pawn is too heavily stimulated, the drug may fail to bring about proper sleep.</description>
+        <description>A potent benzodiazepine-based sedative and sleep inducer. Upon ingestion, it introduces a sedative factor of 4 to forcefully suppress the central nervous system. While highly effective at calming jittery nerves and forcing a pawn to bed, it leaves behind a heavy, lingering 'hangover' effect that persists for a full 24 hours. As it possesses the longest hangover duration among all sedatives, a pawn will remain severely impaired for a whole day.\nThe sleep-inducing mechanism triggers successfully only when the sedative factor outweighs the pawn's current Stimulant Factor; if the pawn is too heavily stimulated, the drug may fail to bring about proper sleep.</description>
         <category>Item</category>
 
         <descriptionHyperlinks>
-            <HediffDef>RestorilHigh</HediffDef>
-            <HediffDef>BenzodiazepinesTolerance</HediffDef>
-            <HediffDef>BenzodiazepinesAddiction</HediffDef>
+            <HediffDef>BD_RestorilHigh</HediffDef>
+            <HediffDef>BD_BenzodiazepinesTolerance</HediffDef>
+            <HediffDef>BD_BenzodiazepinesAddiction</HediffDef>
         </descriptionHyperlinks>
 
         <thingClass>ThingWithComps</thingClass>
         <comps>
             <li Class="CompProperties_Drug">
-                <chemical>Benzodiazepines</chemical>
+                <chemical>BD_Benzodiazepines</chemical>
                 <addictiveness>0.15</addictiveness>
                 <minToleranceToAddict>0.80</minToleranceToAddict>
                 <existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
@@ -213,11 +213,11 @@
             <recipeUsers>
                 <li>DrugLab</li>
             </recipeUsers>
-            <researchPrerequisite>HelodBlancaAdvancedSomnifacients</researchPrerequisite>
+            <researchPrerequisite>BD_HelodBlancaAdvancedSomnifacients</researchPrerequisite>
         </recipeMaker>
 
         <graphicData>
-            <texPath>Things/Item/Drug/Restoril</texPath>
+            <texPath>Things/Item/Drug/BD_Restoril</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -247,19 +247,19 @@
             <chairSearchRadius>0</chairSearchRadius>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>RestorilHigh</hediffDef>
+                    <hediffDef>BD_RestorilHigh</hediffDef>
                     <severity>1.0</severity>
                 </li>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>RestorilSleep</hediffDef>
+                    <hediffDef>BD_RestorilSleep</hediffDef>
                     <severity>1.0</severity>
                 </li>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>Somnifacientstronghold</hediffDef>
+                    <hediffDef>BD_Somnifacientstronghold</hediffDef>
                     <severity>0.4</severity>
                 </li>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>BenzodiazepinesTolerance</hediffDef>
+                    <hediffDef>BD_BenzodiazepinesTolerance</hediffDef>
                     <severity>0.12</severity>
                     <divideByBodySize>true</divideByBodySize>
                     <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>

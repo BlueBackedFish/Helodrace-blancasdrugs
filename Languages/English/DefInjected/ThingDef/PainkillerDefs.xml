@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <Morphine.label>morphine</Morphine.label>
-  <Morphine.description></Morphine.description>
-  <Morphine.ingestCommandString>Inject {0}</Morphine.ingestCommandString>
-  <Morphine.ingestReportString>Injecting {0}.</Morphine.ingestReportString>
+  <BD_Morphine.label>morphine</BD_Morphine.label>
+  <BD_Morphine.description></BD_Morphine.description>
+  <BD_Morphine.ingestCommandString>Inject {0}</BD_Morphine.ingestCommandString>
+  <BD_Morphine.ingestReportString>Injecting {0}.</BD_Morphine.ingestReportString>
 
-  <Fentanyl.label>fentanyl</Fentanyl.label>
-  <Fentanyl.description></Fentanyl.description>
-  <Fentanyl.ingestCommandString>Inject {0}</Fentanyl.ingestCommandString>
-  <Fentanyl.ingestReportString>Injecting {0}.</Fentanyl.ingestReportString>
+  <BD_Fentanyl.label>fentanyl</BD_Fentanyl.label>
+  <BD_Fentanyl.description></BD_Fentanyl.description>
+  <BD_Fentanyl.ingestCommandString>Inject {0}</BD_Fentanyl.ingestCommandString>
+  <BD_Fentanyl.ingestReportString>Injecting {0}.</BD_Fentanyl.ingestReportString>
 
-  <Ketamine.label>ketamine</Ketamine.label>
-  <Ketamine.description></Ketamine.description>
-  <Ketamine.ingestCommandString>Inject {0}</Ketamine.ingestCommandString>
-  <Ketamine.ingestReportString>Injecting {0}.</Ketamine.ingestReportString>
+  <BD_Ketamine.label>ketamine</BD_Ketamine.label>
+  <BD_Ketamine.description></BD_Ketamine.description>
+  <BD_Ketamine.ingestCommandString>Inject {0}</BD_Ketamine.ingestCommandString>
+  <BD_Ketamine.ingestReportString>Injecting {0}.</BD_Ketamine.ingestReportString>
+
+  <BD_Laudanum.label>laudanum</BD_Laudanum.label>
+  <BD_Laudanum.description></BD_Laudanum.description>
+  <BD_Laudanum.ingestCommandString>Drink {0}</BD_Laudanum.ingestCommandString>
+  <BD_Laudanum.ingestReportString>Drinking {0}.</BD_Laudanum.ingestReportString>
 </LanguageData>

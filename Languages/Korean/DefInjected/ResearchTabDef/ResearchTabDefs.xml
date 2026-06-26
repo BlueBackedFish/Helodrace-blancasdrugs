@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <HelodTechTab.label>헤로드 기술</HelodTechTab.label>
+  <BlancaResearchTab.label>블랑카의 약물</BlancaResearchTab.label>
+  <BD_HelodTechTab.label>헤로드 기술</BD_HelodTechTab.label>
 </LanguageData>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <Ambien.label>ambien</Ambien.label>
-  <Ambien.description></Ambien.description>
-  <Ambien.ingestCommandString>Take {0}</Ambien.ingestCommandString>
-  <Ambien.ingestReportString>Taking {0}.</Ambien.ingestReportString>
+  <BD_Ambien.label>ambien</BD_Ambien.label>
+  <BD_Ambien.description></BD_Ambien.description>
+  <BD_Ambien.ingestCommandString>Take {0}</BD_Ambien.ingestCommandString>
+  <BD_Ambien.ingestReportString>Taking {0}.</BD_Ambien.ingestReportString>
 
-  <Sonata.label>sonata</Sonata.label>
-  <Sonata.description></Sonata.description>
-  <Sonata.ingestCommandString>Take {0}</Sonata.ingestCommandString>
-  <Sonata.ingestReportString>Taking {0}.</Sonata.ingestReportString>
+  <BD_Sonata.label>sonata</BD_Sonata.label>
+  <BD_Sonata.description></BD_Sonata.description>
+  <BD_Sonata.ingestCommandString>Take {0}</BD_Sonata.ingestCommandString>
+  <BD_Sonata.ingestReportString>Taking {0}.</BD_Sonata.ingestReportString>
 
-  <Restoril.label>restoril</Restoril.label>
-  <Restoril.description></Restoril.description>
-  <Restoril.ingestCommandString>Take {0}</Restoril.ingestCommandString>
-  <Restoril.ingestReportString>Taking {0}.</Restoril.ingestReportString>
+  <BD_Restoril.label>restoril</BD_Restoril.label>
+  <BD_Restoril.description></BD_Restoril.description>
+  <BD_Restoril.ingestCommandString>Take {0}</BD_Restoril.ingestCommandString>
+  <BD_Restoril.ingestReportString>Taking {0}.</BD_Restoril.ingestReportString>
 </LanguageData>

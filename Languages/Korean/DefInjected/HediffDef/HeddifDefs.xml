@@ -1,57 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
-  <DesoxynHigh.label>데소신 효과</DesoxynHigh.label>
-  <DesoxynHigh.description>체내에 데소신 성분이 활성화된 상태입니다. 초기에는 중추신경계가 극도로 각성되어 의식과 신체 기능이 크게 향상되고 피로와 고통을 잊지만, 자극 효과가 끝나면 신경 전달 물질의 고갈로 인해 극심한 무기력증, 구토, 정신적 취약성을 동반하는 '붕괴(Crash)' 상태에 빠집니다. 완전히 회복되기 전까지 신체적, 정신적으로 매우 불안정해집니다.</DesoxynHigh.description>
-  <DesoxynHigh.stages.0.label>무기력증</DesoxynHigh.stages.0.label>
-  <DesoxynHigh.stages.1.label>각성</DesoxynHigh.stages.1.label>
+  <BD_DesoxynHigh.label>데소신 효과</BD_DesoxynHigh.label>
+  <BD_DesoxynHigh.labelNoun>데소신 효과</BD_DesoxynHigh.labelNoun>
+  <BD_DesoxynHigh.description>체내에 데소신 성분이 활성화된 상태입니다. 초기에는 중추신경계가 극도로 각성되어 의식과 신체 기능이 크게 향상되고 피로와 고통을 잊지만, 자극 효과가 끝나면 신경 전달 물질의 고갈로 인해 극심한 무기력증, 구토, 정신적 취약성을 동반하는 '붕괴(Crash)' 상태에 빠집니다. 완전히 회복되기 전까지 신체적, 정신적으로 매우 불안정해집니다.</BD_DesoxynHigh.description>
+  <BD_DesoxynHigh.stages.0.label>무기력증</BD_DesoxynHigh.stages.0.label>
+  <BD_DesoxynHigh.stages.1.label>각성</BD_DesoxynHigh.stages.1.label>
 
-  <BenzedrineHigh.label>벤제드린 효과</BenzedrineHigh.label>
-  <BenzedrineHigh.description>체내에 벤제드린 성분이 활성화된 상태입니다. 초기에는 신경계가 각성되어 의식과 감각, 신체 제어력이 약간 향상되고 허기와 수면 요구가 줄어들지만, 약효가 끝나면 신경 전달 물질이 소모되면서 무기력증, 구토, 감정적 불안정을 동반하는 '붕괴(Crash)' 상태를 겪게 됩니다. 데소신보다는 부작용의 강도가 낮으나 여전히 주의가 필요합니다.</BenzedrineHigh.description>
-  <BenzedrineHigh.stages.0.label>무기력증</BenzedrineHigh.stages.0.label>
-  <BenzedrineHigh.stages.1.label>각성</BenzedrineHigh.stages.1.label>
+  <BD_BenzedrineHigh.label>벤제드린 효과</BD_BenzedrineHigh.label>
+  <BD_BenzedrineHigh.labelNoun>벤제드린 효과</BD_BenzedrineHigh.labelNoun>
+  <BD_BenzedrineHigh.description>체내에 벤제드린 성분이 활성화된 상태입니다. 초기에는 신경계가 각성되어 의식과 감각, 신체 제어력이 약간 향상되고 허기와 수면 요구가 줄어들지만, 약효가 끝나면 신경 전달 물질이 소모되면서 무기력증, 구토, 감정적 불안정을 동반하는 '붕괴(Crash)' 상태를 겪게 됩니다. 데소신보다는 부작용의 강도가 낮으나 여전히 주의가 필요합니다.</BD_BenzedrineHigh.description>
+  <BD_BenzedrineHigh.stages.0.label>무기력증</BD_BenzedrineHigh.stages.0.label>
+  <BD_BenzedrineHigh.stages.1.label>각성</BD_BenzedrineHigh.stages.1.label>
 
-  <DexedrineHigh.label>덱세드린 효과</DexedrineHigh.label>
-  <DexedrineHigh.description>체내에 덱세드린 성분이 활성화된 상태입니다. 초기에는 각성 효과를 통해 의식과 신체 제어력이 향상되고 허기와 수면 요구가 억제되지만, 고통 완화 효과는 다른 암페타민 계열에 비해 제한적입니다. 약효가 다한 뒤에는 20시간 동안 '붕괴(Crash)' 상태를 겪으며 신체적 무기력증과 구토를 유발하지만, 감정적인 동요나 난폭한 충동은 거의 일어나지 않아 비교적 안정적인 관리가 가능합니다.</DexedrineHigh.description>
-  <DexedrineHigh.stages.0.label>무기력증</DexedrineHigh.stages.0.label>
-  <DexedrineHigh.stages.1.label>각성</DexedrineHigh.stages.1.label>
+  <BD_DexedrineHigh.label>덱세드린 효과</BD_DexedrineHigh.label>
+  <BD_DexedrineHigh.labelNoun>덱세드린 효과</BD_DexedrineHigh.labelNoun>
+  <BD_DexedrineHigh.description>체내에 덱세드린 성분이 활성화된 상태입니다. 초기에는 각성 효과를 통해 의식과 신체 제어력이 향상되고 허기와 수면 요구가 억제되지만, 고통 완화 효과는 다른 암페타민 계열에 비해 제한적입니다. 약효가 다한 뒤에는 20시간 동안 '붕괴(Crash)' 상태를 겪으며 신체적 무기력증과 구토를 유발하지만, 감정적인 동요나 난폭한 충동은 거의 일어나지 않아 비교적 안정적인 관리가 가능합니다.</BD_DexedrineHigh.description>
+  <BD_DexedrineHigh.stages.0.label>무기력증</BD_DexedrineHigh.stages.0.label>
+  <BD_DexedrineHigh.stages.1.label>각성</BD_DexedrineHigh.stages.1.label>
 
-  <AmphetaminesTolerance.label>암페타민 내성</AmphetaminesTolerance.label>
-  <AmphetaminesTolerance.description>암페타민 계열 약물에 지속적으로 노출되어 신체가 적응한 상태입니다. 내성이 높아질수록 약물로 얻는 자극제 효과의 효율과 지속 시간이 감소하며, 원하는 효과를 보기 위해 더 많은 양의 약물을 찾게 만들어 과다복용의 위험성을 높입니다.</AmphetaminesTolerance.description>
+  <BD_AmphetaminesTolerance.label>암페타민 내성</BD_AmphetaminesTolerance.label>
+  <BD_AmphetaminesTolerance.description>암페타민 계열 약물에 지속적으로 노출되어 신체가 적응한 상태입니다. 내성이 높아질수록 약물로 얻는 자극제 효과의 효율과 지속 시간이 감소하며, 원하는 효과를 보기 위해 더 많은 양의 약물을 찾게 만들어 과다복용의 위험성을 높입니다.</BD_AmphetaminesTolerance.description>
 
-  <AmphetaminesAddiction.label>암페타민 중독</AmphetaminesAddiction.label>
-  <AmphetaminesAddiction.description>체내의 화학적 균형이 암페타민 계열 약물에 완전히 지배당한 상태입니다. 주기적으로 암페타민을 복용하지 않으면 도파민 체계가 완전히 붕괴하여 극심한 우울증, 신체 능력 저하, 그리고 강력한 금단 현상을 겪게 됩니다.</AmphetaminesAddiction.description>
-  <AmphetaminesAddiction.stages.1.label>금단 현상</AmphetaminesAddiction.stages.1.label>
+  <BD_AmphetaminesAddiction.label>암페타민 중독</BD_AmphetaminesAddiction.label>
+  <BD_AmphetaminesAddiction.description>체내의 화학적 균형이 암페타민 계열 약물에 완전히 지배당한 상태입니다. 주기적으로 암페타민을 복용하지 않으면 도파민 체계가 완전히 붕괴하여 극심한 우울증, 신체 능력 저하, 그리고 강력한 금단 현상을 겪게 됩니다.</BD_AmphetaminesAddiction.description>
+  <BD_AmphetaminesAddiction.stages.1.label>금단 현상</BD_AmphetaminesAddiction.stages.1.label>
 
-  <AmphetaminesRecovery.label>암페타민 회복기</AmphetaminesRecovery.label>
-  <AmphetaminesRecovery.description>암페타민 계열 약물의 끔찍한 붕괴(Crash) 상태를 버텨내고 신경계가 마침내 안정기로 접어든 상태입니다. 극심한 부작용은 가라앉았지만, 폭주했던 뇌와 육체가 정상적인 화학적 균형을 되찾기 위해 재조정 과정을 거치고 있습니다. 이 상태가 끝나면 비로소 누적되었던 암페타민 계수가 완전히 초기화됩니다.</AmphetaminesRecovery.description>
+  <BD_AmphetaminesRecovery.label>암페타민 회복기</BD_AmphetaminesRecovery.label>
+  <BD_AmphetaminesRecovery.description>각성제 계열 약물의 끔찍한 붕괴(Crash) 상태를 버텨내고 신경계가 마침내 안정기로 접어든 상태입니다. 극심한 부작용은 가라앉았지만, 폭주했던 뇌와 육체가 정상적인 화학적 균형을 되찾기 위해 재조정 과정을 거치고 있습니다. 이 상태가 끝나면 비로소 누적되었던 각성제 계수가 완전히 초기화됩니다.</BD_AmphetaminesRecovery.description>
 
-  <Amphetaminesstronghold.label>암페타민 축적</Amphetaminesstronghold.label>
-  <Amphetaminesstronghold.description>체내에 누적된 암페타민 계수와 중추신경계의 과부하 정도를 나타냅니다. 약물을 연속으로 복용할수록 이 수치가 상승하며, 6.5 이상이 되는 순간 신경계와 심혈관계가 버티지 못해 치명적인 심장마비나 영구적인 뇌 손상을 유발하는 과다복용 상태에 빠집니다.\n또한, 이 축적치로 인한 강렬한 각성 상태를 강제로 진정시키고 붕괴(Crash) 상태를 상쇄하려면, 현재 암페타민 축적 수치 이상의 강도를 가진 수면제 계수가 체내에 누적되어야만 수면제 효과가 활성화됩니다.</Amphetaminesstronghold.description>
-  <Amphetaminesstronghold.stages.0.label>안전</Amphetaminesstronghold.stages.0.label>
-  <Amphetaminesstronghold.stages.1.label>과다복용</Amphetaminesstronghold.stages.1.label>
+  <BD_StimulantStronghold.label>각성제 축적</BD_StimulantStronghold.label>
+  <BD_StimulantStronghold.description>체내에 누적된 각성제 계수와 중추신경계의 과부하 정도를 나타냅니다. 약물을 연속으로 복용할수록 이 수치가 상승하며, 6.5 이상이 되는 순간 신경계와 심혈관계가 버티지 못해 치명적인 심장마비나 영구적인 뇌 손상을 유발하는 과다복용 상태에 빠집니다.\n또한, 이 축적치로 인한 강렬한 각성 상태를 강제로 진정시키고 붕괴(Crash) 상태를 상쇄하려면, 현재 각성제 축적 수치 이상의 강도를 가진 수면제 계수가 체내에 누적되어야만 수면제 효과가 활성화됩니다.</BD_StimulantStronghold.description>
+  <BD_StimulantStronghold.stages.0.label>안전</BD_StimulantStronghold.stages.0.label>
+  <BD_StimulantStronghold.stages.1.label>과다복용</BD_StimulantStronghold.stages.1.label>
 
-  <ModafinilHigh.label>모다피닐 효과</ModafinilHigh.label>
-  <ModafinilHigh.description>체내에 모다피닐 성분이 활성화된 상태입니다. 초기에는 의식이나 운동 능력의 변화 없이 수면과 허기 요구만 안정적으로 억제됩니다. 약효가 만료되면 10시간 동안 '붕괴(Crash)' 상태로 전환되어 신체 기능이 미미하게 저하되고 수면 소모 속도가 빨라지며 낮은 확률로 구토를 유발하지만, 감정적 동요나 심각한 정신적 취약성은 발생하지 않습니다.</ModafinilHigh.description>
-  <ModafinilHigh.stages.0.label>피로</ModafinilHigh.stages.0.label>
-  <ModafinilHigh.stages.1.label>각성</ModafinilHigh.stages.1.label>
+  <BD_ModafinilHigh.label>모다피닐 효과</BD_ModafinilHigh.label>
+  <BD_ModafinilHigh.labelNoun>모다피닐 효과</BD_ModafinilHigh.labelNoun>
+  <BD_ModafinilHigh.description>체내에 모다피닐 성분이 활성화된 상태입니다. 초기에는 의식이나 운동 능력의 변화 없이 수면과 허기 요구만 안정적으로 억제됩니다. 약효가 만료되면 10시간 동안 '붕괴(Crash)' 상태로 전환되어 신체 기능이 미미하게 저하되고 수면 소모 속도가 빨라지며 낮은 확률로 구토를 유발하지만, 감정적 동요나 심각한 정신적 취약성은 발생하지 않습니다.</BD_ModafinilHigh.description>
+  <BD_ModafinilHigh.stages.0.label>피로</BD_ModafinilHigh.stages.0.label>
+  <BD_ModafinilHigh.stages.1.label>각성</BD_ModafinilHigh.stages.1.label>
 
-  <ModafinilRecovery.label>모다피닐 회복기</ModafinilRecovery.label>
-  <ModafinilRecovery.description>모다피닐의 피로(Crash) 상태가 끝나고 체내에 남아있던 잔류 성분이 완전히 대사되는 과정입니다. 가벼운 피로감 외에 심각한 부작용은 모두 사라졌으며, 신경계와 심혈관계가 정상적인 균형을 되찾기 위해 재조정 단계를 거치고 있습니다. 이 상태가 만료되면 누적되었던 모다피닐 축적치가 완전히 초기화됩니다.</ModafinilRecovery.description>
+  <BD_ModafinilRecovery.label>모다피닐 회복기</BD_ModafinilRecovery.label>
+  <BD_ModafinilRecovery.description>모다피닐의 피로(Crash) 상태가 끝나고 체내에 남아있던 잔류 성분이 완전히 대사되는 과정입니다. 가벼운 피로감 외에 심각한 부작용은 모두 사라졌으며, 신경계와 심혈관계가 정상적인 균형을 되찾기 위해 재조정 단계를 거치고 있습니다. 이 상태가 만료되면 누적되었던 모다피닐 축적치가 완전히 초기화됩니다.</BD_ModafinilRecovery.description>
 
-  <ModafinilTolerance.label>모다피닐 내성</ModafinilTolerance.label>
-  <ModafinilTolerance.description>모다피닐 성분에 지속적으로 노출되어 신체가 적응한 상태입니다. 내성이 높아질수록 모다피닐로 얻는 수면 및 허기 억제 효과의 효율과 지속 시간이 감소합니다. 중독을 유발하지는 않지만, 원하는 각성 효과를 보기 위해 더 자주 복용하게 만들어 '모다피닐 축적치'를 위험 수준까지 빠르게 올리는 주원인이 됩니다.</ModafinilTolerance.description>
+  <BD_ModafinilTolerance.label>모다피닐 내성</BD_ModafinilTolerance.label>
+  <BD_ModafinilTolerance.description>모다피닐 성분에 지속적으로 노출되어 신체가 적응한 상태입니다. 내성이 높아질수록 모다피닐로 얻는 수면 및 허기 억제 효과의 효율과 지속 시간이 감소합니다. 중독을 유발하지는 않지만, 원하는 각성 효과를 보기 위해 더 자주 복용하게 만들어 '모다피닐 축적치'를 위험 수준까지 빠르게 올리는 주원인이 됩니다.</BD_ModafinilTolerance.description>
 
-  <Modafinilstronghold.label>모다피닐 축적</Modafinilstronghold.label>
-  <Modafinilstronghold.description>체내에 누적된 모다피닐 계수와 심혈관계의 부담을 나타냅니다. 중독성은 없지만 단기간에 연속으로 복용할수록 이 전용 축적치가 상승합니다. 이 수치가 안전 한계선인 8.5 이상에 도달하는 순간, 각성 성분을 버티지 못한 심장에 극심한 과부하가 걸려 치명적인 심장마비를 유발할 수 있습니다. 다음 복용 전까지 신체가 성분을 완전히 대사할 시간을 주어야 합니다.</Modafinilstronghold.description>
-  <Modafinilstronghold.stages.0.label>안전</Modafinilstronghold.stages.0.label>
-  <Modafinilstronghold.stages.1.label>과다복용 위험</Modafinilstronghold.stages.1.label>
+  <BD_Modafinilstronghold.label>모다피닐 축적</BD_Modafinilstronghold.label>
+  <BD_Modafinilstronghold.description>체내에 누적된 모다피닐 계수와 심혈관계의 부담을 나타냅니다. 중독성은 없지만 단기간에 연속으로 복용할수록 이 전용 축적치가 상승합니다. 이 수치가 안전 한계선인 8.5 이상에 도달하는 순간, 각성 성분을 버티지 못한 심장에 극심한 과부하가 걸려 치명적인 심장마비를 유발할 수 있습니다. 다음 복용 전까지 신체가 성분을 완전히 대사할 시간을 주어야 합니다.</BD_Modafinilstronghold.description>
+  <BD_Modafinilstronghold.stages.0.label>안전</BD_Modafinilstronghold.stages.0.label>
+  <BD_Modafinilstronghold.stages.1.label>과다복용 위험</BD_Modafinilstronghold.stages.1.label>
 
-  <ColaHigh.label>콜라 효과</ColaHigh.label>
-  <ColaHigh.description>콜라에 들어있는 설탕과 카페인이 체내에 흡수된 상태입니다. 기분이 약간 고양되고 의식이 미미하게 맑아지며 피로가 아주 조금 덜 쌓입니다. 부작용 없이 금방 대사되어 사라집니다.</ColaHigh.description>
-  <ColaHigh.stages.0.label>좋은 맛</ColaHigh.stages.0.label>
+  <BD_ColaHigh.label>콜라 효과</BD_ColaHigh.label>
+  <BD_ColaHigh.labelNoun>콜라 효과</BD_ColaHigh.labelNoun>
+  <BD_ColaHigh.description>콜라에 들어있는 설탕과 카페인이 체내에 흡수된 상태입니다. 기분이 약간 고양되고 의식이 미미하게 맑아지며 피로가 아주 조금 덜 쌓입니다. 부작용 없이 금방 대사되어 사라집니다.</BD_ColaHigh.description>
+  <BD_ColaHigh.stages.0.label>좋은 맛</BD_ColaHigh.stages.0.label>
 
-  <CaffeineTolerance.label>카페인 내성</CaffeineTolerance.label>
-  <CaffeineTolerance.description>체내가 카페인 성분에 지속적으로 노출되어 적응한 상태입니다. 내성이 높아질수록 콜라 등 카페인 음료를 마셨을 때 얻는 의식 향상과 수면 억제 효과가 체감하기 힘들 정도로 감소합니다. 건강에 직접적인 해를 끼치거나 중독으로 이어지지는 않으며, 일정 기간 카페인 섭취를 중단하면 자연스럽게 사라집니다.</CaffeineTolerance.description>
+  <BD_CaffeineTolerance.label>카페인 내성</BD_CaffeineTolerance.label>
+  <BD_CaffeineTolerance.description>체내가 카페인 성분에 지속적으로 노출되어 적응한 상태입니다. 내성이 높아질수록 콜라 등 카페인 음료를 마셨을 때 얻는 의식 향상과 수면 억제 효과가 체감하기 힘들 정도로 감소합니다. 건강에 직접적인 해를 끼치거나 중독으로 이어지지는 않으며, 일정 기간 카페인 섭취를 중단하면 자연스럽게 사라집니다.</BD_CaffeineTolerance.description>
 
+  <BD_ModafinilAddiction.label>모다피닐 중독</BD_ModafinilAddiction.label>
+  <BD_ModafinilAddiction.description>호환성을 위한 임시 상태입니다. 이 모드에서 모다피닐은 의미 있는 중독을 유발하지 않습니다.</BD_ModafinilAddiction.description>
+
+  <BD_CaffeineAddiction.label>카페인 중독</BD_CaffeineAddiction.label>
+  <BD_CaffeineAddiction.description>호환성을 위한 임시 상태입니다. 이 모드에서 카페인은 의미 있는 중독을 유발하지 않습니다.</BD_CaffeineAddiction.description>
+
+  <BD_CocaineColaHigh.label>코카인 콜라 효과</BD_CocaineColaHigh.label>
+  <BD_CocaineColaHigh.labelNoun>코카인 콜라 효과</BD_CocaineColaHigh.labelNoun>
+  <BD_CocaineColaHigh.description>코카인 콜라의 성분이 체내에서 작용 중입니다. 초반의 강한 러시는 의식과 움직임을 날카롭게 만들고 피로를 억누르지만, 효과가 빠르게 꺼지면 긴 각성제 붕괴(Crash) 상태로 이어집니다.</BD_CocaineColaHigh.description>
+  <BD_CocaineColaHigh.stages.0.label>붕괴</BD_CocaineColaHigh.stages.0.label>
+  <BD_CocaineColaHigh.stages.1.label>각성</BD_CocaineColaHigh.stages.1.label>
+  <BD_CocaineTolerance.label>코카인 내성</BD_CocaineTolerance.label>
+  <BD_CocaineTolerance.description>반복적인 코카인 노출에 신체가 적응한 상태입니다. 내성이 높아질수록 코카인 콜라의 러시와 유효 각성 시간이 줄어들며, 더 잦은 복용과 코카인 의존의 위험이 커집니다.</BD_CocaineTolerance.description>
+
+  <BD_CocaineAddiction.label>코카인 중독</BD_CocaineAddiction.label>
+  <BD_CocaineAddiction.description>코카인의 빠른 도취감에 심리적으로 의존하는 상태입니다. 정기적으로 복용하지 않으면 공허감, 심한 짜증, 집중력과 신체 제어 능력 저하를 겪습니다.</BD_CocaineAddiction.description>
+  <BD_CocaineAddiction.stages.1.label>금단 현상</BD_CocaineAddiction.stages.1.label>
 </LanguageData>

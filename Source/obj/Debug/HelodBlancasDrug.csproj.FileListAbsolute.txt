@@ -7,3 +7,13 @@ c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Source\obj\Debug\HelodBlanc
 c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Source\obj\Debug\HelodBlancasDrug.csproj.CoreCompileInputs.cache
 c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Source\obj\Debug\HelodBlancasDrug.dll
 c:\Users\human\Desktop\rimworldmod\HelodBlancasDrugs\Source\obj\Debug\HelodBlancasDrug.pdb
+C:\Users\human\Documents\GitHub\Helodrace-blancasdrugs\Assemblies\HelodBlancasDrug.dll
+C:\Users\human\Documents\GitHub\Helodrace-blancasdrugs\Assemblies\HelodBlancasDrug.pdb
+C:\Users\human\Documents\GitHub\Helodrace-blancasdrugs\Source\obj\Debug\HelodBlancasDrug.csproj.AssemblyReference.cache
+C:\Users\human\Documents\GitHub\Helodrace-blancasdrugs\Source\obj\Debug\HelodBlancasDrug.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\human\Documents\GitHub\Helodrace-blancasdrugs\Source\obj\Debug\HelodBlancasDrug.AssemblyInfoInputs.cache
+C:\Users\human\Documents\GitHub\Helodrace-blancasdrugs\Source\obj\Debug\HelodBlancasDrug.AssemblyInfo.cs
+C:\Users\human\Documents\GitHub\Helodrace-blancasdrugs\Source\obj\Debug\HelodBlancasDrug.csproj.CoreCompileInputs.cache
+C:\Users\human\Documents\GitHub\Helodrace-blancasdrugs\Source\obj\Debug\HelodBlancasDrug.sourcelink.json
+C:\Users\human\Documents\GitHub\Helodrace-blancasdrugs\Source\obj\Debug\HelodBlancasDrug.dll
+C:\Users\human\Documents\GitHub\Helodrace-blancasdrugs\Source\obj\Debug\HelodBlancasDrug.pdb

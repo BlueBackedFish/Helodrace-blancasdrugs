@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <MKultra.label>MKultra</MKultra.label>
-  <MKultra.description></MKultra.description>
-  <MKultra.ingestCommandString>Inject {0}</MKultra.ingestCommandString>
-  <MKultra.ingestReportString>Injecting {0}.</MKultra.ingestReportString>
+  <BD_MKultra.label>MKultra</BD_MKultra.label>
+  <BD_MKultra.description></BD_MKultra.description>
+  <BD_MKultra.ingestCommandString>Inject {0}</BD_MKultra.ingestCommandString>
+  <BD_MKultra.ingestReportString>Injecting {0}.</BD_MKultra.ingestReportString>
 </LanguageData>

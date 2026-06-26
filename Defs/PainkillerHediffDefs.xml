@@ -4,13 +4,13 @@
     <!--===================모르핀====================-->
 
     <HediffDef>
-        <defName>MorphineHigh</defName>
+        <defName>BD_MorphineHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>morphine effect</label>
         <labelNoun>a morphine effect</labelNoun>
         <description>The central nervous system is suppressed by Morphine, significantly blunting the transmission of pain signals. Throughout this 12-hour window, perceived pain is reduced to a fraction of its baseline, accompanied by a lazy calmness. While the chemical forces a cap on maximum consciousness and slightly lowers breathing and moving, the pawn retains better physical control compared to Fentanyl usage. If the pawn has accumulated opioid tolerance, the duration of this analgesic state will be reduced.</description>
         <descriptionHyperlinks>
-            <ThingDef>Morphine</ThingDef>
+            <ThingDef>BD_Morphine</ThingDef>
         </descriptionHyperlinks>
         <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
         <scenarioCanAdd>true</scenarioCanAdd>
@@ -47,13 +47,13 @@
     <!--===================펜타닐====================-->
 
     <HediffDef>
-        <defName>FentanylHigh</defName>
+        <defName>BD_FentanylHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>fentanyl effect</label>
         <labelNoun>a fentanyl effect</labelNoun>
         <description>The central nervous system is heavily suppressed by Fentanyl, completely blocking all pain pathways. Throughout this 8-hour window, the pawn is entirely immune to physical agony and experiences a deep sense of relief. However, the heavy sedative effect forces a strict cap on maximum consciousness while degrading breathing functions and moving capacities. If the pawn has accumulated opioid tolerance, the duration of this analgesic state will be reduced.</description>
         <descriptionHyperlinks>
-            <ThingDef>Fentanyl</ThingDef>
+            <ThingDef>BD_Fentanyl</ThingDef>
         </descriptionHyperlinks>
         <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
         <scenarioCanAdd>true</scenarioCanAdd>
@@ -90,13 +90,13 @@
     <!--===================케타민====================-->
 
     <HediffDef>
-        <defName>KetamineHigh</defName>
+        <defName>BD_KetamineHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>ketamine effect</label>
         <labelNoun>a ketamine effect</labelNoun>
         <description>The central nervous system is dissociated by Ketamine, completely severing the perception of pain signals. Throughout this 10-hour window, the pawn is insulated from bodily trauma. While breathing functions remain entirely unaffected, the temporary sensory disconnect forces a cap on maximum consciousness and lowers moving and manipulation capacities. If the pawn has accumulated ketamine tolerance, the duration of this analgesic state will be reduced.</description>
         <descriptionHyperlinks>
-            <ThingDef>Ketamine</ThingDef>
+            <ThingDef>BD_Ketamine</ThingDef>
         </descriptionHyperlinks>
         <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
         <scenarioCanAdd>true</scenarioCanAdd>
@@ -132,16 +132,62 @@
 
     <!--=======================오피오이드 중독 및 내성=================-->
 
+    <HediffDef>
+        <defName>BD_LaudanumHigh</defName>
+        <hediffClass>Hediff_High</hediffClass>
+        <label>laudanum effect</label>
+        <labelNoun>a laudanum effect</labelNoun>
+        <description>Laudanum is active within the system, dulling pain and calming the nerves with a crude opium haze. The effect is shorter and weaker than refined opioid medication, but it still depresses physical control and can be reduced by accumulated opioid tolerance.</description>
+        <descriptionHyperlinks>
+            <ThingDef>BD_Laudanum</ThingDef>
+        </descriptionHyperlinks>
+        <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+        <scenarioCanAdd>true</scenarioCanAdd>
+        <maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-4.0</severityPerDay>
+                <showHoursToRecover>true</showHoursToRecover>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>high</label>
+                <painFactor>0.45</painFactor>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0.95</setMax>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.05</offset>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>-0.05</offset>
+                    </li>
+                    <li>
+                        <capacity>Breathing</capacity>
+                        <offset>-0.10</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
     <HediffDef ParentName="AddictionBase">
-        <defName>OpioidsAddiction</defName>
+        <defName>BD_OpioidsAddiction</defName>
         <label>opioids addiction</label>
         <description>A state of complete neurological subversion where the neural pathways are bound to opioids. When the drug's effects fade and withdrawal sets in, the pawn suffers from phantom agony, full-body fevers, and vomiting, feeling as if their bones are shattering. This process crashes their pain threshold to rock bottom, causing them to collapse from minor scratches, while profound clinical depression paralyzes their ability to function.</description>
         <descriptionHyperlinks>
-            <ThingDef>Morphine</ThingDef>
-            <ThingDef>Fentanyl</ThingDef>
+            <ThingDef>BD_Morphine</ThingDef>
+            <ThingDef>BD_Fentanyl</ThingDef>
+            <ThingDef>BD_Laudanum</ThingDef>
         </descriptionHyperlinks>
         <hediffClass>Hediff_Addiction</hediffClass>
-        <chemicalNeed>Chemical_Opioids</chemicalNeed>
+        <chemicalNeed>BD_Chemical_Opioids</chemicalNeed>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.033</severityPerDay>
@@ -178,19 +224,20 @@
     </HediffDef>
 
     <HediffDef ParentName="DrugToleranceBase">
-        <defName>OpioidsTolerance</defName>
+        <defName>BD_OpioidsTolerance</defName>
         <label>opioids tolerance</label>
         <description>The body's physical adaptation to continuous exposure to opioids. This tolerance itself applies no direct offsets to physical capacities, nor does it decay the raw strength of the pain relief. However, a higher tolerance level accelerates the body's metabolic clearance of the substance, causing a reduction in the duration of the opioid's analgesic effects. Furthermore, if allowed to build up excessively, it acts as the direct catalyst that triggers a full opioid addiction.</description>
         <descriptionHyperlinks>
-            <ThingDef>Morphine</ThingDef>
-            <ThingDef>Fentanyl</ThingDef>
+            <ThingDef>BD_Morphine</ThingDef>
+            <ThingDef>BD_Fentanyl</ThingDef>
+            <ThingDef>BD_Laudanum</ThingDef>
         </descriptionHyperlinks>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.015</severityPerDay>
             </li>
             <li Class="HediffCompProperties_DrugEffectFactor">
-                <chemical>Opioids</chemical>
+                <chemical>BD_Opioids</chemical>
             </li>
         </comps>
     </HediffDef>
@@ -198,14 +245,14 @@
     <!--=======================케타민 중독 및 내성=================-->
 
     <HediffDef ParentName="AddictionBase">
-        <defName>KetamineAddiction</defName>
+        <defName>BD_KetamineAddiction</defName>
         <label>ketamine addiction</label>
         <description>A chronic state where the brain's cognitive faculties and reality-processing circuits are heavily worn down by ketamine. During withdrawal, the brain distorts sensory input, forcing the pawn into severe cognitive dissonance, hallucinations, phantom paralysis, and a loss of spatial orientation. They experience the terrifying sensation of their ego dissolving into a void, chronically degrading consciousness and moving.</description>
         <descriptionHyperlinks>
-            <ThingDef>Ketamine</ThingDef>
+            <ThingDef>BD_Ketamine</ThingDef>
         </descriptionHyperlinks>
         <hediffClass>Hediff_Addiction</hediffClass>
-        <chemicalNeed>Chemical_Ketamine</chemicalNeed>
+        <chemicalNeed>BD_Chemical_Ketamine</chemicalNeed>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.04</severityPerDay>
@@ -235,18 +282,18 @@
     </HediffDef>
 
     <HediffDef ParentName="DrugToleranceBase">
-        <defName>KetamineTolerance</defName>
+        <defName>BD_KetamineTolerance</defName>
         <label>ketamine tolerance</label>
         <description>The body's physical adaptation to continuous exposure to ketamine. This tolerance itself applies no direct offsets to physical capacities, nor does it alter the raw intensity of the dissociative anesthesia. However, as tolerance accumulates, the nervous system adapts to the chemical, forcing a reduction in the duration of ketamine's analgesic and sedative effects. If allowed to build up past the threshold, it serves as the direct trigger for full ketamine addiction.</description>
         <descriptionHyperlinks>
-            <ThingDef>Ketamine</ThingDef>
+            <ThingDef>BD_Ketamine</ThingDef>
         </descriptionHyperlinks>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.02</severityPerDay>
             </li>
             <li Class="HediffCompProperties_DrugEffectFactor">
-                <chemical>KetamineChemical</chemical>
+                <chemical>BD_KetamineChemical</chemical>
             </li>
         </comps>
     </HediffDef>
@@ -254,11 +301,11 @@
     <!--=======================MKultra Aftermath=================-->
 
     <HediffDef>
-        <defName>MKultraConditioning</defName>
+        <defName>BD_MKultraConditioning</defName>
         <label>MKultra conditioning</label>
         <description>A sophisticated cognitive subversion encoded into the depths of the central nervous system via ocular injection. The subject remains entirely unaware that their identity and memories have been altered, firmly believing they are cooperating with the colony of their own free will.\nHowever, the chronic friction between their forced false reality and actual perception causes frequent neurological misfires. This leaves the pawn volatile, prone to sudden mental breaks, and liable to trigger social fights due to erratic, inappropriate behavior during interactions. This psychological lock is completely irreversible.</description>
         <descriptionHyperlinks>
-            <ThingDef>MKultra</ThingDef>
+            <ThingDef>BD_MKultra</ThingDef>
         </descriptionHyperlinks>
         <hediffClass>HediffWithComps</hediffClass>
         <defaultLabelColor>(0.8, 0.8, 0.3)</defaultLabelColor>

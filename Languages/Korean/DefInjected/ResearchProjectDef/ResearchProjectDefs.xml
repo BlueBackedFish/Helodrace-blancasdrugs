@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <HelodBlancaAdvancedPainkillers.label>고급 진통제</HelodBlancaAdvancedPainkillers.label>
-  <HelodBlancaAdvancedPainkillers.description>심각한 부상 상황에서 통증을 극적으로 억제할 수 있는 강력한 오피오이드 및 해리성 진통제들을 연구합니다.</HelodBlancaAdvancedPainkillers.description>
+  <BD_HelodBlancaEarlyNarcotics.label>초기 마약류</BD_HelodBlancaEarlyNarcotics.label>
+  <BD_HelodBlancaEarlyNarcotics.description>라우다넘과 각성제가 섞인 강장 음료처럼, 정제된 현대 의약품으로 발전하기 전의 조악하지만 실용적인 약물 제조법을 연구합니다.</BD_HelodBlancaEarlyNarcotics.description>
 
-  <HelodBlancaAdvancedStimulants.label>고급 각성제</HelodBlancaAdvancedStimulants.label>
-  <HelodBlancaAdvancedStimulants.description>극한의 상황에서도 정착민의 능력을 한계까지 끌어올릴 수 있는 강력한 암페타민 화합물과 각성제들을 연구합니다.</HelodBlancaAdvancedStimulants.description>
+  <BD_HelodBlancaAdvancedPainkillers.label>고급 진통제</BD_HelodBlancaAdvancedPainkillers.label>
+  <BD_HelodBlancaAdvancedPainkillers.description>심각한 부상 상황에서 통증을 극적으로 억제할 수 있는 강력한 오피오이드 및 해리성 진통제들을 연구합니다.</BD_HelodBlancaAdvancedPainkillers.description>
 
-  <HelodBlancaAdvancedSomnifacients.label>고급 수면제</HelodBlancaAdvancedSomnifacients.label>
-  <HelodBlancaAdvancedSomnifacients.description>짧은 시간 안에 효과적으로 수면을 유도하고 피로 회복을 도울 수 있는 현대적인 수면유도제들을 연구합니다.</HelodBlancaAdvancedSomnifacients.description>
+  <BD_HelodBlancaAdvancedStimulants.label>고급 각성제</BD_HelodBlancaAdvancedStimulants.label>
+  <BD_HelodBlancaAdvancedStimulants.description>극한의 상황에서도 정착민의 능력을 한계까지 끌어올릴 수 있는 강력한 암페타민 화합물과 각성제들을 연구합니다.</BD_HelodBlancaAdvancedStimulants.description>
 
-  <HelodBlancaMKultraProject.label>MKultra 프로젝트</HelodBlancaMKultraProject.label>
-  <HelodBlancaMKultraProject.description>정신 약학의 정수이자 금기된 기술입니다. 신경 화학적 세뇌를 통한 자아 정체성 파쇄 및 무조건적인 복종 체계 확립을 연구합니다.</HelodBlancaMKultraProject.description>
+  <BD_HelodBlancaAdvancedSomnifacients.label>고급 수면제</BD_HelodBlancaAdvancedSomnifacients.label>
+  <BD_HelodBlancaAdvancedSomnifacients.description>짧은 시간 안에 효과적으로 수면을 유도하고 피로 회복을 도울 수 있는 현대적인 수면유도제들을 연구합니다.</BD_HelodBlancaAdvancedSomnifacients.description>
+
+  <BD_HelodBlancaMKultraProject.label>MKultra 프로젝트</BD_HelodBlancaMKultraProject.label>
+  <BD_HelodBlancaMKultraProject.description>정신 약학의 정수이자 금기된 기술입니다. 신경 화학적 세뇌를 통한 자아 정체성 파쇄 및 무조건적인 복종 체계 확립을 연구합니다.</BD_HelodBlancaMKultraProject.description>
 </LanguageData>

@@ -2,4 +2,5 @@
 <LanguageData>
     <LetterLabelMKultraRecruit>{0} 포섭됨</LetterLabelMKultraRecruit>
     <LetterMKultraRecruit>{0}의 안구에 MKultra 제제를 주입하여 기저 인식을 개변했습니다.</LetterMKultraRecruit>
+    <MessageMKultraRecruited>{0}이(가) MKultra 세뇌를 통해 포섭되었습니다.</MessageMKultraRecruited>
 </LanguageData>

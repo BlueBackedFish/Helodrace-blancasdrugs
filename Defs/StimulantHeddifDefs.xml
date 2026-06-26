@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 
-    <!--===================데소신====================-->
+    <!--===================?곗냼??===================-->
 
     <HediffDef>
-        <defName>DesoxynHigh</defName>
+        <defName>BD_DesoxynHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>Desoxyn effect</label>
         <labelNoun>a Desoxyn effect</labelNoun>
         <description>Desoxyn is active within the system. Initially, it hyper-stimulates the central nervous system, drastically enhancing consciousness, motor functions, and turning off fatigue and pain. However, once the stimulation wears off, the depletion of neurotransmitters plunges the pawn into a devastating 'Crash' state characterized by extreme lethargy, vomiting, and mental volatility. The body and mind remain highly unstable until fully recovered.</description>
         <descriptionHyperlinks>
-            <ThingDef>Desoxyn</ThingDef>
+            <ThingDef>BD_Desoxyn</ThingDef>
         </descriptionHyperlinks>
         <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
         <scenarioCanAdd>true</scenarioCanAdd>
@@ -23,9 +23,9 @@
                 <showHoursToRecover>true</showHoursToRecover>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_OnRemoval">
-                <hediffToGive>AmphetaminesRecovery</hediffToGive>
+                <hediffToGive>BD_AmphetaminesRecovery</hediffToGive>
                 <hediffsToRemove>
-                    <li>Amphetaminesstronghold</li>
+                    <li>BD_StimulantStronghold</li>
                 </hediffsToRemove>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_ExclusiveGroup">
@@ -37,7 +37,7 @@
             </li>
             <li Class="HediffCompProperties_RemoveIfOtherHediff">
                 <hediffs>
-                    <li>DeepSleep</li>
+                    <li>BD_DeepSleep</li>
                 </hediffs>
                 <stages>0</stages>
                 <mtbHours>0.1</mtbHours>
@@ -45,7 +45,7 @@
         </comps>
         <stages>
 
-            <!--우울해-->
+            <!--?곗슱??-->
             <li>
                 <label>crash</label>
                 <painFactor>1.5</painFactor>
@@ -76,8 +76,8 @@
                 </capMods>
             </li>
 
-            <!--이녀석
-            high한 상태잖아?-->
+            <!--?대???
+            high???곹깭?뽰븘?-->
             <li>
                 <label>high</label>
                 <minSeverity>0.4</minSeverity>
@@ -109,16 +109,16 @@
         </stages>
     </HediffDef>
 
-    <!--벤제드린-->
+    <!--踰ㅼ젣?쒕┛-->
 
     <HediffDef>
-        <defName>BenzedrineHigh</defName>
+        <defName>BD_BenzedrineHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>benzedrine effect</label>
         <labelNoun>a benzedrine effect</labelNoun>
         <description>Benzedrine is active within the system. Initially, it alerts the nervous system, slightly enhancing consciousness, sensory acuity, and motor control while slowing hunger and sleep depletion. Once the drug wears off, the pawn undergoes a 'Crash' state marked by lethargy, vomiting, and emotional instability. Though less severe than a Desoxyn crash, it still demands caution.</description>
         <descriptionHyperlinks>
-            <ThingDef>Benzedrine</ThingDef>
+            <ThingDef>BD_Benzedrine</ThingDef>
         </descriptionHyperlinks>
         <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
         <scenarioCanAdd>true</scenarioCanAdd>
@@ -130,9 +130,9 @@
                 <showHoursToRecover>true</showHoursToRecover>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_OnRemoval">
-                <hediffToGive>AmphetaminesRecovery</hediffToGive>
+                <hediffToGive>BD_AmphetaminesRecovery</hediffToGive>
                 <hediffsToRemove>
-                    <li>Amphetaminesstronghold</li>
+                    <li>BD_StimulantStronghold</li>
                 </hediffsToRemove>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_ExclusiveGroup">
@@ -144,7 +144,7 @@
             </li>
             <li Class="HediffCompProperties_RemoveIfOtherHediff">
                 <hediffs>
-                    <li>DeepSleep</li>
+                    <li>BD_DeepSleep</li>
                 </hediffs>
                 <stages>0</stages>
                 <mtbHours>0.1</mtbHours>
@@ -153,7 +153,7 @@
         <stages>
 
 
-            <!--우울해-->
+            <!--?곗슱??-->
             <li>
                 <label>crash</label>
                 <painFactor>1.2</painFactor>
@@ -184,8 +184,8 @@
                 </capMods>
             </li>
 
-            <!--이녀석
-            high한 상태잖아?-->
+            <!--?대???
+            high???곹깭?뽰븘?-->
             <li>
                 <label>high</label>
                 <minSeverity>0.4</minSeverity>
@@ -217,16 +217,16 @@
         </stages>
     </HediffDef>
 
-    <!--덱세드린-->
+    <!--?깆꽭?쒕┛-->
 
     <HediffDef>
-        <defName>DexedrineHigh</defName>
+        <defName>BD_DexedrineHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>Dexedrine effect</label>
         <labelNoun>a Dexedrine effect</labelNoun>
         <description>Dexedrine is active within the system. Initially, it provides an alert state that enhances consciousness and motor functions while suppressing hunger and sleep depletion, though its pain-dulling capabilities are limited compared to other amphetamines. Once the drug wears off, the pawn undergoes a 20-hour 'Crash' state causing physical lethargy and vomiting; however, emotional volatility and aggressive impulses are minimal, allowing for relatively stable management.</description>
         <descriptionHyperlinks>
-            <ThingDef>Dexedrine</ThingDef>
+            <ThingDef>BD_Dexedrine</ThingDef>
         </descriptionHyperlinks>
         <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
         <scenarioCanAdd>true</scenarioCanAdd>
@@ -238,9 +238,9 @@
                 <showHoursToRecover>true</showHoursToRecover>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_OnRemoval">
-                <hediffToGive>AmphetaminesRecovery</hediffToGive>
+                <hediffToGive>BD_AmphetaminesRecovery</hediffToGive>
                 <hediffsToRemove>
-                    <li>Amphetaminesstronghold</li>
+                    <li>BD_StimulantStronghold</li>
                 </hediffsToRemove>
             </li>
             <li Class="HelodBlancasDrug.HediffCompProperties_ExclusiveGroup">
@@ -252,7 +252,7 @@
             </li>
             <li Class="HediffCompProperties_RemoveIfOtherHediff">
                 <hediffs>
-                    <li>DeepSleep</li>
+                    <li>BD_DeepSleep</li>
                 </hediffs>
                 <stages>0</stages>
                 <mtbHours>0.1</mtbHours>
@@ -260,7 +260,7 @@
         </comps>
         <stages>
 
-            <!--우울해-->
+            <!--?곗슱??-->
             <li>
                 <label>crash</label>
                 <painFactor>1.2</painFactor>
@@ -292,8 +292,8 @@
             </li>
 
 
-            <!--이녀석
-            high한 상태잖아?-->
+            <!--?대???
+            high???곹깭?뽰븘?-->
             <li>
                 <label>high</label>
                 <minSeverity>0.4</minSeverity>
@@ -326,25 +326,125 @@
     </HediffDef>
 
 
-    <!--암페타민공통-->
+    <!--?뷀럹?誘쇨났??-->
 
-    <!--=======================내성=================-->
+    <!--=======================?댁꽦=================-->
+
+    <HediffDef>
+        <defName>BD_CocaineColaHigh</defName>
+        <hediffClass>Hediff_High</hediffClass>
+        <label>cocaine cola effect</label>
+        <labelNoun>a cocaine cola effect</labelNoun>
+        <description>Cocaine cola is active within the system. The initial rush is brief and forceful, sharpening awareness and movement while aggressively suppressing fatigue. Once the spike burns out, the pawn drops into a prolonged stimulant crash with heavy rest drain, irritability, nausea, and dulled physical control.</description>
+        <descriptionHyperlinks>
+            <ThingDef>BD_CocaineCola</ThingDef>
+        </descriptionHyperlinks>
+        <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+        <scenarioCanAdd>true</scenarioCanAdd>
+        <maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.75</severityPerDay>
+                <showHoursToRecover>true</showHoursToRecover>
+            </li>
+            <li Class="HelodBlancasDrug.HediffCompProperties_OnRemoval">
+                <hediffToGive>BD_AmphetaminesRecovery</hediffToGive>
+                <hediffsToRemove>
+                    <li>BD_StimulantStronghold</li>
+                </hediffsToRemove>
+            </li>
+            <li Class="HelodBlancasDrug.HediffCompProperties_ExclusiveGroup">
+                <groupName>AmphetamineHigh</groupName>
+                <stageStrengths>
+                    <li>0</li>
+                    <li>4</li>
+                </stageStrengths>
+            </li>
+            <li Class="HediffCompProperties_RemoveIfOtherHediff">
+                <hediffs>
+                    <li>BD_DeepSleep</li>
+                </hediffs>
+                <stages>0</stages>
+                <mtbHours>0.1</mtbHours>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>crash</label>
+                <painFactor>1.15</painFactor>
+                <vomitMtbDays>1.0</vomitMtbDays>
+                <socialFightChanceFactor>2.5</socialFightChanceFactor>
+                <hungerRateFactorOffset>0.6</hungerRateFactorOffset>
+                <statOffsets>
+                    <RestFallRateFactor>3.0</RestFallRateFactor>
+                    <MentalBreakThreshold>0.15</MentalBreakThreshold>
+                </statOffsets>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.15</offset>
+                    </li>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>-0.10</offset>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.10</offset>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>-0.10</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>high</label>
+                <minSeverity>0.6</minSeverity>
+                <painFactor>0.7</painFactor>
+                <socialFightChanceFactor>2.0</socialFightChanceFactor>
+                <hungerRateFactorOffset>-0.4</hungerRateFactorOffset>
+                <statFactors>
+                    <RestFallRateFactor>0.25</RestFallRateFactor>
+                </statFactors>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.08</offset>
+                    </li>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>0.12</offset>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>0.12</offset>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.08</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
 
     <HediffDef ParentName="DrugToleranceBase">
-        <defName>AmphetaminesTolerance</defName>
+        <defName>BD_AmphetaminesTolerance</defName>
         <label>amphetamines tolerance</label>
         <description>The body's adaptation to continuous exposure to amphetamines. Higher tolerance reduces the efficiency and duration of the stimulant effects, driving the pawn to consume larger doses to achieve the same high, which drastically increases the risk of an overdose.</description>
         <descriptionHyperlinks>
-            <ThingDef>Desoxyn</ThingDef>
-            <ThingDef>Benzedrine</ThingDef>
-            <ThingDef>Dexedrine</ThingDef>
+            <ThingDef>BD_Desoxyn</ThingDef>
+            <ThingDef>BD_Benzedrine</ThingDef>
+            <ThingDef>BD_Dexedrine</ThingDef>
         </descriptionHyperlinks>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.015</severityPerDay>
             </li>
             <li Class="HediffCompProperties_DrugEffectFactor">
-                <chemical>Amphetamines</chemical>
+                <chemical>BD_Amphetamines</chemical>
             </li>
         </comps>
         <hediffGivers>
@@ -364,19 +464,51 @@
         </hediffGivers>
     </HediffDef>
 
-    <!--=======================중독=================-->
+    <HediffDef ParentName="DrugToleranceBase">
+        <defName>BD_CocaineTolerance</defName>
+        <label>cocaine tolerance</label>
+        <description>The body's adaptation to repeated cocaine exposure. Higher tolerance blunts the rush from cocaine cola and shortens its useful stimulant window, pushing the pawn toward more frequent dosing and increasing the risk of developing cocaine dependence.</description>
+        <descriptionHyperlinks>
+            <ThingDef>BD_CocaineCola</ThingDef>
+        </descriptionHyperlinks>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.02</severityPerDay>
+            </li>
+            <li Class="HediffCompProperties_DrugEffectFactor">
+                <chemical>BD_Cocaine</chemical>
+            </li>
+        </comps>
+        <hediffGivers>
+            <li Class="HediffGiver_RandomDrugEffect">
+                <hediff>ChemicalDamageModerate</hediff>
+                <severityToMtbDaysCurve>
+                    <points>
+                        <li>(0.45, 99999)</li>
+                        <li>(0.5, 120)</li>
+                        <li>(1, 90)</li>
+                    </points>
+                </severityToMtbDaysCurve>
+                <partsToAffect>
+                    <li>Brain</li>
+                </partsToAffect>
+            </li>
+        </hediffGivers>
+    </HediffDef>
+
+    <!--=======================以묐룆=================-->
 
     <HediffDef ParentName="AddictionBase">
-        <defName>AmphetaminesAddiction</defName>
+        <defName>BD_AmphetaminesAddiction</defName>
         <label>amphetamines addiction</label>
         <description>A state where the body's chemical balance is entirely dominated by amphetamines. Without regular doses, the dopamine system collapses completely, inducing severe depression, diminished physical capacities, and intense withdrawal symptoms.</description>
         <descriptionHyperlinks>
-            <ThingDef>Desoxyn</ThingDef>
-            <ThingDef>Benzedrine</ThingDef>
-            <ThingDef>Dexedrine</ThingDef>
+            <ThingDef>BD_Desoxyn</ThingDef>
+            <ThingDef>BD_Benzedrine</ThingDef>
+            <ThingDef>BD_Dexedrine</ThingDef>
         </descriptionHyperlinks>
         <hediffClass>Hediff_Addiction</hediffClass>
-        <chemicalNeed>Chemical_Amphetamines</chemicalNeed>
+        <chemicalNeed>BD_Chemical_Amphetamines</chemicalNeed>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.045</severityPerDay>
@@ -420,12 +552,83 @@
         </stages>
     </HediffDef>
 
-    <!--회복-->
+    <HediffDef ParentName="AddictionBase">
+        <defName>BD_CocaineAddiction</defName>
+        <label>cocaine addiction</label>
+        <description>A psychological dependence on cocaine's rapid euphoric surge. Without regular doses, the pawn suffers a hollow dysphoria, severe irritability, and weakened control over movement and attention as the reward system collapses into craving.</description>
+        <descriptionHyperlinks>
+            <ThingDef>BD_CocaineCola</ThingDef>
+        </descriptionHyperlinks>
+        <hediffClass>Hediff_Addiction</hediffClass>
+        <chemicalNeed>BD_Chemical_Cocaine</chemicalNeed>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.04</severityPerDay>
+                <showDaysToRecover>true</showDaysToRecover>
+            </li>
+        </comps>
+        <stages>
+            <li />
+            <li>
+                <label>withdrawal</label>
+                <painFactor>1.5</painFactor>
+                <socialFightChanceFactor>3</socialFightChanceFactor>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.20</offset>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.20</offset>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>-0.15</offset>
+                    </li>
+                </capMods>
+                <mentalStateGivers>
+                    <li>
+                        <mentalState>Binging_DrugExtreme</mentalState>
+                        <mtbDays>35</mtbDays>
+                    </li>
+                    <li>
+                        <mentalState>Wander_Psychotic</mentalState>
+                        <mtbDays>20</mtbDays>
+                    </li>
+                </mentalStateGivers>
+            </li>
+        </stages>
+    </HediffDef>
 
     <HediffDef ParentName="AddictionBase">
-        <defName>AmphetaminesRecovery</defName>
+        <defName>BD_ModafinilAddiction</defName>
+        <label>modafinil addiction</label>
+        <description>Compatibility placeholder. Modafinil is treated as non-addictive by this mod.</description>
+        <hediffClass>Hediff_Addiction</hediffClass>
+        <chemicalNeed>BD_Chemical_Modafinil</chemicalNeed>
+        <stages>
+            <li />
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="AddictionBase">
+        <defName>BD_CaffeineAddiction</defName>
+        <label>caffeine addiction</label>
+        <description>Compatibility placeholder. Caffeine is treated as non-addictive by this mod.</description>
+        <hediffClass>Hediff_Addiction</hediffClass>
+        <chemicalNeed>BD_Chemical_Caffeine</chemicalNeed>
+        <stages>
+            <li />
+        </stages>
+    </HediffDef>
+
+    <!--?뚮났-->
+
+    <HediffDef ParentName="AddictionBase">
+        <defName>BD_AmphetaminesRecovery</defName>
         <label>amphetamines Recovery</label>
-        <description>The neural system is finally stabilizing after enduring the devastating crash of amphetamines. While the acute side effects have subsided, the overstimulated brain and body are undergoing a readjustment period to restore their natural chemical balance. Once this phase concludes, the accumulated amphetamine factor will be fully reset.</description>
+        <description>The neural system is finally stabilizing after enduring the devastating stimulant crash. While the acute side effects have subsided, the overstimulated brain and body are undergoing a readjustment period to restore their natural chemical balance. Once this phase concludes, the accumulated stimulant factor will be fully reset.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <maxSeverity>1.0</maxSeverity>
         <comps>
@@ -435,16 +638,17 @@
             </li>
         </comps>
         <stages>
+            <li />
         </stages>
     </HediffDef>
 
-    <!--교차복용-->
+    <!--援먯감蹂듭슜-->
 
     <HediffDef>
-        <defName>Amphetaminesstronghold</defName>
-        <label>amphetamines accumulation</label>
+        <defName>BD_StimulantStronghold</defName>
+        <label>stimulant accumulation</label>
         <maxSeverity>1.0</maxSeverity>
-        <description>Represents the accumulated Amphetamine Factor and the level of overload on the central nervous system. Consecutive ingestion drives this value higher; the moment it breaches 6.5, the pawn enters a critical overdose state, risking fatal heart attacks or permanent brain damage.\nFurthermore, to suppress this intense hyper-arousal and offset the impending crash, the pawn must accumulate a sedative factor equal to or higher than this current accumulation value for any sleeping aids to take effect.</description>
+        <description>Represents the accumulated Stimulant Factor and the level of overload on the central nervous system. Consecutive ingestion drives this value higher; the moment it breaches 6.5, the pawn enters a critical overdose state, risking fatal heart attacks or permanent brain damage.\nFurthermore, to suppress this intense hyper-arousal and offset the impending crash, the pawn must accumulate a sedative factor equal to or higher than this current accumulation value for any sleeping aids to take effect.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
@@ -482,16 +686,16 @@
         </stages>
     </HediffDef>
 
-    <!--모다피닐-->
+    <!--紐⑤떎?쇰땺-->
 
     <HediffDef>
-        <defName>ModafinilHigh</defName>
+        <defName>BD_ModafinilHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>modafinil effect</label>
         <labelNoun>a Modafinil effect</labelNoun>
         <description></description>
         <descriptionHyperlinks>
-            <ThingDef>Modafinil</ThingDef>
+            <ThingDef>BD_Modafinil</ThingDef>
         </descriptionHyperlinks>
         <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
         <scenarioCanAdd>true</scenarioCanAdd>
@@ -499,9 +703,9 @@
         <isBad>false</isBad>
         <comps>
             <li Class="HelodBlancasDrug.HediffCompProperties_OnRemoval">
-                <hediffToGive>ModafinilRecovery</hediffToGive>
+                <hediffToGive>BD_ModafinilRecovery</hediffToGive>
                 <hediffsToRemove>
-                    <li>Modafinilstronghold</li>
+                    <li>BD_Modafinilstronghold</li>
                 </hediffsToRemove>
             </li>
             <li Class="HediffCompProperties_SeverityPerDay">
@@ -510,7 +714,7 @@
             </li>
             <li Class="HediffCompProperties_RemoveIfOtherHediff">
                 <hediffs>
-                    <li>DeepSleep</li>
+                    <li>BD_DeepSleep</li>
                 </hediffs>
                 <stages>0</stages>
                 <mtbHours>0.1</mtbHours>
@@ -518,7 +722,7 @@
         </comps>
         <stages>
 
-            <!--우울해-->
+            <!--?곗슱??-->
             <li>
                 <label>crash</label>
                 <painFactor>1.05</painFactor>
@@ -548,8 +752,8 @@
             </li>
 
 
-            <!--이녀석
-            high한 상태잖아?-->
+            <!--?대???
+            high???곹깭?뽰븘?-->
             <li>
                 <label>high</label>
                 <minSeverity>0.4</minSeverity>
@@ -579,13 +783,13 @@
         </stages>
     </HediffDef>
 
-    <!--모다피닐
-    기타-->
+    <!--紐⑤떎?쇰땺
+    湲고?-->
 
-    <!--회복-->
+    <!--?뚮났-->
 
     <HediffDef ParentName="AddictionBase">
-        <defName>ModafinilRecovery</defName>
+        <defName>BD_ModafinilRecovery</defName>
         <label>modafinil Recovery</label>
         <description>The post-crash phase where residual Modafinil is being fully metabolized by the body. Aside from minor lingering fatigue, all notable side effects have subsided, and the cardiovascular and nervous systems are readjusting to their natural baseline. Once this phase expires, the accumulated Modafinil Factor will be completely reset.</description>
         <hediffClass>HediffWithComps</hediffClass>
@@ -597,25 +801,26 @@
             </li>
         </comps>
         <stages>
+            <li />
         </stages>
     </HediffDef>
 
 
-    <!--=======================내성=================-->
+    <!--=======================?댁꽦=================-->
 
     <HediffDef ParentName="DrugToleranceBase">
-        <defName>ModafinilTolerance</defName>
+        <defName>BD_ModafinilTolerance</defName>
         <label>modafinil tolerance</label>
         <description>The body's adaptation to continuous exposure to Modafinil. Higher tolerance reduces the efficiency and duration of its sleep and hunger suppression. While it never leads to chemical addiction, it drives the pawn to consume the drug more frequently to maintain alertness, vastly increasing the risk of driving the Modafinil Factor to dangerous levels.</description>
         <descriptionHyperlinks>
-            <ThingDef>Modafinil</ThingDef>
+            <ThingDef>BD_Modafinil</ThingDef>
         </descriptionHyperlinks>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.015</severityPerDay>
             </li>
             <li Class="HediffCompProperties_DrugEffectFactor">
-                <chemical>ModafinilChemical</chemical>
+                <chemical>BD_ModafinilChemical</chemical>
             </li>
         </comps>
         <hediffGivers>
@@ -635,11 +840,11 @@
         </hediffGivers>
     </HediffDef>
 
-    <!--연속복용
-    카운트-->
+    <!-- continuous use count -->
+
 
     <HediffDef>
-        <defName>Modafinilstronghold</defName>
+        <defName>BD_Modafinilstronghold</defName>
         <label>modafinil accumulation</label>
         <maxSeverity>1.0</maxSeverity>
         <description>Represents the accumulated Modafinil Factor and the resulting strain on the cardiovascular system. While non-addictive, consecutive doses within a short window will drive this dedicated accumulation value higher. The moment this value breaches the safety threshold of 8.5, the heart suffers from extreme overload due to the compound's buildup, risking a fatal heart attack. The body must be given enough time to fully metabolize the substance before the next intake.</description>
@@ -674,16 +879,16 @@
     </HediffDef>
 
 
-    <!--카페인-->
+    <!-- caffeine -->
 
     <HediffDef>
-        <defName>ColaHigh</defName>
+        <defName>BD_ColaHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>Cola effect</label>
         <labelNoun>a Cola effect</labelNoun>
         <description>The sugar and caffeine from the cola have been absorbed into the system. It provides a minor lifting of spirits, a minute sharpening of consciousness, and subtly reduces the rate of fatigue accumulation. It metabolizes quickly without any adverse effects.</description>
         <descriptionHyperlinks>
-            <ThingDef>Cola</ThingDef>
+            <ThingDef>BD_Cola</ThingDef>
         </descriptionHyperlinks>
         <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
         <scenarioCanAdd>true</scenarioCanAdd>
@@ -711,24 +916,24 @@
         </stages>
     </HediffDef>
 
-    <!--카페인
-    기타-->
+    <!--移댄럹??
+    湲고?-->
 
-    <!--=======================내성=================-->
+    <!--=======================?댁꽦=================-->
 
     <HediffDef ParentName="DrugToleranceBase">
-        <defName>CaffeineTolerance</defName>
+        <defName>BD_CaffeineTolerance</defName>
         <label>Caffeine tolerance</label>
         <description>The body's adaptation to continuous caffeine exposure. Higher tolerance reduces the minor consciousness boost and sleep suppression gained from caffeinated beverages, rendering the effects negligible. It poses no direct health risks and never develops into addiction; it will naturally decay and disappear if caffeine consumption is paused for a period.</description>
         <descriptionHyperlinks>
-            <ThingDef>Cola</ThingDef>
+            <ThingDef>BD_Cola</ThingDef>
         </descriptionHyperlinks>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.05</severityPerDay>
             </li>
             <li Class="HediffCompProperties_DrugEffectFactor">
-                <chemical>Caffeine</chemical>
+                <chemical>BD_Caffeine</chemical>
             </li>
         </comps>
     </HediffDef>

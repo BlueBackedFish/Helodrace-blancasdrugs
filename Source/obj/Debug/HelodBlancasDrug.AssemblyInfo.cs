@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HelodBlancasDrug")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2df98b9af3babbb88cbfa8584af07437f19f3772")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3aa7246f64f09cd48f4cb47d0192aab28df0844")]
 [assembly: System.Reflection.AssemblyProductAttribute("HelodBlancasDrug")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HelodBlancasDrug")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

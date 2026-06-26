@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
-  <Amphetamines.label>암페타민</Amphetamines.label>
-  <Amphetamines.description>중추신경계를 강제로 각성시키는 합성 화합물 계열입니다. 체내 신경 전달 물질의 흐름을 왜곡하여 극단적인 신체 효율을 끌어내지만, 그 대가로 신경계에 지울 수 없는 흔적을 남깁니다. 암페타민 계열 약물을 연속해서 복용하면 체내에 치명적인 '암페타민 계수'가 누적됩니다. 이 누적치가 안전 한계선인 6.5를 초과하는 순간, 폭주한 신경계와 심혈관계가 버티지 못하고 치명적인 심장마비나 영구적인 뇌 손상을 일으킬 수 있습니다.</Amphetamines.description>
+  <BD_Amphetamines.label>암페타민</BD_Amphetamines.label>
+  <BD_Amphetamines.description>중추신경계를 강제로 각성시키는 합성 화합물 계열입니다. 체내 신경 전달 물질의 흐름을 왜곡하여 극단적인 신체 효율을 끌어내지만, 그 대가로 신경계에 지울 수 없는 흔적을 남깁니다. 각성제 계열 약물을 연속해서 복용하면 체내에 치명적인 '각성제 계수'가 누적됩니다. 이 누적치가 안전 한계선인 6.5를 초과하는 순간, 폭주한 신경계와 심혈관계가 버티지 못하고 치명적인 심장마비나 영구적인 뇌 손상을 일으킬 수 있습니다.</BD_Amphetamines.description>
 
-  <ModafinilChemical.label>모다피닐</ModafinilChemical.label>
-  <ModafinilChemical.description>중독성이나 뇌의 보상 체계 훼손 없이, 뇌 내부의 각성 중추를 정밀하게 자극하도록 설계된 현대적인 비화학적 각성 화합물 계열입니다. 중추신경계를 거칠게 폭주시키는 암페타민 계열과 달리, 이 성분은 정신적 고양감이나 약물 의존성을 전혀 유발하지 않고 순수하게 수면 욕구만을 억제합니다.\n기존의 약물 갈망 시스템으로부터 완전히 안전하지만, 과도하게 복용하여 체내 '모다피닐 축적치'가 안전선을 넘어서면 치명적인 심장마비를 일으킬 수 있으므로 주의 깊은 투약 관리가 요구됩니다. 중추신경계를 직접 장악하지 않는 특성상, 어떤 종류의 수면제든 복용하는 즉시 계수 비교 없이 곧바로 깊은 수면 준비 상태로 전환됩니다.</ModafinilChemical.description>
+  <BD_ModafinilChemical.label>모다피닐</BD_ModafinilChemical.label>
+  <BD_ModafinilChemical.description>중독성이나 뇌의 보상 체계 훼손 없이, 뇌 내부의 각성 중추를 정밀하게 자극하도록 설계된 현대적인 비화학적 각성 화합물 계열입니다. 중추신경계를 거칠게 폭주시키는 암페타민 계열과 달리, 이 성분은 정신적 고양감이나 약물 의존성을 전혀 유발하지 않고 순수하게 수면 욕구만을 억제합니다.\n기존의 약물 갈망 시스템으로부터 완전히 안전하지만, 과도하게 복용하여 체내 '모다피닐 축적치'가 안전선을 넘어서면 치명적인 심장마비를 일으킬 수 있으므로 주의 깊은 투약 관리가 요구됩니다. 중추신경계를 직접 장악하지 않는 특성상, 어떤 종류의 수면제든 복용하는 즉시 계수 비교 없이 곧바로 깊은 수면 준비 상태로 전환됩니다.</BD_ModafinilChemical.description>
 
-  <Caffeine.label>카페인</Caffeine.label>
-  <Caffeine.description>다양한 식물이나 인공 음료에서 추출할 수 있는 가벼운 메틸크산틴계 알칼로이드 성분입니다. 중추신경계를 완만하게 자극하여 일시적으로 피로를 잊게 하고 의식을 맑게 해줍니다. 암페타민과 같은 강력한 약물들과 달리 의존성을 유발하는 화학적 중독성이 전혀 없어 안전하게 소비할 수 있지만, 자주 섭취할 경우 신체가 성분에 적응하여 점차 각성 효율이 떨어지는 내성이 발생합니다.</Caffeine.description>
+  <BD_Caffeine.label>카페인</BD_Caffeine.label>
+  <BD_Caffeine.description>다양한 식물이나 인공 음료에서 추출할 수 있는 가벼운 메틸크산틴계 알칼로이드 성분입니다. 중추신경계를 완만하게 자극하여 일시적으로 피로를 잊게 하고 의식을 맑게 해줍니다. 암페타민과 같은 강력한 약물들과 달리 의존성을 유발하는 화학적 중독성이 전혀 없어 안전하게 소비할 수 있지만, 자주 섭취할 경우 신체가 성분에 적응하여 점차 각성 효율이 떨어지는 내성이 발생합니다.</BD_Caffeine.description>
 
-  <ZDrugs.label>Z-약물</ZDrugs.label>
-  <ZDrugs.description>가바 수용체에 선택적으로 결합하여 빠른 수면을 유도하는 비벤조디아제핀계 화합물군입니다. 기존 벤조디아제핀계보다 신체적 부담이 적고 빠르게 대사되지만, 뇌의 수면 조절 중추를 인위적으로 조절하는 특성상 정신적 의존성을 유발합니다. 중독될 경우 체내 성분이 고갈되면 신경계가 스스로 수면을 취하는 능력을 완전히 상실하여 극심한 불면증과 신경 과민 상태에 빠지게 됩니다.</ZDrugs.description>
+  <BD_ZDrugs.label>Z-약물</BD_ZDrugs.label>
+  <BD_ZDrugs.description>가바 수용체에 선택적으로 결합하여 빠른 수면을 유도하는 비벤조디아제핀계 화합물군입니다. 기존 벤조디아제핀계보다 신체적 부담이 적고 빠르게 대사되지만, 뇌의 수면 조절 중추를 인위적으로 조절하는 특성상 정신적 의존성을 유발합니다. 중독될 경우 체내 성분이 고갈되면 신경계가 스스로 수면을 취하는 능력을 완전히 상실하여 극심한 불면증과 신경 과민 상태에 빠지게 됩니다.</BD_ZDrugs.description>
 
-  <Benzodiazepines.label>벤조디아제핀</Benzodiazepines.label>
-  <Benzodiazepines.description>중추신경계의 GABA 수용체를 활성화하여 신경 활동을 억제하고 진정 효과를 유발하는 화합물 계열입니다. 뇌의 과도한 폭주를 잠재우고 강제로 수면을 유도하는 데 탁월하지만, 지속적으로 복용할 경우 정착민의 신경계가 이 인위적인 진정 성분에 완전히 의존하게 됩니다. 중독될 경우 체내에 주기적으로 성분이 공급되지 않으면 신경계가 극단적으로 오작동하며 치명적인 무기력증과 발작적 불안을 유발합니다.</Benzodiazepines.description>
+  <BD_Benzodiazepines.label>벤조디아제핀</BD_Benzodiazepines.label>
+  <BD_Benzodiazepines.description>중추신경계의 GABA 수용체를 활성화하여 신경 활동을 억제하고 진정 효과를 유발하는 화합물 계열입니다. 뇌의 과도한 폭주를 잠재우고 강제로 수면을 유도하는 데 탁월하지만, 지속적으로 복용할 경우 정착민의 신경계가 이 인위적인 진정 성분에 완전히 의존하게 됩니다. 중독될 경우 체내에 주기적으로 성분이 공급되지 않으면 신경계가 극단적으로 오작동하며 치명적인 무기력증과 발작적 불안을 유발합니다.</BD_Benzodiazepines.description>
 
-  <Opioids.label>오피오이드</Opioids.label>
-  <Opioids.description>중추신경계의 오피오이드 수용체에 결합하여 모든 육체적, 정신적 고통을 완벽하게 차단하는 강력한 진통 화합물 계열입니다. 전신에 가해지는 충격과 비명을 잠재우는 데 탁월한 효과를 발휘하지만, 신체를 극단적인 의존 상태로 몰고 갑니다. 중독될 경우 주기적으로 성분이 공급되지 않으면 억제되어 있던 통증 신호가 수십 배로 증폭되며 신경계가 완전히 무너져 내립니다.</Opioids.description>
+  <BD_Opioids.label>오피오이드</BD_Opioids.label>
+  <BD_Opioids.description>중추신경계의 오피오이드 수용체에 결합하여 모든 육체적, 정신적 고통을 완벽하게 차단하는 강력한 진통 화합물 계열입니다. 전신에 가해지는 충격과 비명을 잠재우는 데 탁월한 효과를 발휘하지만, 신체를 극단적인 의존 상태로 몰고 갑니다. 중독될 경우 주기적으로 성분이 공급되지 않으면 억제되어 있던 통증 신호가 수십 배로 증폭되며 신경계가 완전히 무너져 내립니다.</BD_Opioids.description>
 
-  <KetamineChemical.label>케타민</KetamineChemical.label>
-  <KetamineChemical.description>뇌와 신체의 신경 신호 연결을 물리적으로 차단하는 해리성 마취 화합물 계열입니다. 통증 신호가 뇌로 전달되는 경로 자체를 단절시켜 강력한 진통 및 마취 효과를 내며, 폰을 현실과 분리된 기묘한 감각적 공백 상태로 밀어 넣습니다. 육체적 고통을 지우는 데는 탁월하지만, 오용 시 자아와 인지 기능이 서서히 파편화되는 독특한 의존증을 유발합니다.</KetamineChemical.description>
+  <BD_KetamineChemical.label>케타민</BD_KetamineChemical.label>
+  <BD_KetamineChemical.description>뇌와 신체의 신경 신호 연결을 물리적으로 차단하는 해리성 마취 화합물 계열입니다. 통증 신호가 뇌로 전달되는 경로 자체를 단절시켜 강력한 진통 및 마취 효과를 내며, 폰을 현실과 분리된 기묘한 감각적 공백 상태로 밀어 넣습니다. 육체적 고통을 지우는 데는 탁월하지만, 오용 시 자아와 인지 기능이 서서히 파편화되는 독특한 의존증을 유발합니다.</BD_KetamineChemical.description>
   
+  <BD_Cocaine.label>코카인</BD_Cocaine.label>
+  <BD_Cocaine.description>도파민 재흡수를 거칠게 방해해 짧고 강한 도취감과 각성을 만들고, 이후 긴 붕괴(Crash)를 남기는 단시간 작용 자극제입니다. 암페타민 계열과 별개의 코카인 내성과 중독을 형성합니다.</BD_Cocaine.description>
 </LanguageData>

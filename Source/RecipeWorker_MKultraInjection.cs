@@ -60,7 +60,7 @@ namespace HelodBlancasDrug
             Log.Warning("[MKultra] Applying neurological and ocular damage.");
 
             // Apply MKultra Conditioning Hediff
-            pawn.health.AddHediff(HediffDef.Named("MKultraConditioning"), null, null);
+            pawn.health.AddHediff(HediffDef.Named("BD_MKultraConditioning"), null, null);
 
             // Brain Scar
             BodyPartRecord brain = pawn.health.hediffSet.GetBrain();

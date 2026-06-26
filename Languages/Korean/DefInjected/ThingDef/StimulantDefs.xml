@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
-  <Desoxyn.label>데소신</Desoxyn.label>
-  <Desoxyn.description>"this is (not) a meth" \n강력한 암페타민 계열의 중추신경 자극제입니다. 복용 시 신경계를 극단적으로 활성화하여 48시간 동안 피로와 허기를 완전히 잊게 만들고, 감각과 신체 통제력을 극대화합니다. 정착지의 비상 상황을 타개하는 데 매우 효과적이지만, 효과가 끝나면 육체와 정신이 무너져 내리는 끔찍한 '붕괴(Crash)' 상태를 겪어야 합니다. 과다 복용 시 치명적인 부작용을 초래하므로 주의가 필요합니다.</Desoxyn.description>
-  <Desoxyn.ingestCommandString>{0} 복용</Desoxyn.ingestCommandString>
-  <Desoxyn.ingestReportString>{0} 복용 중.</Desoxyn.ingestReportString>
+  <BD_Desoxyn.label>데소신</BD_Desoxyn.label>
+  <BD_Desoxyn.description>"this is (not) a meth" \n강력한 암페타민 계열의 중추신경 자극제입니다. 복용 시 신경계를 극단적으로 활성화하여 48시간 동안 피로와 허기를 완전히 잊게 만들고, 감각과 신체 통제력을 극대화합니다. 정착지의 비상 상황을 타개하는 데 매우 효과적이지만, 효과가 끝나면 육체와 정신이 무너져 내리는 끔찍한 '붕괴(Crash)' 상태를 겪어야 합니다. 과다 복용 시 치명적인 부작용을 초래하므로 주의가 필요합니다.</BD_Desoxyn.description>
+  <BD_Desoxyn.ingestCommandString>{0} 복용</BD_Desoxyn.ingestCommandString>
+  <BD_Desoxyn.ingestReportString>{0} 복용 중.</BD_Desoxyn.ingestReportString>
   
-  <Benzedrine.label>벤제드린</Benzedrine.label>
-  <Benzedrine.description>초기 형태의 암페타민 계열 중추신경 자극제입니다. 복용 시 24시간 동안 신경계를 각성시켜 피로와 허기를 크게 덜어주고, 신체 능력을 전반적으로 향상시킵니다. 데소신에 비하면 효과와 부작용이 모두 덜한 편이지만, 약효가 끝난 뒤 찾아오는 20시간가량의 '붕괴(Crash)' 상태는 여전히 정착민의 신체와 정신에 적지 않은 부담을 줍니다.</Benzedrine.description>
-  <Benzedrine.ingestCommandString>{0} 복용</Benzedrine.ingestCommandString>
-  <Benzedrine.ingestReportString>{0} 복용 중.</Benzedrine.ingestReportString>
+  <BD_Benzedrine.label>벤제드린</BD_Benzedrine.label>
+  <BD_Benzedrine.description>초기 형태의 암페타민 계열 중추신경 자극제입니다. 복용 시 24시간 동안 신경계를 각성시켜 피로와 허기를 크게 덜어주고, 신체 능력을 전반적으로 향상시킵니다. 데소신에 비하면 효과와 부작용이 모두 덜한 편이지만, 약효가 끝난 뒤 찾아오는 20시간가량의 '붕괴(Crash)' 상태는 여전히 정착민의 신체와 정신에 적지 않은 부담을 줍니다.</BD_Benzedrine.description>
+  <BD_Benzedrine.ingestCommandString>{0} 복용</BD_Benzedrine.ingestCommandString>
+  <BD_Benzedrine.ingestReportString>{0} 복용 중.</BD_Benzedrine.ingestReportString>
   
-  <Dexedrine.label>덱세드린</Dexedrine.label>
-  <Dexedrine.description>벤제드린을 정제하여 부작용을 크게 개선한 개량형 암페타민 자극제입니다. 24시간 동안 신체 능력을 향상시키고 피로와 허기를 덜어주는 효과는 기존과 유사하지만, 중독성과 내성 축적 확률이 눈에 띄게 낮아졌습니다. 약물의 정신 이상 작용을 억제하여 복용 중이나 효과가 끝난 뒤의 '붕괴(Crash)' 상태 모두에서 감정 기복을 일으키지 않습니다. 또한 붕괴 상태에서의 난폭성과 정신적 취약성도 확실히 통제되어, 보다 안전하고 통제된 상황에서 정착민을 운용할 수 있게 해줍니다. 다만 고통을 무디게 만드는 효과는 다소 떨어집니다.</Dexedrine.description>
-  <Dexedrine.ingestCommandString>{0} 복용</Dexedrine.ingestCommandString>
-  <Dexedrine.ingestReportString>{0} 복용 중.</Dexedrine.ingestReportString>
+  <BD_Dexedrine.label>덱세드린</BD_Dexedrine.label>
+  <BD_Dexedrine.description>벤제드린을 정제하여 부작용을 크게 개선한 개량형 암페타민 자극제입니다. 24시간 동안 신체 능력을 향상시키고 피로와 허기를 덜어주는 효과는 기존과 유사하지만, 중독성과 내성 축적 확률이 눈에 띄게 낮아졌습니다. 약물의 정신 이상 작용을 억제하여 복용 중이나 효과가 끝난 뒤의 '붕괴(Crash)' 상태 모두에서 감정 기복을 일으키지 않습니다. 또한 붕괴 상태에서의 난폭성과 정신적 취약성도 확실히 통제되어, 보다 안전하고 통제된 상황에서 정착민을 운용할 수 있게 해줍니다. 다만 고통을 무디게 만드는 효과는 다소 떨어집니다.</BD_Dexedrine.description>
+  <BD_Dexedrine.ingestCommandString>{0} 복용</BD_Dexedrine.ingestCommandString>
+  <BD_Dexedrine.ingestReportString>{0} 복용 중.</BD_Dexedrine.ingestReportString>
   
-  <Modafinil.label>모다피닐</Modafinil.label>
-  <Modafinil.description>중독성 없이 순수하게 수면을 억제하기 위해 개발된 현대적인 비화학적 각성제입니다. 복용 시 12시간 동안 수면과 허기 요구를 완만하게 줄여주며, 신체 능력에는 거의 영향을 주지 않고 고통을 줄여주지도 않습니다. 약효가 끝나면 10시간 동안 가벼운 '붕괴(Crash)' 상태를 겪으며 약간의 신체 기능 저하와 수면 욕구 증가, 미미한 구토 증세를 보이지만 다른 암페타민 계열에 비하면 매우 안전합니다.\n무엇보다 중독성이 전혀 없어 장기적인 수면 관리에 탁월하지만, 단기간에 연속 복용 시 체내에 전용 '모다피닐 축적'이 쌓이게 됩니다. 이 누적치가 안전 한계선인 8.5 이상으로 치솟으면 심장에 심각한 과부하가 걸려 치명적인 심장마비가 발생할 수 있으므로 주의해야 합니다.</Modafinil.description>
-  <Modafinil.ingestCommandString>{0} 복용</Modafinil.ingestCommandString>
-  <Modafinil.ingestReportString>{0} 복용 중.</Modafinil.ingestReportString>
+  <BD_Modafinil.label>모다피닐</BD_Modafinil.label>
+  <BD_Modafinil.description>중독성 없이 순수하게 수면을 억제하기 위해 개발된 현대적인 비화학적 각성제입니다. 복용 시 12시간 동안 수면과 허기 요구를 완만하게 줄여주며, 신체 능력에는 거의 영향을 주지 않고 고통을 줄여주지도 않습니다. 약효가 끝나면 10시간 동안 가벼운 '붕괴(Crash)' 상태를 겪으며 약간의 신체 기능 저하와 수면 욕구 증가, 미미한 구토 증세를 보이지만 다른 암페타민 계열에 비하면 매우 안전합니다.\n무엇보다 중독성이 전혀 없어 장기적인 수면 관리에 탁월하지만, 단기간에 연속 복용 시 체내에 전용 '모다피닐 축적'이 쌓이게 됩니다. 이 누적치가 안전 한계선인 8.5 이상으로 치솟으면 심장에 심각한 과부하가 걸려 치명적인 심장마비가 발생할 수 있으므로 주의해야 합니다.</BD_Modafinil.description>
+  <BD_Modafinil.ingestCommandString>{0} 복용</BD_Modafinil.ingestCommandString>
+  <BD_Modafinil.ingestReportString>{0} 복용 중.</BD_Modafinil.ingestReportString>
   
-  <Cola.label>콜라</Cola.label>
-  <Cola.description>탄산수와 설탕, 그리고 약간의 카페인을 혼합해 만든 대중적인 청량음료입니다. 마시는 즉시 강렬한 단맛과 청량감으로 정착민의 즐거움을 채워주며, 미미한 각성 효과 덕분에 의식이 또렷해지고 잠이 오는 속도가 살짝 늦춰집니다.</Cola.description>
-  <Cola.ingestCommandString>{0} 마시기</Cola.ingestCommandString>
-  <Cola.ingestReportString>{0} 마시는 중.</Cola.ingestReportString>
+  <BD_Cola.label>콜라</BD_Cola.label>
+  <BD_Cola.description>탄산수와 설탕, 그리고 약간의 카페인을 혼합해 만든 대중적인 청량음료입니다. 마시는 즉시 강렬한 단맛과 청량감으로 정착민의 즐거움을 채워주며, 미미한 각성 효과 덕분에 의식이 또렷해지고 잠이 오는 속도가 살짝 늦춰집니다.</BD_Cola.description>
+  <BD_Cola.ingestCommandString>{0} 마시기</BD_Cola.ingestCommandString>
+  <BD_Cola.ingestReportString>{0} 마시는 중.</BD_Cola.ingestReportString>
   <!--추후 업데이트 용도 : 이 검고 달콤한 음료를 들이켜는 순간, 변방계의 참혹한 연기와 총성이 전부 잊혀지는 것만 같아. 집을 떠나 아득히 먼 곳에 와 있지만, 이 한 병이 내게 고향의 온기와 평화를 상기시켜 주네. 그래, 우린 이겨내고 돌아갈 수 있어. / The moment this dark, sweet beverage touches my lips, the grim smoke and gunfire of this rimworld seem to fade away. Though I am leagues apart from everything I know, this single bottle brings back the warmth and comfort of home. We will push through this and make it back.-->
+  <BD_CocaineCola.label>코카인 콜라</BD_CocaineCola.label>
+  <BD_CocaineCola.description>오래된 처방을 바탕으로 코카인을 섞은 콜라입니다. 짧고 강한 각성감과 행복감을 주지만 효과가 빠르게 사라지며, 이후에는 현대 합성 각성제보다 긴 붕괴(Crash) 상태를 남깁니다.</BD_CocaineCola.description>
+  <BD_CocaineCola.ingestCommandString>{0} 마시기</BD_CocaineCola.ingestCommandString>
+  <BD_CocaineCola.ingestReportString>{0} 마시는 중</BD_CocaineCola.ingestReportString>
 </LanguageData>

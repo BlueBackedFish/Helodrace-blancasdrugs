@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MorphineHigh.label>morphine effect</MorphineHigh.label>
-  <MorphineHigh.labelNoun>a morphine effect</MorphineHigh.labelNoun>
-  <MorphineHigh.description></MorphineHigh.description>
+  <BD_MorphineHigh.label>morphine effect</BD_MorphineHigh.label>
+  <BD_MorphineHigh.labelNoun>a morphine effect</BD_MorphineHigh.labelNoun>
+  <BD_MorphineHigh.description></BD_MorphineHigh.description>
 
-  <FentanylHigh.label>fentanyl effect</FentanylHigh.label>
-  <FentanylHigh.labelNoun>a fentanyl effect</FentanylHigh.labelNoun>
-  <FentanylHigh.description></FentanylHigh.description>
+  <BD_FentanylHigh.label>fentanyl effect</BD_FentanylHigh.label>
+  <BD_FentanylHigh.labelNoun>a fentanyl effect</BD_FentanylHigh.labelNoun>
+  <BD_FentanylHigh.description></BD_FentanylHigh.description>
 
-  <KetamineHigh.label>ketamine effect</KetamineHigh.label>
-  <KetamineHigh.labelNoun>a ketamine effect</KetamineHigh.labelNoun>
-  <KetamineHigh.description></KetamineHigh.description>
+  <BD_KetamineHigh.label>ketamine effect</BD_KetamineHigh.label>
+  <BD_KetamineHigh.labelNoun>a ketamine effect</BD_KetamineHigh.labelNoun>
+  <BD_KetamineHigh.description></BD_KetamineHigh.description>
 
-  <OpioidsAddiction.label>opioids addiction</OpioidsAddiction.label>
-  <OpioidsAddiction.description></OpioidsAddiction.description>
-  <OpioidsAddiction.stages.1.label>withdrawal</OpioidsAddiction.stages.1.label>
+  <BD_LaudanumHigh.label>laudanum effect</BD_LaudanumHigh.label>
+  <BD_LaudanumHigh.labelNoun>a laudanum effect</BD_LaudanumHigh.labelNoun>
+  <BD_LaudanumHigh.description></BD_LaudanumHigh.description>
 
-  <OpioidsTolerance.label>opioids tolerance</OpioidsTolerance.label>
-  <OpioidsTolerance.description></OpioidsTolerance.description>
+  <BD_OpioidsAddiction.label>opioids addiction</BD_OpioidsAddiction.label>
+  <BD_OpioidsAddiction.description></BD_OpioidsAddiction.description>
+  <BD_OpioidsAddiction.stages.1.label>withdrawal</BD_OpioidsAddiction.stages.1.label>
+
+  <BD_OpioidsTolerance.label>opioids tolerance</BD_OpioidsTolerance.label>
+  <BD_OpioidsTolerance.description></BD_OpioidsTolerance.description>
 
   <OpioidsRecovery.label>opioids recovery</OpioidsRecovery.label>
   <OpioidsRecovery.description></OpioidsRecovery.description>
@@ -28,12 +32,12 @@
   <Opioidsstronghold.stages.0.label>safe</Opioidsstronghold.stages.0.label>
   <Opioidsstronghold.stages.1.label>overdose</Opioidsstronghold.stages.1.label>
 
-  <KetamineAddiction.label>ketamine addiction</KetamineAddiction.label>
-  <KetamineAddiction.description></KetamineAddiction.description>
-  <KetamineAddiction.stages.1.label>withdrawal</KetamineAddiction.stages.1.label>
+  <BD_KetamineAddiction.label>ketamine addiction</BD_KetamineAddiction.label>
+  <BD_KetamineAddiction.description></BD_KetamineAddiction.description>
+  <BD_KetamineAddiction.stages.1.label>withdrawal</BD_KetamineAddiction.stages.1.label>
 
-  <KetamineTolerance.label>ketamine tolerance</KetamineTolerance.label>
-  <KetamineTolerance.description></KetamineTolerance.description>
+  <BD_KetamineTolerance.label>ketamine tolerance</BD_KetamineTolerance.label>
+  <BD_KetamineTolerance.description></BD_KetamineTolerance.description>
 
   <KetamineRecovery.label>ketamine recovery</KetamineRecovery.label>
   <KetamineRecovery.description></KetamineRecovery.description>
@@ -43,7 +47,7 @@
   <Ketaminestronghold.stages.0.label>safe</Ketaminestronghold.stages.0.label>
   <Ketaminestronghold.stages.1.label>overdose</Ketaminestronghold.stages.1.label>
 
-  <MKultraConditioning.label>MKultra conditioning</MKultraConditioning.label>
-  <MKultraConditioning.description></MKultraConditioning.description>
+  <BD_MKultraConditioning.label>MKultra conditioning</BD_MKultraConditioning.label>
+  <BD_MKultraConditioning.description></BD_MKultraConditioning.description>
 
 </LanguageData>

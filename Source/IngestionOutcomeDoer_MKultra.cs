@@ -26,7 +26,7 @@ namespace HelodBlancasDrug
             }
 
             // Damage
-            pawn.health.AddHediff(HediffDef.Named("MKultraConditioning"), null, null);
+            pawn.health.AddHediff(HediffDef.Named("BD_MKultraConditioning"), null, null);
             
             BodyPartRecord brain = pawn.health.hediffSet.GetBrain();
             if (brain != null)

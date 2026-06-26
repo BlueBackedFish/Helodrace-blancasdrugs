@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <ThoughtDef>
-        <defName>AmphetaminesWithdrawal</defName>
+        <defName>BD_AmphetaminesWithdrawal</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>AmphetaminesAddiction</hediff>
+        <hediff>BD_AmphetaminesAddiction</hediff>
         <validWhileDespawned>true</validWhileDespawned>
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <stages>
@@ -19,9 +19,27 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>ZDrugsWithdrawal</defName>
+        <defName>BD_CocaineWithdrawal</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>ZDrugsAddiction</hediff>
+        <hediff>BD_CocaineAddiction</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <visible>false</visible>
+            </li>
+            <li>
+                <label>cocaine withdrawal</label>
+                <description>Everything feels flat and empty. My nerves are crawling under my skin, and I cannot stop thinking about that sharp rush. One more drink. I just need one more.</description>
+                <baseMoodEffect>-20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>BD_ZDrugsWithdrawal</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>BD_ZDrugsAddiction</hediff>
         <validWhileDespawned>true</validWhileDespawned>
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <stages>
@@ -37,9 +55,9 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>BenzodiazepinesWithdrawal</defName>
+        <defName>BD_BenzodiazepinesWithdrawal</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>BenzodiazepinesAddiction</hediff>
+        <hediff>BD_BenzodiazepinesAddiction</hediff>
         <validWhileDespawned>true</validWhileDespawned>
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <stages>
@@ -55,9 +73,9 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>RestorilHighThought</defName>
+        <defName>BD_RestorilHighThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>RestorilHigh</hediff>
+        <hediff>BD_RestorilHigh</hediff>
         <stages>
             <li>
                 <label>sedated by Restoril</label>
@@ -68,9 +86,9 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>SonataHighThought</defName>
+        <defName>BD_SonataHighThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>SonataHigh</hediff>
+        <hediff>BD_SonataHigh</hediff>
         <stages>
             <li>
                 <label>sedated by Sonata</label>
@@ -81,9 +99,9 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>AmbienHighThought</defName>
+        <defName>BD_AmbienHighThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>AmbienHigh</hediff>
+        <hediff>BD_AmbienHigh</hediff>
         <stages>
             <li>
                 <label>sedated by Ambien</label>
@@ -94,9 +112,9 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>BenzedrineHighThought</defName>
+        <defName>BD_BenzedrineHighThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>BenzedrineHigh</hediff>
+        <hediff>BD_BenzedrineHigh</hediff>
         <stages>
             <li>
                 <label>crashing on Benzedrine</label>
@@ -112,9 +130,9 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>DesoxynHighThought</defName>
+        <defName>BD_DesoxynHighThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>DesoxynHigh</hediff>
+        <hediff>BD_DesoxynHigh</hediff>
         <stages>
             <li>
                 <label>crashing on Desoxyn</label>
@@ -130,9 +148,27 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>ColaHighThought</defName>
+        <defName>BD_CocaineColaHighThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>ColaHigh</hediff>
+        <hediff>BD_CocaineColaHigh</hediff>
+        <stages>
+            <li>
+                <label>crashing on cocaine cola</label>
+                <description>The rush is gone, and now everything feels a little flat and irritating.</description>
+                <baseMoodEffect>-6</baseMoodEffect>
+            </li>
+            <li>
+                <label>high on cocaine cola</label>
+                <description>That drink hit like lightning. Everything feels bright, fast, and wonderfully easy.</description>
+                <baseMoodEffect>12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>BD_ColaHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>BD_ColaHigh</hediff>
         <stages>
             <li>
                 <label>drank Cola</label>
@@ -145,9 +181,9 @@
     <!--=======================오피오이드 및 케타민=================-->
 
     <ThoughtDef>
-        <defName>OpioidsWithdrawal</defName>
+        <defName>BD_OpioidsWithdrawal</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>OpioidsAddiction</hediff>
+        <hediff>BD_OpioidsAddiction</hediff>
         <validWhileDespawned>true</validWhileDespawned>
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <stages>
@@ -163,9 +199,9 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>KetamineWithdrawal</defName>
+        <defName>BD_KetamineWithdrawal</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>KetamineAddiction</hediff>
+        <hediff>BD_KetamineAddiction</hediff>
         <validWhileDespawned>true</validWhileDespawned>
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <stages>
@@ -181,9 +217,9 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>MorphineHighThought</defName>
+        <defName>BD_MorphineHighThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>MorphineHigh</hediff>
+        <hediff>BD_MorphineHigh</hediff>
         <stages>
             <li>
                 <label>high on morphine</label>
@@ -194,9 +230,22 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>FentanylHighThought</defName>
+        <defName>BD_LaudanumHighThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>FentanylHigh</hediff>
+        <hediff>BD_LaudanumHigh</hediff>
+        <stages>
+            <li>
+                <label>soothed by laudanum</label>
+                <description>The bitter draught has wrapped everything in a warm, hazy calm. The pain feels distant, and my nerves have finally gone quiet.</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>BD_FentanylHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>BD_FentanylHigh</hediff>
         <stages>
             <li>
                 <label>high on fentanyl</label>
@@ -207,9 +256,9 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>KetamineHighThought</defName>
+        <defName>BD_KetamineHighThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>KetamineHigh</hediff>
+        <hediff>BD_KetamineHigh</hediff>
         <stages>
             <li>
                 <label>high on ketamine</label>
@@ -222,9 +271,9 @@
     <!--=======================MKultra Aftermath=================-->
 
     <ThoughtDef>
-        <defName>MKultraConditioningThought</defName>
+        <defName>BD_MKultraConditioningThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>MKultraConditioning</hediff>
+        <hediff>BD_MKultraConditioning</hediff>
         <stages>
             <li>
                 <label>MKultra conditioning</label>

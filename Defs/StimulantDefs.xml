@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- 베이스 머시기-->
-	<ThingDef Name="BlancasDrugBase" ParentName="DrugBase" Abstract="True">
+	<!-- 踰좎씠??癒몄떆湲?-->
+	<ThingDef Name="BD_BlancasDrugBase" ParentName="DrugBase" Abstract="True">
 		<stackLimit>150</stackLimit>
 		<tradeTags>
 			<li>Exotic</li>
@@ -20,24 +20,24 @@
 		</recipeMaker>
 	</ThingDef>
 
-	<!--데소신
-	띵 정의-->
-	<ThingDef ParentName="BlancasDrugBase">
-		<defName>Desoxyn</defName>
+	<!--?곗냼??
+	???뺤쓽-->
+	<ThingDef ParentName="BD_BlancasDrugBase">
+		<defName>BD_Desoxyn</defName>
 		<label>desoxyn</label>
 		<description>"this is (not) a meth"\nA potent amphetamine-based central nervous system stimulant. Upon ingestion, it drastically hyperactivates the nervous system, completely suppressing fatigue and hunger for 48 hours while maximizing sensory acuity and motor control. While highly effective for pushing pawns through desperate emergencies, its cessation triggers a devastating 'Crash' that shatters both flesh and mind. Excessive consecutive doses carry fatal neurological and cardiovascular risks.</description>
 		<category>Item</category>
 
 		<descriptionHyperlinks>
-			<HediffDef>DesoxynHigh</HediffDef>
-			<HediffDef>AmphetaminesTolerance</HediffDef>
-			<HediffDef>AmphetaminesAddiction</HediffDef>
+			<HediffDef>BD_DesoxynHigh</HediffDef>
+			<HediffDef>BD_AmphetaminesTolerance</HediffDef>
+			<HediffDef>BD_AmphetaminesAddiction</HediffDef>
 		</descriptionHyperlinks>
 
 		<thingClass>ThingWithComps</thingClass>
 		<comps>
 			<li Class="CompProperties_Drug">
-				<chemical>Amphetamines</chemical>
+				<chemical>BD_Amphetamines</chemical>
 				<addictiveness>0.3</addictiveness>
 				<minToleranceToAddict>0.75</minToleranceToAddict>
 				<existingAddictionSeverityOffset>0.2</existingAddictionSeverityOffset>
@@ -52,11 +52,11 @@
 			<recipeUsers>
 				<li>DrugLab</li>
 			</recipeUsers>
-			<researchPrerequisite>HelodBlancaAdvancedStimulants</researchPrerequisite>
+			<researchPrerequisite>BD_HelodBlancaAdvancedStimulants</researchPrerequisite>
 		</recipeMaker>
 
 		<graphicData>
-			<texPath>Things/Item/Drug/Desoxyn</texPath>
+			<texPath>Things/Item/Drug/BD_Desoxyn</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -86,17 +86,17 @@
 			<chairSearchRadius>0</chairSearchRadius>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DesoxynHigh</hediffDef>
+					<hediffDef>BD_DesoxynHigh</hediffDef>
 					<severity>0.9</severity>
 				</li>
 
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>Amphetaminesstronghold</hediffDef>
+					<hediffDef>BD_StimulantStronghold</hediffDef>
 					<severity>0.3</severity>
 				</li>
 
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>AmphetaminesTolerance</hediffDef>
+					<hediffDef>BD_AmphetaminesTolerance</hediffDef>
 					<severity>0.10</severity>
 					<divideByBodySize>true</divideByBodySize>
 					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
@@ -116,24 +116,24 @@
 	</ThingDef>
 
 
-	<!--벤제드린
-	띵 정의-->
-	<ThingDef ParentName="BlancasDrugBase">
-		<defName>Benzedrine</defName>
+	<!--踰ㅼ젣?쒕┛
+	???뺤쓽-->
+	<ThingDef ParentName="BD_BlancasDrugBase">
+		<defName>BD_Benzedrine</defName>
 		<label>benzedrine</label>
 		<description>An early-form amphetamine central nervous system stimulant. Upon ingestion, it stimulates the nervous system for 24 hours, significantly alleviating fatigue and hunger while providing a moderate boost to overall physical capacities. While both its efficacy and toxicity are milder compared to Desoxyn, the subsequent 20-hour 'Crash' still poses a notable strain on a pawn's physical and mental stability.</description>
 		<category>Item</category>
 
 		<descriptionHyperlinks>
-			<HediffDef>BenzedrineHigh</HediffDef>
-			<HediffDef>AmphetaminesTolerance</HediffDef>
-			<HediffDef>AmphetaminesAddiction</HediffDef>
+			<HediffDef>BD_BenzedrineHigh</HediffDef>
+			<HediffDef>BD_AmphetaminesTolerance</HediffDef>
+			<HediffDef>BD_AmphetaminesAddiction</HediffDef>
 		</descriptionHyperlinks>
 
 		<thingClass>ThingWithComps</thingClass>
 		<comps>
 			<li Class="CompProperties_Drug">
-				<chemical>Amphetamines</chemical>
+				<chemical>BD_Amphetamines</chemical>
 				<addictiveness>0.2</addictiveness>
 				<minToleranceToAddict>0.75</minToleranceToAddict>
 				<existingAddictionSeverityOffset>0.2</existingAddictionSeverityOffset>
@@ -148,11 +148,11 @@
 			<recipeUsers>
 				<li>DrugLab</li>
 			</recipeUsers>
-			<researchPrerequisite>HelodBlancaAdvancedStimulants</researchPrerequisite>
+			<researchPrerequisite>BD_HelodBlancaAdvancedStimulants</researchPrerequisite>
 		</recipeMaker>
 
 		<graphicData>
-			<texPath>Things/Item/Drug/Benzedrine</texPath>
+			<texPath>Things/Item/Drug/BD_Benzedrine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -182,17 +182,17 @@
 			<chairSearchRadius>0</chairSearchRadius>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>BenzedrineHigh</hediffDef>
+					<hediffDef>BD_BenzedrineHigh</hediffDef>
 					<severity>0.9</severity>
 				</li>
 
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>Amphetaminesstronghold</hediffDef>
+					<hediffDef>BD_StimulantStronghold</hediffDef>
 					<severity>0.2</severity>
 				</li>
 
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>AmphetaminesTolerance</hediffDef>
+					<hediffDef>BD_AmphetaminesTolerance</hediffDef>
 					<severity>0.08</severity>
 					<divideByBodySize>true</divideByBodySize>
 					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
@@ -212,24 +212,24 @@
 	</ThingDef>
 
 
-	<!--덱세드린
-	띵 정의-->
-	<ThingDef ParentName="BlancasDrugBase">
-		<defName>Dexedrine</defName>
+	<!--?깆꽭?쒕┛
+	???뺤쓽-->
+	<ThingDef ParentName="BD_BlancasDrugBase">
+		<defName>BD_Dexedrine</defName>
 		<label>dexedrine</label>
 		<description>A refined form of amphetamine stimulant with drastically reduced side effects compared to Benzedrine. While it maintains a similar 24-hour window of physical enhancement and fatigue/hunger suppression, its addiction rate and tolerance accumulation are significantly lower. By neutralizing the psychoactive properties of the drug, it causes no mood swings during either its high or subsequent 'Crash' state. The severity of mental volatility and aggression during the crash is also strictly controlled, making it a much safer tactical option, though its efficacy in dulling pain is somewhat reduced.</description>
 		<category>Item</category>
 
 		<descriptionHyperlinks>
-			<HediffDef>DexedrineHigh</HediffDef>
-			<HediffDef>AmphetaminesTolerance</HediffDef>
-			<HediffDef>AmphetaminesAddiction</HediffDef>
+			<HediffDef>BD_DexedrineHigh</HediffDef>
+			<HediffDef>BD_AmphetaminesTolerance</HediffDef>
+			<HediffDef>BD_AmphetaminesAddiction</HediffDef>
 		</descriptionHyperlinks>
 
 		<thingClass>ThingWithComps</thingClass>
 		<comps>
 			<li Class="CompProperties_Drug">
-				<chemical>Amphetamines</chemical>
+				<chemical>BD_Amphetamines</chemical>
 				<addictiveness>0.05</addictiveness>
 				<minToleranceToAddict>0.75</minToleranceToAddict>
 				<existingAddictionSeverityOffset>0.2</existingAddictionSeverityOffset>
@@ -244,11 +244,11 @@
 			<recipeUsers>
 				<li>DrugLab</li>
 			</recipeUsers>
-			<researchPrerequisite>HelodBlancaAdvancedStimulants</researchPrerequisite>
+			<researchPrerequisite>BD_HelodBlancaAdvancedStimulants</researchPrerequisite>
 		</recipeMaker>
 
 		<graphicData>
-			<texPath>Things/Item/Drug/Dexedrine</texPath>
+			<texPath>Things/Item/Drug/BD_Dexedrine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -278,17 +278,17 @@
 			<chairSearchRadius>0</chairSearchRadius>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DexedrineHigh</hediffDef>
+					<hediffDef>BD_DexedrineHigh</hediffDef>
 					<severity>0.9</severity>
 				</li>
 
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>Amphetaminesstronghold</hediffDef>
+					<hediffDef>BD_StimulantStronghold</hediffDef>
 					<severity>0.2</severity>
 				</li>
 
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>AmphetaminesTolerance</hediffDef>
+					<hediffDef>BD_AmphetaminesTolerance</hediffDef>
 					<severity>0.06</severity>
 					<divideByBodySize>true</divideByBodySize>
 					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
@@ -307,23 +307,23 @@
 		</ingestible>
 	</ThingDef>
 
-	<!--모다피닐
-	띵 정의-->
-	<ThingDef ParentName="BlancasDrugBase">
-		<defName>Modafinil</defName>
+	<!--紐⑤떎?쇰땺
+	???뺤쓽-->
+	<ThingDef ParentName="BD_BlancasDrugBase">
+		<defName>BD_Modafinil</defName>
 		<label>modafinil</label>
 		<description>A modern, non-addictive eugeroic drug designed purely to suppress sleep. Upon ingestion, it moderately slows sleep and hunger depletion for 12 hours, providing virtually no boost to physical capacities nor any pain relief. Once the effect wears off, the pawn undergoes a mild 10-hour 'Crash' state characterized by minor physical deficits, increased sleep depletion, and a low chance of vomiting.\nWhile completely safe from chemical addiction, consecutive doses within a short window will build up a dedicated 'Modafinil Factor'; if this unique accumulation breaches the safety threshold of 8.5, the extreme strain on the cardiovascular system risks triggering a fatal heart attack.</description>
 		<category>Item</category>
 
 		<descriptionHyperlinks>
-			<HediffDef>ModafinilHigh</HediffDef>
-			<HediffDef>ModafinilTolerance</HediffDef>
+			<HediffDef>BD_ModafinilHigh</HediffDef>
+			<HediffDef>BD_ModafinilTolerance</HediffDef>
 		</descriptionHyperlinks>
 
 		<thingClass>ThingWithComps</thingClass>
 		<comps>
 			<li Class="CompProperties_Drug">
-				<chemical>ModafinilChemical</chemical>
+				<chemical>BD_ModafinilChemical</chemical>
 				<addictiveness>0</addictiveness>
 				<existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
 			</li>
@@ -337,11 +337,11 @@
 			<recipeUsers>
 				<li>DrugLab</li>
 			</recipeUsers>
-			<researchPrerequisite>HelodBlancaAdvancedStimulants</researchPrerequisite>
+			<researchPrerequisite>BD_HelodBlancaAdvancedStimulants</researchPrerequisite>
 		</recipeMaker>
 
 		<graphicData>
-			<texPath>Things/Item/Drug/Modafinil</texPath>
+			<texPath>Things/Item/Drug/BD_Modafinil</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -371,17 +371,17 @@
 			<chairSearchRadius>0</chairSearchRadius>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>ModafinilHigh</hediffDef>
+					<hediffDef>BD_ModafinilHigh</hediffDef>
 					<severity>0.9</severity>
 				</li>
 
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>Modafinilstronghold</hediffDef>
+					<hediffDef>BD_Modafinilstronghold</hediffDef>
 					<severity>0.2</severity>
 				</li>
 
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>ModafinilTolerance</hediffDef>
+					<hediffDef>BD_ModafinilTolerance</hediffDef>
 					<severity>0.05</severity>
 					<divideByBodySize>true</divideByBodySize>
 					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
@@ -400,23 +400,23 @@
 		</ingestible>
 	</ThingDef>
 
-	<!--콜라
-	띵 정의-->
-	<ThingDef ParentName="BlancasDrugBase">
-		<defName>Cola</defName>
+	<!--肄쒕씪
+	???뺤쓽-->
+	<ThingDef ParentName="BD_BlancasDrugBase">
+		<defName>BD_Cola</defName>
 		<label>cola</label>
 		<description></description>
 		<category>Item</category>
 
 		<descriptionHyperlinks>
-			<HediffDef>ColaHigh</HediffDef>
-			<HediffDef>CaffeineTolerance</HediffDef>
+			<HediffDef>BD_ColaHigh</HediffDef>
+			<HediffDef>BD_CaffeineTolerance</HediffDef>
 		</descriptionHyperlinks>
 
 		<thingClass>ThingWithComps</thingClass>
 		<comps>
 			<li Class="CompProperties_Drug">
-				<chemical>Caffeine</chemical>
+				<chemical>BD_Caffeine</chemical>
 				<addictiveness>0</addictiveness>
 				<existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
 			</li>
@@ -430,11 +430,11 @@
 			<recipeUsers>
 				<li>DrugLab</li>
 			</recipeUsers>
-			<researchPrerequisite>HelodBlancaAdvancedStimulants</researchPrerequisite>
+			<researchPrerequisite>BD_HelodBlancaAdvancedStimulants</researchPrerequisite>
 		</recipeMaker>
 
 		<graphicData>
-			<texPath>Things/Item/Drug/Cola</texPath>
+			<texPath>Things/Item/Drug/BD_Cola</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -465,12 +465,12 @@
 			<chairSearchRadius>0</chairSearchRadius>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>ColaHigh</hediffDef>
+					<hediffDef>BD_ColaHigh</hediffDef>
 					<severity>0.9</severity>
 				</li>
 
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>CaffeineTolerance</hediffDef>
+					<hediffDef>BD_CaffeineTolerance</hediffDef>
 					<severity>0.1</severity>
 					<divideByBodySize>true</divideByBodySize>
 					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
@@ -479,6 +479,100 @@
 				<li Class="IngestionOutcomeDoer_OffsetNeed">
 					<need>Rest</need>
 					<offset>0.2</offset>
+				</li>
+
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Food</need>
+					<offset>0.2</offset>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="BD_BlancasDrugBase">
+		<defName>BD_CocaineCola</defName>
+		<label>cocaine cola</label>
+		<description>A stimulant-laced cola based on an older, far less cautious formula. It delivers a sharp, euphoric burst of wakefulness and motor confidence, but the rush burns out quickly. Once the cocaine spike collapses, the pawn is left with a longer and harsher crash than most modern synthetic stimulants.</description>
+		<category>Item</category>
+
+		<descriptionHyperlinks>
+			<HediffDef>BD_CocaineColaHigh</HediffDef>
+			<HediffDef>BD_CocaineTolerance</HediffDef>
+			<HediffDef>BD_CocaineAddiction</HediffDef>
+		</descriptionHyperlinks>
+
+		<thingClass>ThingWithComps</thingClass>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>BD_Cocaine</chemical>
+				<addictiveness>0.10</addictiveness>
+				<minToleranceToAddict>0.90</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.2</existingAddictionSeverityOffset>
+			</li>
+		</comps>
+
+		<costList>
+			<MedicineHerbal>1</MedicineHerbal>
+		</costList>
+
+		<recipeMaker>
+			<productCount>2</productCount>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<researchPrerequisite>BD_HelodBlancaEarlyNarcotics</researchPrerequisite>
+		</recipeMaker>
+
+		<graphicData>
+			<texPath>Things/Item/Drug/BD_Cola</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+
+		<statBases>
+			<WorkToMake>600</WorkToMake>
+			<MarketValue>40</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+
+		<ingestible>
+			<joyKind>Chemical</joyKind>
+			<joy>0.50</joy>
+			<drugCategory>Hard</drugCategory>
+			<foodType>Processed</foodType>
+			<baseIngestTicks>100</baseIngestTicks>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<chairSearchRadius>0</chairSearchRadius>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>BD_CocaineColaHigh</hediffDef>
+					<severity>0.9</severity>
+				</li>
+
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>BD_StimulantStronghold</hediffDef>
+					<severity>0.25</severity>
+				</li>
+
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>BD_CocaineTolerance</hediffDef>
+					<severity>0.20</severity>
+					<divideByBodySize>true</divideByBodySize>
+					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+				</li>
+
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.25</offset>
 				</li>
 
 				<li Class="IngestionOutcomeDoer_OffsetNeed">

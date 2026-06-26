@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <HelodBlancaAdvancedPainkillers.label>advanced painkillers</HelodBlancaAdvancedPainkillers.label>
-  <HelodBlancaAdvancedPainkillers.description>Research into powerful opioid and dissociative analgesics for advanced field medicine.</HelodBlancaAdvancedPainkillers.description>
+  <BD_HelodBlancaAdvancedPainkillers.label>advanced painkillers</BD_HelodBlancaAdvancedPainkillers.label>
+  <BD_HelodBlancaAdvancedPainkillers.description>Research into powerful opioid and dissociative analgesics for advanced field medicine.</BD_HelodBlancaAdvancedPainkillers.description>
 
-  <HelodBlancaAdvancedStimulants.label>advanced stimulants</HelodBlancaAdvancedStimulants.label>
-  <HelodBlancaAdvancedStimulants.description>Research into highly potent amphetamine compounds and eugeroic agents for extreme performance enhancement.</HelodBlancaAdvancedStimulants.description>
+  <BD_HelodBlancaAdvancedStimulants.label>advanced stimulants</BD_HelodBlancaAdvancedStimulants.label>
+  <BD_HelodBlancaAdvancedStimulants.description>Research into highly potent amphetamine compounds and eugeroic agents for extreme performance enhancement.</BD_HelodBlancaAdvancedStimulants.description>
 
-  <HelodBlancaAdvancedSomnifacients.label>advanced somnifacients</HelodBlancaAdvancedSomnifacients.label>
-  <HelodBlancaAdvancedSomnifacients.description>Research into fast-acting sedatives and hypnotics for controlled sleep management.</HelodBlancaAdvancedSomnifacients.description>
+  <BD_HelodBlancaAdvancedSomnifacients.label>advanced somnifacients</BD_HelodBlancaAdvancedSomnifacients.label>
+  <BD_HelodBlancaAdvancedSomnifacients.description>Research into fast-acting sedatives and hypnotics for controlled sleep management.</BD_HelodBlancaAdvancedSomnifacients.description>
 
-  <HelodBlancaMKultraProject.label>MKultra project</HelodBlancaMKultraProject.label>
-  <HelodBlancaMKultraProject.description>The pinnacle of psychotropic engineering. Research the theoretical and practical application of irreversible cognitive subversion via neuro-chemical conditioning.</HelodBlancaMKultraProject.description>
+  <BD_HelodBlancaMKultraProject.label>MKultra project</BD_HelodBlancaMKultraProject.label>
+  <BD_HelodBlancaMKultraProject.description>The pinnacle of psychotropic engineering. Research the theoretical and practical application of irreversible cognitive subversion via neuro-chemical conditioning.</BD_HelodBlancaMKultraProject.description>
 </LanguageData>

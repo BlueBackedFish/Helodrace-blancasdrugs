@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <Desoxyn.label>desoxyn</Desoxyn.label>
-  <Desoxyn.description></Desoxyn.description>
-  <Desoxyn.ingestCommandString>Take {0}</Desoxyn.ingestCommandString>
-  <Desoxyn.ingestReportString>Taking {0}.</Desoxyn.ingestReportString>
+  <BD_Desoxyn.label>desoxyn</BD_Desoxyn.label>
+  <BD_Desoxyn.description></BD_Desoxyn.description>
+  <BD_Desoxyn.ingestCommandString>Take {0}</BD_Desoxyn.ingestCommandString>
+  <BD_Desoxyn.ingestReportString>Taking {0}.</BD_Desoxyn.ingestReportString>
 
-  <Benzedrine.label>benzedrine</Benzedrine.label>
-  <Benzedrine.description></Benzedrine.description>
-  <Benzedrine.ingestCommandString>Take {0}</Benzedrine.ingestCommandString>
-  <Benzedrine.ingestReportString>Taking {0}.</Benzedrine.ingestReportString>
+  <BD_Benzedrine.label>benzedrine</BD_Benzedrine.label>
+  <BD_Benzedrine.description></BD_Benzedrine.description>
+  <BD_Benzedrine.ingestCommandString>Take {0}</BD_Benzedrine.ingestCommandString>
+  <BD_Benzedrine.ingestReportString>Taking {0}.</BD_Benzedrine.ingestReportString>
 
-  <Dexedrine.label>dexedrine</Dexedrine.label>
-  <Dexedrine.description></Dexedrine.description>
-  <Dexedrine.ingestCommandString>Take {0}</Dexedrine.ingestCommandString>
-  <Dexedrine.ingestReportString>Taking {0}.</Dexedrine.ingestReportString>
+  <BD_Dexedrine.label>dexedrine</BD_Dexedrine.label>
+  <BD_Dexedrine.description></BD_Dexedrine.description>
+  <BD_Dexedrine.ingestCommandString>Take {0}</BD_Dexedrine.ingestCommandString>
+  <BD_Dexedrine.ingestReportString>Taking {0}.</BD_Dexedrine.ingestReportString>
 
-  <Modafinil.label>modafinil</Modafinil.label>
-  <Modafinil.description></Modafinil.description>
-  <Modafinil.ingestCommandString>Take {0}</Modafinil.ingestCommandString>
-  <Modafinil.ingestReportString>Taking {0}.</Modafinil.ingestReportString>
+  <BD_Modafinil.label>modafinil</BD_Modafinil.label>
+  <BD_Modafinil.description></BD_Modafinil.description>
+  <BD_Modafinil.ingestCommandString>Take {0}</BD_Modafinil.ingestCommandString>
+  <BD_Modafinil.ingestReportString>Taking {0}.</BD_Modafinil.ingestReportString>
 
-  <Cola.label>cola</Cola.label>
-  <Cola.description></Cola.description>
-  <Cola.ingestCommandString>Drink {0}</Cola.ingestCommandString>
-  <Cola.ingestReportString>Drinking {0}.</Cola.ingestReportString>
+  <BD_Cola.label>cola</BD_Cola.label>
+  <BD_Cola.description></BD_Cola.description>
+  <BD_Cola.ingestCommandString>Drink {0}</BD_Cola.ingestCommandString>
+  <BD_Cola.ingestReportString>Drinking {0}.</BD_Cola.ingestReportString>
+
+  <BD_CocaineCola.label>cocaine cola</BD_CocaineCola.label>
+  <BD_CocaineCola.description></BD_CocaineCola.description>
+  <BD_CocaineCola.ingestCommandString>Drink {0}</BD_CocaineCola.ingestCommandString>
+  <BD_CocaineCola.ingestReportString>Drinking {0}.</BD_CocaineCola.ingestReportString>
 </LanguageData>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ThingDef ParentName="BlancasDrugBase">
-        <defName>MKultra</defName>
+    <ThingDef ParentName="BD_BlancasDrugBase">
+        <defName>BD_MKultra</defName>
         <label>MKultra</label>
         <description>"We've got a job to do."\nA permanent neurological rewiring of the central nervous system achieved through the direct ocular infusion of hyper-concentrated dissociative and psychotropic agents. The original neural pathways dictating personal identity, morality, and past allegiances have been entirely erased. In their place lies a deeply embedded cognitive conditioning structure engineered for absolute compliance to the colony's directives.\nThe subject is no longer capable of conceptualizing defiance; this behavioral lock is completely irreversible by any psychological or traumatic means.</description>
         <descriptionHyperlinks>
-            <HediffDef>MKultraConditioning</HediffDef>
+            <HediffDef>BD_MKultraConditioning</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Things/Item/Drug/MKultra</texPath>
+            <texPath>Things/Item/Drug/BD_MKultra</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <thingClass>ThingWithComps</thingClass>
@@ -38,9 +38,9 @@
             </li>
         </comps>
         <costList>
-            <Ketamine>2</Ketamine>
+            <BD_Ketamine>2</BD_Ketamine>
             <Yayo>1</Yayo>
-            <Morphine>1</Morphine>
+            <BD_Morphine>1</BD_Morphine>
             <Neutroamine>10</Neutroamine>
             <MedicineIndustrial>4</MedicineIndustrial>
         </costList>
@@ -48,12 +48,12 @@
             <recipeUsers>
                 <li>DrugLab</li>
             </recipeUsers>
-            <researchPrerequisite>HelodBlancaMKultraProject</researchPrerequisite>
+            <researchPrerequisite>BD_HelodBlancaMKultraProject</researchPrerequisite>
         </recipeMaker>
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryFlesh">
-        <defName>InjectMKultra</defName>
+        <defName>BD_InjectMKultra</defName>
         <label>Execute MKultra cognition rewiring protocol</label>
         <description>A classified mind-control procedure that directly infuses the MKultra neutralizing agent into the subject's ocular cavity, forcefully rewiring the core infrastructure of the central nervous system. At the cost of inflicting permanent thermal and chemical scars upon brain cells and visual pathways, it utterly shatters the subject's psychological defense mechanisms and will to resist from the baseline. Upon completion, the subject's cognition is completely subverted, leaving them firmly convinced that they are pledging allegiance to the colony of their own free will.</description>
         <workerClass>HelodBlancasDrug.RecipeWorker_MKultraInjection</workerClass>
@@ -67,7 +67,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>MKultra</li>
+                        <li>BD_MKultra</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -83,7 +83,7 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>MKultra</li>
+                <li>BD_MKultra</li>
             </thingDefs>
             <categories>
                 <li>Medicine</li>

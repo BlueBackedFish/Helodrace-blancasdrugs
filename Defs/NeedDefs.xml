@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <NeedDef ParentName="DrugAddictionNeedBase">
-        <defName>Chemical_Amphetamines</defName>
+        <defName>BD_Chemical_Amphetamines</defName>
         <needClass>Need_Chemical</needClass>
         <label>amphetamines</label>
         <description>This person has a severe chemical dependence on amphetamines. Their dopamine pathways can no longer function normally without the drug's presence. Unless regularly supplied with amphetamines (such as Desoxyn or Benzedrine), this need will fall, and total depletion will trigger a devastating withdrawal process that shatters both mind and body.</description>
@@ -10,7 +10,34 @@
     </NeedDef>
 
     <NeedDef ParentName="DrugAddictionNeedBase">
-        <defName>Chemical_ZDrugs</defName>
+        <defName>BD_Chemical_Cocaine</defName>
+        <needClass>Need_Chemical</needClass>
+        <label>cocaine</label>
+        <description>This person has developed a chemical dependence on cocaine. Their reward pathways have adapted to the drug's rapid dopamine surge, leaving them restless, depressed, and unstable without another dose.</description>
+        <fallPerDay>0.12</fallPerDay>
+        <listPriority>40</listPriority>
+    </NeedDef>
+
+    <NeedDef ParentName="DrugAddictionNeedBase">
+        <defName>BD_Chemical_Modafinil</defName>
+        <needClass>Need_Chemical</needClass>
+        <label>modafinil</label>
+        <description>Placeholder chemical need for compatibility. Modafinil does not create a meaningful addiction in this mod.</description>
+        <fallPerDay>0</fallPerDay>
+        <listPriority>40</listPriority>
+    </NeedDef>
+
+    <NeedDef ParentName="DrugAddictionNeedBase">
+        <defName>BD_Chemical_Caffeine</defName>
+        <needClass>Need_Chemical</needClass>
+        <label>caffeine</label>
+        <description>Placeholder chemical need for compatibility. Caffeine does not create a meaningful addiction in this mod.</description>
+        <fallPerDay>0</fallPerDay>
+        <listPriority>40</listPriority>
+    </NeedDef>
+
+    <NeedDef ParentName="DrugAddictionNeedBase">
+        <defName>BD_Chemical_ZDrugs</defName>
         <needClass>Need_Chemical</needClass>
         <label>ZDrugs</label>
         <description>This person has developed a severe chemical dependence on Z-drugs. Their brain is no longer capable of maintaining a regular sleep cycle or mental clarity without chemical assistance. Unless sustained with regular doses of drugs like Ambien or Sonata, this need will decline, leading to a state of painful neurological hyper-arousal upon total depletion.</description>
@@ -19,7 +46,7 @@
     </NeedDef>
 
     <NeedDef ParentName="DrugAddictionNeedBase">
-        <defName>Chemical_Benzodiazepines</defName>
+        <defName>BD_Chemical_Benzodiazepines</defName>
         <needClass>Need_Chemical</needClass>
         <label>Benzodiazepines</label>
         <description>This person has a severe chemical dependence on benzodiazepines. Their nervous system can no longer naturally regulate anxiety or maintain emotional stability without the drug's presence. Unless regularly supplied with benzodiazepine-based sedatives, this need will decline, and total depletion will shatter the brain's inhibitory mechanisms, triggering a brutal withdrawal process.</description>
@@ -28,7 +55,7 @@
     </NeedDef>
 
     <NeedDef ParentName="DrugAddictionNeedBase">
-        <defName>Chemical_Opioids</defName>
+        <defName>BD_Chemical_Opioids</defName>
         <needClass>Need_Chemical</needClass>
         <label>opioids</label>
         <description>This person has an extremely severe chemical dependence on opioids. Their body can no longer maintain emotional stability or tolerate basic physical signals without the artificial endorphin surge provided by the drug. Regular doses are required to satisfy this need; total depletion immediately triggers a brutal physical withdrawal process.</description>
@@ -37,7 +64,7 @@
     </NeedDef>
 
     <NeedDef ParentName="DrugAddictionNeedBase">
-        <defName>Chemical_Ketamine</defName>
+        <defName>BD_Chemical_Ketamine</defName>
         <needClass>Need_Chemical</needClass>
         <label>ketamine</label>
         <description>This person has a chemical dependence on the dissociative void and escapism induced by ketamine. Without the drug's numbing effect on the brain, they cannot properly process reality or emotional stimuli. When supply is cut, this need decays, and total depletion triggers a severe psychological void along with withdrawal symptoms.</description>

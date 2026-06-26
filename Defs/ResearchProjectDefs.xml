@@ -2,29 +2,15 @@
 <Defs>
 
   <ResearchTabDef>
-    <defName>HelodTechTab</defName>
+    <defName>BD_HelodTechTab</defName>
     <label>Helod Technology</label>
   </ResearchTabDef>
 
   <ResearchProjectDef>
-    <defName>HelodBlancaAdvancedPainkillers</defName>
-    <label>advanced painkillers</label>
-    <description>Research into high-potency medical drugs like Morphine and Fentanyl, designed to neutralize extreme pain and stabilize wounded colonists in critical conditions.</description>
-    <baseCost>1000</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>DrugProduction</li>
-    </prerequisites>
-    <tab>HelodTechTab</tab>
-    <researchViewX>0</researchViewX>
-    <researchViewY>0</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>HelodBlancaAdvancedStimulants</defName>
-    <label>advanced stimulants</label>
-    <description>Research into powerful amphetamines and cognitive enhancers, such as Desoxyn and Modafinil, to push physical and mental performance beyond human limits.</description>
-    <baseCost>1200</baseCost>
+    <defName>BD_HelodBlancaEarlyNarcotics</defName>
+    <label>early narcotics</label>
+    <description>Research into crude but practical drug preparations, including laudanum and stimulant-laced tonics, before advancing into refined modern pharmaceuticals.</description>
+    <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>DrugProduction</li>
@@ -35,7 +21,35 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>HelodBlancaAdvancedSomnifacients</defName>
+    <defName>BD_HelodBlancaAdvancedPainkillers</defName>
+    <label>advanced painkillers</label>
+    <description>Research into high-potency medical drugs like Morphine and Fentanyl, designed to neutralize extreme pain and stabilize wounded colonists in critical conditions.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BD_HelodBlancaEarlyNarcotics</li>
+    </prerequisites>
+    <tab>HelodTechTab</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BD_HelodBlancaAdvancedStimulants</defName>
+    <label>advanced stimulants</label>
+    <description>Research into powerful amphetamines and cognitive enhancers, such as Desoxyn and Modafinil, to push physical and mental performance beyond human limits.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BD_HelodBlancaEarlyNarcotics</li>
+    </prerequisites>
+    <tab>HelodTechTab</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BD_HelodBlancaAdvancedSomnifacients</defName>
     <label>advanced somnifacients</label>
     <description>Research into fast-acting sedatives and hypnotics, like Ambien and Restoril, to reliably induce sleep and optimize colonist recovery cycles.</description>
     <baseCost>1000</baseCost>
@@ -49,18 +63,18 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>HelodBlancaMKultraProject</defName>
+    <defName>BD_HelodBlancaMKultraProject</defName>
     <label>MKultra project</label>
     <description>Research into the ultimate tools of psychotropic engineering. Develop irreversible neuro-chemical conditioning techniques for total cognitive subversion and control.</description>
     <baseCost>3000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>HelodBlancaAdvancedPainkillers</li>
-      <li>HelodBlancaAdvancedStimulants</li>
-      <li>HelodBlancaAdvancedSomnifacients</li>
+      <li>BD_HelodBlancaAdvancedPainkillers</li>
+      <li>BD_HelodBlancaAdvancedStimulants</li>
+      <li>BD_HelodBlancaAdvancedSomnifacients</li>
     </prerequisites>
     <tab>HelodTechTab</tab>
-    <researchViewX>2</researchViewX>
+    <researchViewX>3</researchViewX>
     <researchViewY>1</researchViewY>
   </ResearchProjectDef>
 
